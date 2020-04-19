@@ -17,6 +17,7 @@ punctuation_tags = ['.', ',', ':', '-LRB-', '-RRB-', '\'\'', '``']
 punctuation_words = ['.', ',', ':', '-LRB-', '-RRB-', '\'\'', '``', '--', ';', '-', '?', '!', '...', '-LCB-', '-RCB-']
 
 file_ids = ptb.fileids()
+print(file_ids)
 train_file_ids = []
 valid_file_ids = []
 test_file_ids = []
