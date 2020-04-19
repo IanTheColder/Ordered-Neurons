@@ -308,11 +308,12 @@ try:
 
         else:
             val_loss = evaluate(val_data, eval_batch_size)
-            print('-' * 89)
-            print('| end of epoch {:3d} | time: {:5.2f}s | valid loss {:5.2f} | '
+            with open('output.txt','a') as output_file:
+                    output_file.write('-' * 89)
+                    output_file.write('| end of epoch {:3d} | time: {:5.2f}s | valid loss {:5.2f} | '
                   'valid ppl {:8.2f} | valid bpc {:8.3f}'.format(
                 epoch, (time.time() - epoch_start_time), val_loss, math.exp(val_loss), val_loss / math.log(2)))
-            print('-' * 89)
+                    output_file.write('-' * 89)
 
             if val_loss < stored_loss:
                 model_save(args.save)
