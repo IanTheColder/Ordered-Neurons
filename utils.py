@@ -71,6 +71,8 @@ def evalb(pred_tree_list, targ_tree_list):
 
         temp_tree_file.write(process_str_tree(str(list2tree(pred_tree)).lower()) + '\n')
         temp_targ_file.write(process_str_tree(str(list2tree(targ_tree)).lower()) + '\n')
+        print('pred', process_str_tree(str(list2tree(pred_tree)).lower()))
+        print('targ', process_str_tree(str(list2tree(targ_tree)).lower()))
 
     temp_tree_file.close()
     temp_targ_file.close()
@@ -84,11 +86,17 @@ def evalb(pred_tree_list, targ_tree_list):
         temp_targ_path,
         temp_file_path,
         temp_eval_path)
-
+    print( evalb_program_path,
+        evalb_param_path,
+        temp_targ_path,
+        temp_file_path,
+        temp_eval_path)
     subprocess.run(command, shell=True)
-
+    print('before open')
     with open(temp_eval_path) as infile:
+        print('after open')
         for line in infile:
+            print(line)
             match = re.match(r"Bracketing Recall\s+=\s+(\d+\.\d+)", line)
             if match:
                 evalb_recall = float(match.group(1))
