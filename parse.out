@@ -2,7 +2,7 @@
   warnings.warn(msg, SourceChangeWarning)
 Loading cached dataset...
 Traceback (most recent call last):
-  File "../test_phrase_grammar.py", line 281, in <module>
+  File "test_phrase_grammar.py", line 281, in <module>
     corpus = torch.load(fn)
   File "/home/yt1324/.conda/envs/nlu_env/lib/python3.7/site-packages/torch/serialization.py", line 525, in load
     with _open_file_like(f, 'rb') as opened_file:
