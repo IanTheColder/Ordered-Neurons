@@ -275,7 +275,7 @@ if __name__ == '__main__':
 
     # Load data
     import hashlib
-    fn = 'corpus.e15022e5794bc6f5de6639fcbac6670b.data'
+    fn = 'corpus.148650ff682fa3f76e78c18d7d6d5bd6.data' 
     #fn = 'corpus.{}.data'.format(hashlib.md5('data/penn'.encode()).hexdigest())
     print('Loading cached dataset...')
     corpus = torch.load(fn)
