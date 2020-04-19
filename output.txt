@@ -565,3 +565,2808 @@ log_interval: 200
 | epoch   2 |    18/  165 batches | lr 30.00000 | ms/batch 1406.27 | loss  6.50 | ppl   667.07 | bpc    9.382
 log_interval: 200
 1283/11617
+| epoch   2 |    19/  165 batches | lr 30.00000 | ms/batch 1428.73 | loss  6.60 | ppl   738.20 | bpc    9.528
+log_interval: 200
+1352/11617
+| epoch   2 |    20/  165 batches | lr 30.00000 | ms/batch 1257.16 | loss  6.73 | ppl   838.06 | bpc    9.711
+log_interval: 200
+1414/11617
+| epoch   2 |    21/  165 batches | lr 30.00000 | ms/batch 1409.36 | loss  6.49 | ppl   659.19 | bpc    9.365
+log_interval: 200
+1482/11617
+| epoch   2 |    22/  165 batches | lr 30.00000 | ms/batch 1752.03 | loss  6.49 | ppl   657.04 | bpc    9.360
+log_interval: 200
+1563/11617
+| epoch   2 |    23/  165 batches | lr 30.00000 | ms/batch 1490.74 | loss  6.50 | ppl   664.18 | bpc    9.375
+log_interval: 200
+1634/11617
+| epoch   2 |    24/  165 batches | lr 30.00000 | ms/batch 1427.05 | loss  6.56 | ppl   708.18 | bpc    9.468
+log_interval: 200
+1703/11617
+| epoch   2 |    25/  165 batches | lr 30.00000 | ms/batch 1703.39 | loss  6.55 | ppl   697.70 | bpc    9.446
+log_interval: 200
+1782/11617
+| epoch   2 |    26/  165 batches | lr 30.00000 | ms/batch 1400.23 | loss  6.55 | ppl   698.82 | bpc    9.449
+log_interval: 200
+1850/11617
+| epoch   2 |    27/  165 batches | lr 30.00000 | ms/batch 1398.62 | loss  6.51 | ppl   673.11 | bpc    9.395
+log_interval: 200
+1918/11617
+| epoch   2 |    28/  165 batches | lr 30.00000 | ms/batch 1423.30 | loss  6.50 | ppl   664.96 | bpc    9.377
+log_interval: 200
+1987/11617
+| epoch   2 |    29/  165 batches | lr 30.00000 | ms/batch 1488.61 | loss  6.45 | ppl   634.11 | bpc    9.309
+log_interval: 200
+2058/11617
+| epoch   2 |    30/  165 batches | lr 30.00000 | ms/batch 1272.02 | loss  6.42 | ppl   611.04 | bpc    9.255
+log_interval: 200
+2121/11617
+| epoch   2 |    31/  165 batches | lr 30.00000 | ms/batch 1370.71 | loss  6.42 | ppl   611.36 | bpc    9.256
+log_interval: 200
+2188/11617
+| epoch   2 |    32/  165 batches | lr 30.00000 | ms/batch 1447.60 | loss  6.43 | ppl   618.34 | bpc    9.272
+log_interval: 200
+2258/11617
+| epoch   2 |    33/  165 batches | lr 30.00000 | ms/batch 1288.06 | loss  6.55 | ppl   698.22 | bpc    9.448
+log_interval: 200
+2322/11617
+| epoch   2 |    34/  165 batches | lr 30.00000 | ms/batch 1401.74 | loss  6.46 | ppl   640.74 | bpc    9.324
+log_interval: 200
+2390/11617
+| epoch   2 |    35/  165 batches | lr 30.00000 | ms/batch 1245.79 | loss  6.39 | ppl   593.16 | bpc    9.212
+log_interval: 200
+2452/11617
+| epoch   2 |    36/  165 batches | lr 30.00000 | ms/batch 1751.84 | loss  6.34 | ppl   566.29 | bpc    9.145
+log_interval: 200
+2533/11617
+| epoch   2 |    37/  165 batches | lr 30.00000 | ms/batch 1104.78 | loss  6.49 | ppl   657.68 | bpc    9.361
+log_interval: 200
+2589/11617
+| epoch   2 |    38/  165 batches | lr 30.00000 | ms/batch 1329.52 | loss  6.57 | ppl   713.85 | bpc    9.479
+log_interval: 200
+2654/11617
+| epoch   2 |    39/  165 batches | lr 30.00000 | ms/batch 1316.28 | loss  6.51 | ppl   670.45 | bpc    9.389
+log_interval: 200
+2719/11617
+| epoch   2 |    40/  165 batches | lr 30.00000 | ms/batch 1454.88 | loss  6.37 | ppl   582.72 | bpc    9.187
+log_interval: 200
+2789/11617
+| epoch   2 |    41/  165 batches | lr 30.00000 | ms/batch 1560.35 | loss  6.36 | ppl   579.63 | bpc    9.179
+log_interval: 200
+2863/11617
+| epoch   2 |    42/  165 batches | lr 30.00000 | ms/batch 1345.97 | loss  6.40 | ppl   603.10 | bpc    9.236
+log_interval: 200
+2929/11617
+| epoch   2 |    43/  165 batches | lr 30.00000 | ms/batch 1244.73 | loss  6.54 | ppl   694.47 | bpc    9.440
+log_interval: 200
+2991/11617
+| epoch   2 |    44/  165 batches | lr 30.00000 | ms/batch 1343.18 | loss  6.59 | ppl   726.96 | bpc    9.506
+log_interval: 200
+3057/11617
+| epoch   2 |    45/  165 batches | lr 30.00000 | ms/batch 1323.15 | loss  6.43 | ppl   618.88 | bpc    9.274
+log_interval: 200
+3122/11617
+| epoch   2 |    46/  165 batches | lr 30.00000 | ms/batch 1510.08 | loss  6.50 | ppl   666.90 | bpc    9.381
+log_interval: 200
+3194/11617
+| epoch   2 |    47/  165 batches | lr 30.00000 | ms/batch 1278.47 | loss  6.38 | ppl   590.51 | bpc    9.206
+log_interval: 200
+3257/11617
+| epoch   2 |    48/  165 batches | lr 30.00000 | ms/batch 711.68 | loss  6.42 | ppl   613.19 | bpc    9.260
+log_interval: 200
+3296/11617
+| epoch   2 |    49/  165 batches | lr 30.00000 | ms/batch 1445.60 | loss  6.25 | ppl   519.23 | bpc    9.020
+log_interval: 200
+3365/11617
+| epoch   2 |    50/  165 batches | lr 30.00000 | ms/batch 1586.36 | loss  6.24 | ppl   514.86 | bpc    9.008
+log_interval: 200
+3440/11617
+| epoch   2 |    51/  165 batches | lr 30.00000 | ms/batch 1643.65 | loss  6.41 | ppl   608.34 | bpc    9.249
+log_interval: 200
+3517/11617
+| epoch   2 |    52/  165 batches | lr 30.00000 | ms/batch 1716.78 | loss  6.44 | ppl   625.64 | bpc    9.289
+log_interval: 200
+3597/11617
+| epoch   2 |    53/  165 batches | lr 30.00000 | ms/batch 1342.66 | loss  6.61 | ppl   743.87 | bpc    9.539
+log_interval: 200
+3663/11617
+| epoch   2 |    54/  165 batches | lr 30.00000 | ms/batch 1489.36 | loss  6.61 | ppl   744.28 | bpc    9.540
+log_interval: 200
+3734/11617
+| epoch   2 |    55/  165 batches | lr 30.00000 | ms/batch 1405.82 | loss  6.60 | ppl   734.40 | bpc    9.520
+log_interval: 200
+3802/11617
+| epoch   2 |    56/  165 batches | lr 30.00000 | ms/batch 1531.01 | loss  6.56 | ppl   704.43 | bpc    9.460
+log_interval: 200
+3875/11617
+| epoch   2 |    57/  165 batches | lr 30.00000 | ms/batch 1486.15 | loss  6.65 | ppl   772.52 | bpc    9.593
+log_interval: 200
+3946/11617
+| epoch   2 |    58/  165 batches | lr 30.00000 | ms/batch 1569.41 | loss  6.58 | ppl   723.37 | bpc    9.499
+log_interval: 200
+4020/11617
+| epoch   2 |    59/  165 batches | lr 30.00000 | ms/batch 1423.11 | loss  6.35 | ppl   569.83 | bpc    9.154
+log_interval: 200
+4089/11617
+| epoch   2 |    60/  165 batches | lr 30.00000 | ms/batch 1764.36 | loss  6.39 | ppl   593.36 | bpc    9.213
+log_interval: 200
+4170/11617
+| epoch   2 |    61/  165 batches | lr 30.00000 | ms/batch 1639.35 | loss  6.41 | ppl   607.91 | bpc    9.248
+log_interval: 200
+4246/11617
+| epoch   2 |    62/  165 batches | lr 30.00000 | ms/batch 1513.39 | loss  6.55 | ppl   696.90 | bpc    9.445
+log_interval: 200
+4319/11617
+| epoch   2 |    63/  165 batches | lr 30.00000 | ms/batch 1396.67 | loss  6.57 | ppl   710.52 | bpc    9.473
+log_interval: 200
+4387/11617
+| epoch   2 |    64/  165 batches | lr 30.00000 | ms/batch 1313.72 | loss  6.47 | ppl   644.71 | bpc    9.333
+log_interval: 200
+4452/11617
+| epoch   2 |    65/  165 batches | lr 30.00000 | ms/batch 1449.65 | loss  6.32 | ppl   554.75 | bpc    9.116
+log_interval: 200
+4522/11617
+| epoch   2 |    66/  165 batches | lr 30.00000 | ms/batch 1379.07 | loss  6.34 | ppl   567.93 | bpc    9.150
+log_interval: 200
+4589/11617
+| epoch   2 |    67/  165 batches | lr 30.00000 | ms/batch 1336.32 | loss  6.38 | ppl   592.76 | bpc    9.211
+log_interval: 200
+4655/11617
+| epoch   2 |    68/  165 batches | lr 30.00000 | ms/batch 1499.88 | loss  6.29 | ppl   541.79 | bpc    9.082
+log_interval: 200
+4727/11617
+| epoch   2 |    69/  165 batches | lr 30.00000 | ms/batch 1509.06 | loss  6.33 | ppl   560.28 | bpc    9.130
+log_interval: 200
+4799/11617
+| epoch   2 |    70/  165 batches | lr 30.00000 | ms/batch 1311.59 | loss  6.42 | ppl   616.82 | bpc    9.269
+log_interval: 200
+4864/11617
+| epoch   2 |    71/  165 batches | lr 30.00000 | ms/batch 1485.69 | loss  6.53 | ppl   686.94 | bpc    9.424
+log_interval: 200
+4935/11617
+| epoch   2 |    72/  165 batches | lr 30.00000 | ms/batch 1452.11 | loss  6.42 | ppl   611.08 | bpc    9.255
+log_interval: 200
+5005/11617
+| epoch   2 |    73/  165 batches | lr 30.00000 | ms/batch 1674.10 | loss  6.46 | ppl   639.92 | bpc    9.322
+log_interval: 200
+5083/11617
+| epoch   2 |    74/  165 batches | lr 30.00000 | ms/batch 1470.93 | loss  6.34 | ppl   567.33 | bpc    9.148
+log_interval: 200
+5154/11617
+| epoch   2 |    75/  165 batches | lr 30.00000 | ms/batch 1366.63 | loss  6.28 | ppl   534.67 | bpc    9.063
+log_interval: 200
+5221/11617
+| epoch   2 |    76/  165 batches | lr 30.00000 | ms/batch 1372.25 | loss  6.28 | ppl   535.10 | bpc    9.064
+log_interval: 200
+5288/11617
+| epoch   2 |    77/  165 batches | lr 30.00000 | ms/batch 1602.03 | loss  6.25 | ppl   515.79 | bpc    9.011
+log_interval: 200
+5364/11617
+| epoch   2 |    78/  165 batches | lr 30.00000 | ms/batch 1566.27 | loss  6.29 | ppl   538.54 | bpc    9.073
+log_interval: 200
+5438/11617
+| epoch   2 |    79/  165 batches | lr 30.00000 | ms/batch 1342.53 | loss  6.28 | ppl   533.15 | bpc    9.058
+log_interval: 200
+5504/11617
+| epoch   2 |    80/  165 batches | lr 30.00000 | ms/batch 1454.73 | loss  6.44 | ppl   625.32 | bpc    9.288
+log_interval: 200
+5574/11617
+| epoch   2 |    81/  165 batches | lr 30.00000 | ms/batch 1278.37 | loss  6.44 | ppl   624.97 | bpc    9.288
+log_interval: 200
+5637/11617
+| epoch   2 |    82/  165 batches | lr 30.00000 | ms/batch 1484.72 | loss  6.46 | ppl   640.74 | bpc    9.324
+log_interval: 200
+5708/11617
+| epoch   2 |    83/  165 batches | lr 30.00000 | ms/batch 1310.49 | loss  6.30 | ppl   544.14 | bpc    9.088
+log_interval: 200
+5773/11617
+| epoch   2 |    84/  165 batches | lr 30.00000 | ms/batch 1617.41 | loss  6.29 | ppl   538.04 | bpc    9.072
+log_interval: 200
+5849/11617
+| epoch   2 |    85/  165 batches | lr 30.00000 | ms/batch 1474.95 | loss  6.44 | ppl   624.43 | bpc    9.286
+log_interval: 200
+5920/11617
+| epoch   2 |    86/  165 batches | lr 30.00000 | ms/batch 1474.57 | loss  6.48 | ppl   654.36 | bpc    9.354
+log_interval: 200
+5991/11617
+| epoch   2 |    87/  165 batches | lr 30.00000 | ms/batch 1479.38 | loss  6.40 | ppl   603.33 | bpc    9.237
+log_interval: 200
+6062/11617
+| epoch   2 |    88/  165 batches | lr 30.00000 | ms/batch 1530.83 | loss  6.60 | ppl   731.75 | bpc    9.515
+log_interval: 200
+6135/11617
+| epoch   2 |    89/  165 batches | lr 30.00000 | ms/batch 1373.61 | loss  6.56 | ppl   709.75 | bpc    9.471
+log_interval: 200
+6202/11617
+| epoch   2 |    90/  165 batches | lr 30.00000 | ms/batch 1579.27 | loss  6.39 | ppl   593.75 | bpc    9.214
+log_interval: 200
+6277/11617
+| epoch   2 |    91/  165 batches | lr 30.00000 | ms/batch 1467.28 | loss  6.38 | ppl   587.10 | bpc    9.197
+log_interval: 200
+6348/11617
+| epoch   2 |    92/  165 batches | lr 30.00000 | ms/batch 1505.54 | loss  6.32 | ppl   555.26 | bpc    9.117
+log_interval: 200
+6420/11617
+| epoch   2 |    93/  165 batches | lr 30.00000 | ms/batch 1547.92 | loss  6.30 | ppl   542.87 | bpc    9.084
+log_interval: 200
+6494/11617
+| epoch   2 |    94/  165 batches | lr 30.00000 | ms/batch 1471.34 | loss  6.36 | ppl   577.94 | bpc    9.175
+log_interval: 200
+6565/11617
+| epoch   2 |    95/  165 batches | lr 30.00000 | ms/batch 1390.58 | loss  6.22 | ppl   502.36 | bpc    8.973
+log_interval: 200
+6633/11617
+| epoch   2 |    96/  165 batches | lr 30.00000 | ms/batch 1269.21 | loss  6.29 | ppl   539.30 | bpc    9.075
+log_interval: 200
+6696/11617
+| epoch   2 |    97/  165 batches | lr 30.00000 | ms/batch 1505.73 | loss  6.34 | ppl   566.41 | bpc    9.146
+log_interval: 200
+6768/11617
+| epoch   2 |    98/  165 batches | lr 30.00000 | ms/batch 1400.83 | loss  6.26 | ppl   522.53 | bpc    9.029
+log_interval: 200
+6836/11617
+| epoch   2 |    99/  165 batches | lr 30.00000 | ms/batch 1411.69 | loss  6.29 | ppl   537.28 | bpc    9.070
+log_interval: 200
+6905/11617
+| epoch   2 |   100/  165 batches | lr 30.00000 | ms/batch 1371.14 | loss  6.37 | ppl   584.87 | bpc    9.192
+log_interval: 200
+6972/11617
+| epoch   2 |   101/  165 batches | lr 30.00000 | ms/batch 1364.54 | loss  6.20 | ppl   493.65 | bpc    8.947
+log_interval: 200
+7039/11617
+| epoch   2 |   102/  165 batches | lr 30.00000 | ms/batch 1713.70 | loss  6.35 | ppl   571.61 | bpc    9.159
+log_interval: 200
+7119/11617
+| epoch   2 |   103/  165 batches | lr 30.00000 | ms/batch 1430.58 | loss  6.30 | ppl   544.26 | bpc    9.088
+log_interval: 200
+7188/11617
+| epoch   2 |   104/  165 batches | lr 30.00000 | ms/batch 1419.02 | loss  6.31 | ppl   550.79 | bpc    9.105
+log_interval: 200
+7257/11617
+| epoch   2 |   105/  165 batches | lr 30.00000 | ms/batch 1689.83 | loss  6.46 | ppl   636.04 | bpc    9.313
+log_interval: 200
+7336/11617
+| epoch   2 |   106/  165 batches | lr 30.00000 | ms/batch 1554.90 | loss  6.45 | ppl   633.08 | bpc    9.306
+log_interval: 200
+7410/11617
+| epoch   2 |   107/  165 batches | lr 30.00000 | ms/batch 1320.58 | loss  6.30 | ppl   546.72 | bpc    9.095
+log_interval: 200
+7473/11617
+| epoch   2 |   108/  165 batches | lr 30.00000 | ms/batch 1560.49 | loss  6.16 | ppl   472.25 | bpc    8.883
+log_interval: 200
+7547/11617
+| epoch   2 |   109/  165 batches | lr 30.00000 | ms/batch 1155.20 | loss  6.12 | ppl   452.84 | bpc    8.823
+log_interval: 200
+7605/11617
+| epoch   2 |   110/  165 batches | lr 30.00000 | ms/batch 1207.27 | loss  6.19 | ppl   487.55 | bpc    8.929
+log_interval: 200
+7666/11617
+| epoch   2 |   111/  165 batches | lr 30.00000 | ms/batch 606.93 | loss  6.26 | ppl   523.05 | bpc    9.031
+log_interval: 200
+7700/11617
+| epoch   2 |   112/  165 batches | lr 30.00000 | ms/batch 1558.43 | loss  6.29 | ppl   540.47 | bpc    9.078
+log_interval: 200
+7774/11617
+| epoch   2 |   113/  165 batches | lr 30.00000 | ms/batch 1603.02 | loss  6.26 | ppl   522.39 | bpc    9.029
+log_interval: 200
+7849/11617
+| epoch   2 |   114/  165 batches | lr 30.00000 | ms/batch 1611.94 | loss  6.33 | ppl   558.67 | bpc    9.126
+log_interval: 200
+7925/11617
+| epoch   2 |   115/  165 batches | lr 30.00000 | ms/batch 1494.69 | loss  6.35 | ppl   571.02 | bpc    9.157
+log_interval: 200
+7997/11617
+| epoch   2 |   116/  165 batches | lr 30.00000 | ms/batch 1421.51 | loss  6.31 | ppl   551.39 | bpc    9.107
+log_interval: 200
+8066/11617
+| epoch   2 |   117/  165 batches | lr 30.00000 | ms/batch 1419.62 | loss  6.21 | ppl   499.65 | bpc    8.965
+log_interval: 200
+8135/11617
+| epoch   2 |   118/  165 batches | lr 30.00000 | ms/batch 1450.30 | loss  6.23 | ppl   506.11 | bpc    8.983
+log_interval: 200
+8205/11617
+| epoch   2 |   119/  165 batches | lr 30.00000 | ms/batch 1356.57 | loss  6.22 | ppl   503.68 | bpc    8.976
+log_interval: 200
+8271/11617
+| epoch   2 |   120/  165 batches | lr 30.00000 | ms/batch 561.72 | loss  6.14 | ppl   465.10 | bpc    8.861
+log_interval: 200
+8303/11617
+| epoch   2 |   121/  165 batches | lr 30.00000 | ms/batch 1288.72 | loss  6.20 | ppl   492.21 | bpc    8.943
+log_interval: 200
+8366/11617
+| epoch   2 |   122/  165 batches | lr 30.00000 | ms/batch 1391.74 | loss  6.09 | ppl   442.74 | bpc    8.790
+log_interval: 200
+8434/11617
+| epoch   2 |   123/  165 batches | lr 30.00000 | ms/batch 1771.47 | loss  6.24 | ppl   511.51 | bpc    8.999
+log_interval: 200
+8516/11617
+| epoch   2 |   124/  165 batches | lr 30.00000 | ms/batch 1414.20 | loss  6.39 | ppl   598.02 | bpc    9.224
+log_interval: 200
+8585/11617
+| epoch   2 |   125/  165 batches | lr 30.00000 | ms/batch 1569.45 | loss  6.42 | ppl   612.31 | bpc    9.258
+log_interval: 200
+8659/11617
+| epoch   2 |   126/  165 batches | lr 30.00000 | ms/batch 1443.59 | loss  6.42 | ppl   613.79 | bpc    9.262
+log_interval: 200
+8729/11617
+| epoch   2 |   127/  165 batches | lr 30.00000 | ms/batch 1426.12 | loss  6.42 | ppl   612.56 | bpc    9.259
+log_interval: 200
+8798/11617
+| epoch   2 |   128/  165 batches | lr 30.00000 | ms/batch 1440.96 | loss  6.29 | ppl   537.07 | bpc    9.069
+log_interval: 200
+8868/11617
+| epoch   2 |   129/  165 batches | lr 30.00000 | ms/batch 1505.49 | loss  6.29 | ppl   537.36 | bpc    9.070
+log_interval: 200
+8940/11617
+| epoch   2 |   130/  165 batches | lr 30.00000 | ms/batch 1374.34 | loss  6.42 | ppl   611.10 | bpc    9.255
+log_interval: 200
+9007/11617
+| epoch   2 |   131/  165 batches | lr 30.00000 | ms/batch 1407.18 | loss  6.34 | ppl   567.81 | bpc    9.149
+log_interval: 200
+9075/11617
+| epoch   2 |   132/  165 batches | lr 30.00000 | ms/batch 538.46 | loss  6.23 | ppl   506.86 | bpc    8.985
+log_interval: 200
+9105/11617
+| epoch   2 |   133/  165 batches | lr 30.00000 | ms/batch 1523.14 | loss  6.24 | ppl   512.51 | bpc    9.001
+log_interval: 200
+9178/11617
+| epoch   2 |   134/  165 batches | lr 30.00000 | ms/batch 1338.56 | loss  6.25 | ppl   519.62 | bpc    9.021
+log_interval: 200
+9244/11617
+| epoch   2 |   135/  165 batches | lr 30.00000 | ms/batch 1504.19 | loss  6.29 | ppl   540.66 | bpc    9.079
+log_interval: 200
+9316/11617
+| epoch   2 |   136/  165 batches | lr 30.00000 | ms/batch 1317.42 | loss  6.27 | ppl   529.51 | bpc    9.049
+log_interval: 200
+9381/11617
+| epoch   2 |   137/  165 batches | lr 30.00000 | ms/batch 1500.72 | loss  6.29 | ppl   540.64 | bpc    9.079
+log_interval: 200
+9453/11617
+| epoch   2 |   138/  165 batches | lr 30.00000 | ms/batch 1209.69 | loss  6.39 | ppl   596.35 | bpc    9.220
+log_interval: 200
+9514/11617
+| epoch   2 |   139/  165 batches | lr 30.00000 | ms/batch 1452.07 | loss  6.21 | ppl   497.59 | bpc    8.959
+log_interval: 200
+9584/11617
+| epoch   2 |   140/  165 batches | lr 30.00000 | ms/batch 1503.41 | loss  6.22 | ppl   500.74 | bpc    8.968
+log_interval: 200
+9656/11617
+| epoch   2 |   141/  165 batches | lr 30.00000 | ms/batch 1584.89 | loss  6.37 | ppl   581.64 | bpc    9.184
+log_interval: 200
+9731/11617
+| epoch   2 |   142/  165 batches | lr 30.00000 | ms/batch 1438.91 | loss  6.34 | ppl   569.32 | bpc    9.153
+log_interval: 200
+9800/11617
+| epoch   2 |   143/  165 batches | lr 30.00000 | ms/batch 1297.26 | loss  6.37 | ppl   586.75 | bpc    9.197
+log_interval: 200
+9864/11617
+| epoch   2 |   144/  165 batches | lr 30.00000 | ms/batch 1662.63 | loss  6.25 | ppl   518.31 | bpc    9.018
+log_interval: 200
+9942/11617
+| epoch   2 |   145/  165 batches | lr 30.00000 | ms/batch 1370.62 | loss  6.35 | ppl   574.93 | bpc    9.167
+log_interval: 200
+10009/11617
+| epoch   2 |   146/  165 batches | lr 30.00000 | ms/batch 1488.62 | loss  6.40 | ppl   600.45 | bpc    9.230
+log_interval: 200
+10081/11617
+| epoch   2 |   147/  165 batches | lr 30.00000 | ms/batch 1447.39 | loss  6.26 | ppl   523.23 | bpc    9.031
+log_interval: 200
+10151/11617
+| epoch   2 |   148/  165 batches | lr 30.00000 | ms/batch 1287.39 | loss  6.16 | ppl   474.08 | bpc    8.889
+log_interval: 200
+10215/11617
+| epoch   2 |   149/  165 batches | lr 30.00000 | ms/batch 1214.41 | loss  6.15 | ppl   466.46 | bpc    8.866
+log_interval: 200
+10276/11617
+| epoch   2 |   150/  165 batches | lr 30.00000 | ms/batch 1557.87 | loss  6.32 | ppl   556.91 | bpc    9.121
+log_interval: 200
+10350/11617
+| epoch   2 |   151/  165 batches | lr 30.00000 | ms/batch 1428.93 | loss  6.38 | ppl   589.42 | bpc    9.203
+log_interval: 200
+10419/11617
+| epoch   2 |   152/  165 batches | lr 30.00000 | ms/batch 1478.21 | loss  6.47 | ppl   648.30 | bpc    9.341
+log_interval: 200
+10490/11617
+| epoch   2 |   153/  165 batches | lr 30.00000 | ms/batch 1313.65 | loss  6.24 | ppl   513.51 | bpc    9.004
+log_interval: 200
+10555/11617
+| epoch   2 |   154/  165 batches | lr 30.00000 | ms/batch 1427.52 | loss  6.27 | ppl   527.56 | bpc    9.043
+log_interval: 200
+10624/11617
+| epoch   2 |   155/  165 batches | lr 30.00000 | ms/batch 610.99 | loss  6.20 | ppl   492.35 | bpc    8.944
+log_interval: 200
+10658/11617
+| epoch   2 |   156/  165 batches | lr 30.00000 | ms/batch 1221.97 | loss  6.18 | ppl   480.86 | bpc    8.909
+log_interval: 200
+10719/11617
+| epoch   2 |   157/  165 batches | lr 30.00000 | ms/batch 1707.98 | loss  6.17 | ppl   479.23 | bpc    8.905
+log_interval: 200
+10798/11617
+| epoch   2 |   158/  165 batches | lr 30.00000 | ms/batch 1421.37 | loss  6.08 | ppl   437.90 | bpc    8.774
+log_interval: 200
+10867/11617
+| epoch   2 |   159/  165 batches | lr 30.00000 | ms/batch 1565.14 | loss  6.18 | ppl   484.28 | bpc    8.920
+log_interval: 200
+10941/11617
+| epoch   2 |   160/  165 batches | lr 30.00000 | ms/batch 1619.45 | loss  6.35 | ppl   574.03 | bpc    9.165
+log_interval: 200
+11017/11617
+| epoch   2 |   161/  165 batches | lr 30.00000 | ms/batch 1393.12 | loss  6.43 | ppl   617.99 | bpc    9.271
+log_interval: 200
+11085/11617
+| epoch   2 |   162/  165 batches | lr 30.00000 | ms/batch 1388.96 | loss  6.37 | ppl   584.12 | bpc    9.190
+log_interval: 200
+11153/11617
+| epoch   2 |   163/  165 batches | lr 30.00000 | ms/batch 1398.80 | loss  6.20 | ppl   494.26 | bpc    8.949
+log_interval: 200
+11221/11617
+| epoch   2 |   164/  165 batches | lr 30.00000 | ms/batch 1646.18 | loss  6.17 | ppl   477.91 | bpc    8.901
+log_interval: 200
+11298/11617
+| epoch   2 |   165/  165 batches | lr 30.00000 | ms/batch 1266.74 | loss  6.23 | ppl   509.17 | bpc    8.992
+log_interval: 200
+11361/11617
+| epoch   2 |   166/  165 batches | lr 30.00000 | ms/batch 645.10 | loss  6.34 | ppl   565.25 | bpc    9.143
+log_interval: 200
+11397/11617
+| epoch   2 |   167/  165 batches | lr 30.00000 | ms/batch 1291.58 | loss  6.35 | ppl   569.86 | bpc    9.154
+log_interval: 200
+11461/11617
+| epoch   2 |   168/  165 batches | lr 30.00000 | ms/batch 1368.50 | loss  6.20 | ppl   493.52 | bpc    8.947
+log_interval: 200
+11528/11617
+| epoch   2 |   169/  165 batches | lr 30.00000 | ms/batch 1503.69 | loss  6.16 | ppl   475.40 | bpc    8.893
+log_interval: 200
+11600/11617
+| epoch   2 |   170/  165 batches | lr 30.00000 | ms/batch 309.59 | loss  6.11 | ppl   451.32 | bpc    8.818
+log_interval: 200
+11674/11617
+-----------------------------------------------------------------------------------------| end of epoch   2 | time: 261.83s | valid loss  6.15 | valid ppl   470.96 | valid bpc    8.879-----------------------------------------------------------------------------------------PROGRESS: 0.025%| epoch   3 |     0/  165 batches | lr 30.00000 | ms/batch 1221.17 | loss  6.32 | ppl   553.22 | bpc    9.112
+log_interval: 200
+62/11617
+| epoch   3 |     1/  165 batches | lr 30.00000 | ms/batch 518.42 | loss  6.17 | ppl   476.24 | bpc    8.896
+log_interval: 200
+91/11617
+| epoch   3 |     2/  165 batches | lr 30.00000 | ms/batch 1573.81 | loss  6.16 | ppl   474.33 | bpc    8.890
+log_interval: 200
+166/11617
+| epoch   3 |     3/  165 batches | lr 30.00000 | ms/batch 495.59 | loss  6.21 | ppl   496.95 | bpc    8.957
+log_interval: 200
+194/11617
+| epoch   3 |     4/  165 batches | lr 30.00000 | ms/batch 1327.78 | loss  6.15 | ppl   466.57 | bpc    8.866
+log_interval: 200
+260/11617
+| epoch   3 |     5/  165 batches | lr 30.00000 | ms/batch 1472.80 | loss  6.22 | ppl   502.18 | bpc    8.972
+log_interval: 200
+331/11617
+| epoch   3 |     6/  165 batches | lr 30.00000 | ms/batch 536.53 | loss  6.31 | ppl   552.61 | bpc    9.110
+log_interval: 200
+361/11617
+| epoch   3 |     7/  165 batches | lr 30.00000 | ms/batch 1347.77 | loss  6.17 | ppl   476.16 | bpc    8.895
+log_interval: 200
+427/11617
+| epoch   3 |     8/  165 batches | lr 30.00000 | ms/batch 1320.28 | loss  6.06 | ppl   427.93 | bpc    8.741
+log_interval: 200
+492/11617
+| epoch   3 |     9/  165 batches | lr 30.00000 | ms/batch 1441.29 | loss  6.24 | ppl   511.20 | bpc    8.998
+log_interval: 200
+562/11617
+| epoch   3 |    10/  165 batches | lr 30.00000 | ms/batch 1378.37 | loss  6.29 | ppl   541.07 | bpc    9.080
+log_interval: 200
+629/11617
+| epoch   3 |    11/  165 batches | lr 30.00000 | ms/batch 1495.24 | loss  6.42 | ppl   615.43 | bpc    9.265
+log_interval: 200
+701/11617
+| epoch   3 |    12/  165 batches | lr 30.00000 | ms/batch 1475.02 | loss  6.22 | ppl   505.06 | bpc    8.980
+log_interval: 200
+772/11617
+| epoch   3 |    13/  165 batches | lr 30.00000 | ms/batch 1290.52 | loss  6.24 | ppl   514.21 | bpc    9.006
+log_interval: 200
+836/11617
+| epoch   3 |    14/  165 batches | lr 30.00000 | ms/batch 1471.68 | loss  6.04 | ppl   421.45 | bpc    8.719
+log_interval: 200
+907/11617
+| epoch   3 |    15/  165 batches | lr 30.00000 | ms/batch 1446.97 | loss  6.12 | ppl   456.66 | bpc    8.835
+log_interval: 200
+977/11617
+| epoch   3 |    16/  165 batches | lr 30.00000 | ms/batch 1640.29 | loss  6.14 | ppl   463.55 | bpc    8.857
+log_interval: 200
+1054/11617
+| epoch   3 |    17/  165 batches | lr 30.00000 | ms/batch 706.68 | loss  6.32 | ppl   554.39 | bpc    9.115
+log_interval: 200
+1092/11617
+| epoch   3 |    18/  165 batches | lr 30.00000 | ms/batch 1471.15 | loss  6.24 | ppl   512.09 | bpc    9.000
+log_interval: 200
+1163/11617
+| epoch   3 |    19/  165 batches | lr 30.00000 | ms/batch 1673.60 | loss  6.06 | ppl   427.44 | bpc    8.740
+log_interval: 200
+1241/11617
+| epoch   3 |    20/  165 batches | lr 30.00000 | ms/batch 1265.82 | loss  6.10 | ppl   446.92 | bpc    8.804
+log_interval: 200
+1304/11617
+| epoch   3 |    21/  165 batches | lr 30.00000 | ms/batch 1447.58 | loss  6.11 | ppl   450.39 | bpc    8.815
+log_interval: 200
+1374/11617
+| epoch   3 |    22/  165 batches | lr 30.00000 | ms/batch 1339.00 | loss  6.34 | ppl   568.07 | bpc    9.150
+log_interval: 200
+1440/11617
+| epoch   3 |    23/  165 batches | lr 30.00000 | ms/batch 1424.23 | loss  6.22 | ppl   504.38 | bpc    8.978
+log_interval: 200
+1509/11617
+| epoch   3 |    24/  165 batches | lr 30.00000 | ms/batch 1130.32 | loss  6.14 | ppl   463.98 | bpc    8.858
+log_interval: 200
+1566/11617
+| epoch   3 |    25/  165 batches | lr 30.00000 | ms/batch 1287.28 | loss  6.08 | ppl   437.58 | bpc    8.773
+log_interval: 200
+1630/11617
+| epoch   3 |    26/  165 batches | lr 30.00000 | ms/batch 1663.40 | loss  5.99 | ppl   398.18 | bpc    8.637
+log_interval: 200
+1708/11617
+| epoch   3 |    27/  165 batches | lr 30.00000 | ms/batch 1530.36 | loss  6.17 | ppl   478.43 | bpc    8.902
+log_interval: 200
+1781/11617
+| epoch   3 |    28/  165 batches | lr 30.00000 | ms/batch 610.75 | loss  6.06 | ppl   429.39 | bpc    8.746
+log_interval: 200
+1815/11617
+| epoch   3 |    29/  165 batches | lr 30.00000 | ms/batch 1441.35 | loss  6.14 | ppl   463.05 | bpc    8.855
+log_interval: 200
+1885/11617
+| epoch   3 |    30/  165 batches | lr 30.00000 | ms/batch 1569.00 | loss  6.07 | ppl   431.01 | bpc    8.752
+log_interval: 200
+1959/11617
+| epoch   3 |    31/  165 batches | lr 30.00000 | ms/batch 1478.36 | loss  6.14 | ppl   463.81 | bpc    8.857
+log_interval: 200
+2030/11617
+| epoch   3 |    32/  165 batches | lr 30.00000 | ms/batch 1310.35 | loss  6.02 | ppl   411.76 | bpc    8.686
+log_interval: 200
+2095/11617
+| epoch   3 |    33/  165 batches | lr 30.00000 | ms/batch 1644.57 | loss  6.19 | ppl   485.62 | bpc    8.924
+log_interval: 200
+2172/11617
+| epoch   3 |    34/  165 batches | lr 30.00000 | ms/batch 1491.67 | loss  6.20 | ppl   494.24 | bpc    8.949
+log_interval: 200
+2244/11617
+| epoch   3 |    35/  165 batches | lr 30.00000 | ms/batch 1294.45 | loss  6.04 | ppl   419.14 | bpc    8.711
+log_interval: 200
+2308/11617
+| epoch   3 |    36/  165 batches | lr 30.00000 | ms/batch 1418.16 | loss  6.00 | ppl   402.19 | bpc    8.652
+log_interval: 200
+2377/11617
+| epoch   3 |    37/  165 batches | lr 30.00000 | ms/batch 1716.66 | loss  6.08 | ppl   436.13 | bpc    8.769
+log_interval: 200
+2457/11617
+| epoch   3 |    38/  165 batches | lr 30.00000 | ms/batch 1331.09 | loss  6.15 | ppl   469.09 | bpc    8.874
+log_interval: 200
+2522/11617
+| epoch   3 |    39/  165 batches | lr 30.00000 | ms/batch 1498.60 | loss  6.02 | ppl   413.28 | bpc    8.691
+log_interval: 200
+2594/11617
+| epoch   3 |    40/  165 batches | lr 30.00000 | ms/batch 517.96 | loss  6.14 | ppl   463.43 | bpc    8.856
+log_interval: 200
+2623/11617
+| epoch   3 |    41/  165 batches | lr 30.00000 | ms/batch 1499.24 | loss  6.01 | ppl   407.84 | bpc    8.672
+log_interval: 200
+2695/11617
+| epoch   3 |    42/  165 batches | lr 30.00000 | ms/batch 1534.45 | loss  5.94 | ppl   380.00 | bpc    8.570
+log_interval: 200
+2768/11617
+| epoch   3 |    43/  165 batches | lr 30.00000 | ms/batch 1403.54 | loss  6.10 | ppl   447.37 | bpc    8.805
+log_interval: 200
+2836/11617
+| epoch   3 |    44/  165 batches | lr 30.00000 | ms/batch 1666.10 | loss  6.01 | ppl   409.17 | bpc    8.677
+log_interval: 200
+2914/11617
+| epoch   3 |    45/  165 batches | lr 30.00000 | ms/batch 603.92 | loss  6.16 | ppl   475.69 | bpc    8.894
+log_interval: 200
+2948/11617
+| epoch   3 |    46/  165 batches | lr 30.00000 | ms/batch 1296.71 | loss  6.18 | ppl   483.11 | bpc    8.916
+log_interval: 200
+3012/11617
+| epoch   3 |    47/  165 batches | lr 30.00000 | ms/batch 1384.25 | loss  5.98 | ppl   393.86 | bpc    8.622
+log_interval: 200
+3080/11617
+| epoch   3 |    48/  165 batches | lr 30.00000 | ms/batch 1249.72 | loss  6.00 | ppl   401.84 | bpc    8.650
+log_interval: 200
+3142/11617
+| epoch   3 |    49/  165 batches | lr 30.00000 | ms/batch 1285.73 | loss  6.08 | ppl   435.66 | bpc    8.767
+log_interval: 200
+3206/11617
+| epoch   3 |    50/  165 batches | lr 30.00000 | ms/batch 1440.10 | loss  6.03 | ppl   416.58 | bpc    8.702
+log_interval: 200
+3276/11617
+| epoch   3 |    51/  165 batches | lr 30.00000 | ms/batch 1285.54 | loss  5.94 | ppl   378.55 | bpc    8.564
+log_interval: 200
+3340/11617
+| epoch   3 |    52/  165 batches | lr 30.00000 | ms/batch 1610.14 | loss  5.98 | ppl   396.76 | bpc    8.632
+log_interval: 200
+3416/11617
+| epoch   3 |    53/  165 batches | lr 30.00000 | ms/batch 1475.14 | loss  6.16 | ppl   471.55 | bpc    8.881
+log_interval: 200
+3487/11617
+| epoch   3 |    54/  165 batches | lr 30.00000 | ms/batch 1524.48 | loss  6.23 | ppl   508.23 | bpc    8.989
+log_interval: 200
+3560/11617
+| epoch   3 |    55/  165 batches | lr 30.00000 | ms/batch 1260.28 | loss  6.10 | ppl   445.33 | bpc    8.799
+log_interval: 200
+3623/11617
+| epoch   3 |    56/  165 batches | lr 30.00000 | ms/batch 1445.52 | loss  5.98 | ppl   393.84 | bpc    8.621
+log_interval: 200
+3693/11617
+| epoch   3 |    57/  165 batches | lr 30.00000 | ms/batch 1718.89 | loss  6.08 | ppl   435.71 | bpc    8.767
+log_interval: 200
+3773/11617
+| epoch   3 |    58/  165 batches | lr 30.00000 | ms/batch 1363.57 | loss  6.19 | ppl   490.17 | bpc    8.937
+log_interval: 200
+3840/11617
+| epoch   3 |    59/  165 batches | lr 30.00000 | ms/batch 1380.00 | loss  6.24 | ppl   514.64 | bpc    9.007
+log_interval: 200
+3907/11617
+| epoch   3 |    60/  165 batches | lr 30.00000 | ms/batch 1508.62 | loss  6.03 | ppl   417.69 | bpc    8.706
+log_interval: 200
+3979/11617
+| epoch   3 |    61/  165 batches | lr 30.00000 | ms/batch 1719.75 | loss  5.94 | ppl   381.68 | bpc    8.576
+log_interval: 200
+4059/11617
+| epoch   3 |    62/  165 batches | lr 30.00000 | ms/batch 1535.12 | loss  6.00 | ppl   404.53 | bpc    8.660
+log_interval: 200
+4132/11617
+| epoch   3 |    63/  165 batches | lr 30.00000 | ms/batch 1502.75 | loss  6.13 | ppl   458.72 | bpc    8.841
+log_interval: 200
+4204/11617
+| epoch   3 |    64/  165 batches | lr 30.00000 | ms/batch 1452.63 | loss  6.19 | ppl   485.92 | bpc    8.925
+log_interval: 200
+4274/11617
+| epoch   3 |    65/  165 batches | lr 30.00000 | ms/batch 1432.54 | loss  6.10 | ppl   445.01 | bpc    8.798
+log_interval: 200
+4343/11617
+| epoch   3 |    66/  165 batches | lr 30.00000 | ms/batch 1399.48 | loss  5.99 | ppl   398.60 | bpc    8.639
+log_interval: 200
+4411/11617
+| epoch   3 |    67/  165 batches | lr 30.00000 | ms/batch 1279.61 | loss  6.04 | ppl   419.39 | bpc    8.712
+log_interval: 200
+4475/11617
+| epoch   3 |    68/  165 batches | lr 30.00000 | ms/batch 1264.60 | loss  6.16 | ppl   475.51 | bpc    8.893
+log_interval: 200
+4538/11617
+| epoch   3 |    69/  165 batches | lr 30.00000 | ms/batch 1499.68 | loss  6.24 | ppl   511.45 | bpc    8.998
+log_interval: 200
+4610/11617
+| epoch   3 |    70/  165 batches | lr 30.00000 | ms/batch 1276.00 | loss  6.14 | ppl   464.61 | bpc    8.860
+log_interval: 200
+4674/11617
+| epoch   3 |    71/  165 batches | lr 30.00000 | ms/batch 1308.82 | loss  6.06 | ppl   426.31 | bpc    8.736
+log_interval: 200
+4739/11617
+| epoch   3 |    72/  165 batches | lr 30.00000 | ms/batch 1407.45 | loss  6.06 | ppl   427.05 | bpc    8.738
+log_interval: 200
+4807/11617
+| epoch   3 |    73/  165 batches | lr 30.00000 | ms/batch 1416.54 | loss  6.15 | ppl   470.03 | bpc    8.877
+log_interval: 200
+4876/11617
+| epoch   3 |    74/  165 batches | lr 30.00000 | ms/batch 1516.03 | loss  6.22 | ppl   504.66 | bpc    8.979
+log_interval: 200
+4948/11617
+| epoch   3 |    75/  165 batches | lr 30.00000 | ms/batch 1143.34 | loss  6.02 | ppl   413.52 | bpc    8.692
+log_interval: 200
+5006/11617
+| epoch   3 |    76/  165 batches | lr 30.00000 | ms/batch 1380.66 | loss  6.09 | ppl   442.41 | bpc    8.789
+log_interval: 200
+5074/11617
+| epoch   3 |    77/  165 batches | lr 30.00000 | ms/batch 1640.20 | loss  6.04 | ppl   417.86 | bpc    8.707
+log_interval: 200
+5151/11617
+| epoch   3 |    78/  165 batches | lr 30.00000 | ms/batch 1622.91 | loss  6.02 | ppl   412.26 | bpc    8.687
+log_interval: 200
+5227/11617
+| epoch   3 |    79/  165 batches | lr 30.00000 | ms/batch 1268.75 | loss  6.02 | ppl   410.38 | bpc    8.681
+log_interval: 200
+5290/11617
+| epoch   3 |    80/  165 batches | lr 30.00000 | ms/batch 1274.29 | loss  5.97 | ppl   392.23 | bpc    8.616
+log_interval: 200
+5353/11617
+| epoch   3 |    81/  165 batches | lr 30.00000 | ms/batch 1471.45 | loss  5.97 | ppl   393.29 | bpc    8.619
+log_interval: 200
+5424/11617
+| epoch   3 |    82/  165 batches | lr 30.00000 | ms/batch 1338.35 | loss  5.89 | ppl   362.01 | bpc    8.500
+log_interval: 200
+5490/11617
+| epoch   3 |    83/  165 batches | lr 30.00000 | ms/batch 1314.81 | loss  6.01 | ppl   406.88 | bpc    8.668
+log_interval: 200
+5555/11617
+| epoch   3 |    84/  165 batches | lr 30.00000 | ms/batch 1482.55 | loss  6.12 | ppl   456.88 | bpc    8.836
+log_interval: 200
+5626/11617
+| epoch   3 |    85/  165 batches | lr 30.00000 | ms/batch 1567.51 | loss  6.20 | ppl   492.51 | bpc    8.944
+log_interval: 200
+5700/11617
+| epoch   3 |    86/  165 batches | lr 30.00000 | ms/batch 1382.74 | loss  6.13 | ppl   460.68 | bpc    8.848
+log_interval: 200
+5768/11617
+| epoch   3 |    87/  165 batches | lr 30.00000 | ms/batch 1419.67 | loss  6.02 | ppl   413.16 | bpc    8.691
+log_interval: 200
+5837/11617
+| epoch   3 |    88/  165 batches | lr 30.00000 | ms/batch 1424.39 | loss  6.03 | ppl   417.42 | bpc    8.705
+log_interval: 200
+5906/11617
+| epoch   3 |    89/  165 batches | lr 30.00000 | ms/batch 1426.80 | loss  6.03 | ppl   414.71 | bpc    8.696
+log_interval: 200
+5975/11617
+| epoch   3 |    90/  165 batches | lr 30.00000 | ms/batch 1687.21 | loss  5.99 | ppl   399.89 | bpc    8.643
+log_interval: 200
+6054/11617
+| epoch   3 |    91/  165 batches | lr 30.00000 | ms/batch 1474.64 | loss  6.01 | ppl   408.13 | bpc    8.673
+log_interval: 200
+6125/11617
+| epoch   3 |    92/  165 batches | lr 30.00000 | ms/batch 1400.69 | loss  6.32 | ppl   555.35 | bpc    9.117
+log_interval: 200
+6193/11617
+| epoch   3 |    93/  165 batches | lr 30.00000 | ms/batch 1589.58 | loss  6.18 | ppl   482.98 | bpc    8.916
+log_interval: 200
+6268/11617
+| epoch   3 |    94/  165 batches | lr 30.00000 | ms/batch 1383.55 | loss  6.04 | ppl   419.28 | bpc    8.712
+log_interval: 200
+6335/11617
+| epoch   3 |    95/  165 batches | lr 30.00000 | ms/batch 1483.74 | loss  6.02 | ppl   411.02 | bpc    8.683
+log_interval: 200
+6406/11617
+| epoch   3 |    96/  165 batches | lr 30.00000 | ms/batch 1478.55 | loss  6.08 | ppl   436.02 | bpc    8.768
+log_interval: 200
+6477/11617
+| epoch   3 |    97/  165 batches | lr 30.00000 | ms/batch 1264.16 | loss  6.13 | ppl   458.69 | bpc    8.841
+log_interval: 200
+6540/11617
+| epoch   3 |    98/  165 batches | lr 30.00000 | ms/batch 1566.09 | loss  5.91 | ppl   368.97 | bpc    8.527
+log_interval: 200
+6614/11617
+| epoch   3 |    99/  165 batches | lr 30.00000 | ms/batch 1411.96 | loss  6.03 | ppl   415.40 | bpc    8.698
+log_interval: 200
+6683/11617
+| epoch   3 |   100/  165 batches | lr 30.00000 | ms/batch 1263.43 | loss  6.10 | ppl   444.05 | bpc    8.795
+log_interval: 200
+6746/11617
+| epoch   3 |   101/  165 batches | lr 30.00000 | ms/batch 1530.84 | loss  5.95 | ppl   383.45 | bpc    8.583
+log_interval: 200
+6819/11617
+| epoch   3 |   102/  165 batches | lr 30.00000 | ms/batch 1389.43 | loss  5.96 | ppl   385.89 | bpc    8.592
+log_interval: 200
+6887/11617
+| epoch   3 |   103/  165 batches | lr 30.00000 | ms/batch 1456.10 | loss  6.01 | ppl   408.87 | bpc    8.676
+log_interval: 200
+6957/11617
+| epoch   3 |   104/  165 batches | lr 30.00000 | ms/batch 1286.73 | loss  6.15 | ppl   470.11 | bpc    8.877
+log_interval: 200
+7021/11617
+| epoch   3 |   105/  165 batches | lr 30.00000 | ms/batch 608.79 | loss  5.98 | ppl   396.14 | bpc    8.630
+log_interval: 200
+7055/11617
+| epoch   3 |   106/  165 batches | lr 30.00000 | ms/batch 1442.20 | loss  5.94 | ppl   380.01 | bpc    8.570
+log_interval: 200
+7125/11617
+| epoch   3 |   107/  165 batches | lr 30.00000 | ms/batch 1280.48 | loss  5.88 | ppl   358.75 | bpc    8.487
+log_interval: 200
+7189/11617
+| epoch   3 |   108/  165 batches | lr 30.00000 | ms/batch 1397.83 | loss  5.91 | ppl   369.19 | bpc    8.528
+log_interval: 200
+7257/11617
+| epoch   3 |   109/  165 batches | lr 30.00000 | ms/batch 1453.12 | loss  6.04 | ppl   417.98 | bpc    8.707
+log_interval: 200
+7327/11617
+| epoch   3 |   110/  165 batches | lr 30.00000 | ms/batch 1511.47 | loss  6.03 | ppl   413.94 | bpc    8.693
+log_interval: 200
+7399/11617
+| epoch   3 |   111/  165 batches | lr 30.00000 | ms/batch 1606.43 | loss  6.01 | ppl   408.53 | bpc    8.674
+log_interval: 200
+7475/11617
+| epoch   3 |   112/  165 batches | lr 30.00000 | ms/batch 1418.09 | loss  5.94 | ppl   380.45 | bpc    8.572
+log_interval: 200
+7544/11617
+| epoch   3 |   113/  165 batches | lr 30.00000 | ms/batch 1423.88 | loss  5.80 | ppl   330.06 | bpc    8.367
+log_interval: 200
+7613/11617
+| epoch   3 |   114/  165 batches | lr 30.00000 | ms/batch 1589.29 | loss  5.88 | ppl   357.80 | bpc    8.483
+log_interval: 200
+7688/11617
+| epoch   3 |   115/  165 batches | lr 30.00000 | ms/batch 1472.93 | loss  5.92 | ppl   371.96 | bpc    8.539
+log_interval: 200
+7759/11617
+| epoch   3 |   116/  165 batches | lr 30.00000 | ms/batch 1609.82 | loss  6.07 | ppl   432.95 | bpc    8.758
+log_interval: 200
+7835/11617
+| epoch   3 |   117/  165 batches | lr 30.00000 | ms/batch 1365.16 | loss  6.00 | ppl   405.37 | bpc    8.663
+log_interval: 200
+7902/11617
+| epoch   3 |   118/  165 batches | lr 30.00000 | ms/batch 1266.73 | loss  6.00 | ppl   404.15 | bpc    8.659
+log_interval: 200
+7965/11617
+| epoch   3 |   119/  165 batches | lr 30.00000 | ms/batch 1241.72 | loss  5.96 | ppl   387.33 | bpc    8.597
+log_interval: 200
+8027/11617
+| epoch   3 |   120/  165 batches | lr 30.00000 | ms/batch 1440.77 | loss  5.95 | ppl   382.49 | bpc    8.579
+log_interval: 200
+8097/11617
+| epoch   3 |   121/  165 batches | lr 30.00000 | ms/batch 625.78 | loss  6.08 | ppl   437.63 | bpc    8.774
+log_interval: 200
+8131/11617
+| epoch   3 |   122/  165 batches | lr 30.00000 | ms/batch 1353.66 | loss  5.87 | ppl   352.75 | bpc    8.462
+log_interval: 200
+8197/11617
+| epoch   3 |   123/  165 batches | lr 30.00000 | ms/batch 1339.03 | loss  5.96 | ppl   386.55 | bpc    8.595
+log_interval: 200
+8263/11617
+| epoch   3 |   124/  165 batches | lr 30.00000 | ms/batch 1423.87 | loss  6.00 | ppl   403.64 | bpc    8.657
+log_interval: 200
+8332/11617
+| epoch   3 |   125/  165 batches | lr 30.00000 | ms/batch 1278.15 | loss  5.92 | ppl   372.70 | bpc    8.542
+log_interval: 200
+8396/11617
+| epoch   3 |   126/  165 batches | lr 30.00000 | ms/batch 1502.01 | loss  5.82 | ppl   335.80 | bpc    8.391
+log_interval: 200
+8468/11617
+| epoch   3 |   127/  165 batches | lr 30.00000 | ms/batch 1334.97 | loss  5.93 | ppl   374.82 | bpc    8.550
+log_interval: 200
+8534/11617
+| epoch   3 |   128/  165 batches | lr 30.00000 | ms/batch 1487.18 | loss  6.04 | ppl   420.86 | bpc    8.717
+log_interval: 200
+8605/11617
+| epoch   3 |   129/  165 batches | lr 30.00000 | ms/batch 1569.45 | loss  5.98 | ppl   396.57 | bpc    8.631
+log_interval: 200
+8679/11617
+| epoch   3 |   130/  165 batches | lr 30.00000 | ms/batch 1367.42 | loss  6.09 | ppl   439.93 | bpc    8.781
+log_interval: 200
+8746/11617
+| epoch   3 |   131/  165 batches | lr 30.00000 | ms/batch 1668.96 | loss  6.02 | ppl   411.41 | bpc    8.684
+log_interval: 200
+8824/11617
+| epoch   3 |   132/  165 batches | lr 30.00000 | ms/batch 1489.45 | loss  5.97 | ppl   389.56 | bpc    8.606
+log_interval: 200
+8896/11617
+| epoch   3 |   133/  165 batches | lr 30.00000 | ms/batch 1517.00 | loss  6.01 | ppl   408.92 | bpc    8.676
+log_interval: 200
+8969/11617
+| epoch   3 |   134/  165 batches | lr 30.00000 | ms/batch 1359.84 | loss  5.94 | ppl   380.64 | bpc    8.572
+log_interval: 200
+9036/11617
+| epoch   3 |   135/  165 batches | lr 30.00000 | ms/batch 1533.06 | loss  5.98 | ppl   396.62 | bpc    8.632
+log_interval: 200
+9109/11617
+| epoch   3 |   136/  165 batches | lr 30.00000 | ms/batch 1638.04 | loss  6.04 | ppl   418.72 | bpc    8.710
+log_interval: 200
+9186/11617
+| epoch   3 |   137/  165 batches | lr 30.00000 | ms/batch 1632.71 | loss  6.19 | ppl   489.90 | bpc    8.936
+log_interval: 200
+9263/11617
+| epoch   3 |   138/  165 batches | lr 30.00000 | ms/batch 1349.25 | loss  6.18 | ppl   481.04 | bpc    8.910
+log_interval: 200
+9329/11617
+| epoch   3 |   139/  165 batches | lr 30.00000 | ms/batch 1663.84 | loss  6.08 | ppl   437.79 | bpc    8.774
+log_interval: 200
+9407/11617
+| epoch   3 |   140/  165 batches | lr 30.00000 | ms/batch 1487.34 | loss  6.09 | ppl   442.80 | bpc    8.790
+log_interval: 200
+9478/11617
+| epoch   3 |   141/  165 batches | lr 30.00000 | ms/batch 600.05 | loss  6.33 | ppl   561.61 | bpc    9.133
+log_interval: 200
+9511/11617
+| epoch   3 |   142/  165 batches | lr 30.00000 | ms/batch 1772.24 | loss  5.94 | ppl   381.56 | bpc    8.576
+log_interval: 200
+9593/11617
+| epoch   3 |   143/  165 batches | lr 30.00000 | ms/batch 1552.74 | loss  6.01 | ppl   407.46 | bpc    8.671
+log_interval: 200
+9667/11617
+| epoch   3 |   144/  165 batches | lr 30.00000 | ms/batch 1502.73 | loss  6.04 | ppl   419.37 | bpc    8.712
+log_interval: 200
+9739/11617
+| epoch   3 |   145/  165 batches | lr 30.00000 | ms/batch 1312.43 | loss  6.01 | ppl   405.46 | bpc    8.663
+log_interval: 200
+9804/11617
+| epoch   3 |   146/  165 batches | lr 30.00000 | ms/batch 1283.45 | loss  6.06 | ppl   427.35 | bpc    8.739
+log_interval: 200
+9868/11617
+| epoch   3 |   147/  165 batches | lr 30.00000 | ms/batch 1522.66 | loss  6.07 | ppl   433.36 | bpc    8.759
+log_interval: 200
+9941/11617
+| epoch   3 |   148/  165 batches | lr 30.00000 | ms/batch 1450.20 | loss  6.12 | ppl   454.61 | bpc    8.828
+log_interval: 200
+10011/11617
+| epoch   3 |   149/  165 batches | lr 30.00000 | ms/batch 1548.35 | loss  6.07 | ppl   433.33 | bpc    8.759
+log_interval: 200
+10085/11617
+| epoch   3 |   150/  165 batches | lr 30.00000 | ms/batch 1080.76 | loss  5.99 | ppl   397.55 | bpc    8.635
+log_interval: 200
+10140/11617
+| epoch   3 |   151/  165 batches | lr 30.00000 | ms/batch 1393.76 | loss  5.97 | ppl   393.33 | bpc    8.620
+log_interval: 200
+10208/11617
+| epoch   3 |   152/  165 batches | lr 30.00000 | ms/batch 1393.46 | loss  5.94 | ppl   379.78 | bpc    8.569
+log_interval: 200
+10276/11617
+| epoch   3 |   153/  165 batches | lr 30.00000 | ms/batch 629.22 | loss  5.99 | ppl   400.94 | bpc    8.647
+log_interval: 200
+10311/11617
+| epoch   3 |   154/  165 batches | lr 30.00000 | ms/batch 1381.61 | loss  6.00 | ppl   402.61 | bpc    8.653
+log_interval: 200
+10379/11617
+| epoch   3 |   155/  165 batches | lr 30.00000 | ms/batch 1415.84 | loss  5.90 | ppl   366.36 | bpc    8.517
+log_interval: 200
+10448/11617
+| epoch   3 |   156/  165 batches | lr 30.00000 | ms/batch 1530.06 | loss  5.98 | ppl   394.92 | bpc    8.625
+log_interval: 200
+10521/11617
+| epoch   3 |   157/  165 batches | lr 30.00000 | ms/batch 1320.63 | loss  5.90 | ppl   364.25 | bpc    8.509
+log_interval: 200
+10586/11617
+| epoch   3 |   158/  165 batches | lr 30.00000 | ms/batch 1612.53 | loss  6.25 | ppl   515.64 | bpc    9.010
+log_interval: 200
+10662/11617
+| epoch   3 |   159/  165 batches | lr 30.00000 | ms/batch 1392.49 | loss  6.09 | ppl   441.97 | bpc    8.788
+log_interval: 200
+10730/11617
+| epoch   3 |   160/  165 batches | lr 30.00000 | ms/batch 1418.72 | loss  5.95 | ppl   382.61 | bpc    8.580
+log_interval: 200
+10799/11617
+| epoch   3 |   161/  165 batches | lr 30.00000 | ms/batch 1692.21 | loss  5.81 | ppl   333.48 | bpc    8.381
+log_interval: 200
+10878/11617
+| epoch   3 |   162/  165 batches | lr 30.00000 | ms/batch 1476.21 | loss  5.95 | ppl   382.66 | bpc    8.580
+log_interval: 200
+10949/11617
+| epoch   3 |   163/  165 batches | lr 30.00000 | ms/batch 1424.26 | loss  6.12 | ppl   454.85 | bpc    8.829
+log_interval: 200
+11018/11617
+| epoch   3 |   164/  165 batches | lr 30.00000 | ms/batch 1363.69 | loss  6.03 | ppl   414.98 | bpc    8.697
+log_interval: 200
+11085/11617
+| epoch   3 |   165/  165 batches | lr 30.00000 | ms/batch 1280.77 | loss  6.00 | ppl   401.77 | bpc    8.650
+log_interval: 200
+11149/11617
+| epoch   3 |   166/  165 batches | lr 30.00000 | ms/batch 1479.66 | loss  5.83 | ppl   340.54 | bpc    8.412
+log_interval: 200
+11220/11617
+| epoch   3 |   167/  165 batches | lr 30.00000 | ms/batch 1553.37 | loss  5.86 | ppl   349.83 | bpc    8.451
+log_interval: 200
+11294/11617
+| epoch   3 |   168/  165 batches | lr 30.00000 | ms/batch 1461.16 | loss  5.83 | ppl   339.96 | bpc    8.409
+log_interval: 200
+11364/11617
+| epoch   3 |   169/  165 batches | lr 30.00000 | ms/batch 1344.76 | loss  6.06 | ppl   429.78 | bpc    8.747
+log_interval: 200
+11430/11617
+| epoch   3 |   170/  165 batches | lr 30.00000 | ms/batch 1424.73 | loss  6.03 | ppl   416.04 | bpc    8.701
+log_interval: 200
+11499/11617
+| epoch   3 |   171/  165 batches | lr 30.00000 | ms/batch 761.41 | loss  5.91 | ppl   367.85 | bpc    8.523
+log_interval: 200
+11540/11617
+| epoch   3 |   172/  165 batches | lr 30.00000 | ms/batch 1438.03 | loss  5.86 | ppl   352.08 | bpc    8.460
+log_interval: 200
+11610/11617
+| epoch   3 |   173/  165 batches | lr 30.00000 | ms/batch 138.72 | loss  5.74 | ppl   309.73 | bpc    8.275
+log_interval: 200
+11688/11617
+-----------------------------------------------------------------------------------------| end of epoch   3 | time: 260.72s | valid loss  5.88 | valid ppl   358.61 | valid bpc    8.486-----------------------------------------------------------------------------------------PROGRESS: 0.0375%| epoch   4 |     0/  165 batches | lr 30.00000 | ms/batch 1506.95 | loss  6.08 | ppl   435.09 | bpc    8.765
+log_interval: 200
+73/11617
+| epoch   4 |     1/  165 batches | lr 30.00000 | ms/batch 1164.37 | loss  5.91 | ppl   370.55 | bpc    8.534
+log_interval: 200
+132/11617
+| epoch   4 |     2/  165 batches | lr 30.00000 | ms/batch 1644.30 | loss  5.99 | ppl   397.45 | bpc    8.635
+log_interval: 200
+209/11617
+| epoch   4 |     3/  165 batches | lr 30.00000 | ms/batch 1262.94 | loss  5.97 | ppl   391.35 | bpc    8.612
+log_interval: 200
+272/11617
+| epoch   4 |     4/  165 batches | lr 30.00000 | ms/batch 1338.45 | loss  6.11 | ppl   449.79 | bpc    8.813
+log_interval: 200
+338/11617
+| epoch   4 |     5/  165 batches | lr 30.00000 | ms/batch 621.74 | loss  6.06 | ppl   430.38 | bpc    8.749
+log_interval: 200
+372/11617
+| epoch   4 |     6/  165 batches | lr 30.00000 | ms/batch 1372.25 | loss  5.98 | ppl   394.91 | bpc    8.625
+log_interval: 200
+439/11617
+| epoch   4 |     7/  165 batches | lr 30.00000 | ms/batch 1594.51 | loss  5.81 | ppl   334.51 | bpc    8.386
+log_interval: 200
+514/11617
+| epoch   4 |     8/  165 batches | lr 30.00000 | ms/batch 1314.19 | loss  5.97 | ppl   393.47 | bpc    8.620
+log_interval: 200
+579/11617
+| epoch   4 |     9/  165 batches | lr 30.00000 | ms/batch 1470.07 | loss  6.12 | ppl   454.57 | bpc    8.828
+log_interval: 200
+650/11617
+| epoch   4 |    10/  165 batches | lr 30.00000 | ms/batch 1321.82 | loss  6.14 | ppl   463.00 | bpc    8.855
+log_interval: 200
+715/11617
+| epoch   4 |    11/  165 batches | lr 30.00000 | ms/batch 1336.29 | loss  5.97 | ppl   390.78 | bpc    8.610
+log_interval: 200
+781/11617
+| epoch   4 |    12/  165 batches | lr 30.00000 | ms/batch 1475.16 | loss  6.02 | ppl   410.91 | bpc    8.683
+log_interval: 200
+852/11617
+| epoch   4 |    13/  165 batches | lr 30.00000 | ms/batch 1620.30 | loss  5.84 | ppl   342.89 | bpc    8.422
+log_interval: 200
+928/11617
+| epoch   4 |    14/  165 batches | lr 30.00000 | ms/batch 1447.80 | loss  5.90 | ppl   364.91 | bpc    8.511
+log_interval: 200
+998/11617
+| epoch   4 |    15/  165 batches | lr 30.00000 | ms/batch 1585.06 | loss  5.86 | ppl   351.71 | bpc    8.458
+log_interval: 200
+1073/11617
+| epoch   4 |    16/  165 batches | lr 30.00000 | ms/batch 1528.73 | loss  5.94 | ppl   381.28 | bpc    8.575
+log_interval: 200
+1146/11617
+| epoch   4 |    17/  165 batches | lr 30.00000 | ms/batch 1310.69 | loss  5.96 | ppl   386.89 | bpc    8.596
+log_interval: 200
+1211/11617
+| epoch   4 |    18/  165 batches | lr 30.00000 | ms/batch 1223.28 | loss  5.96 | ppl   387.39 | bpc    8.598
+log_interval: 200
+1272/11617
+| epoch   4 |    19/  165 batches | lr 30.00000 | ms/batch 1413.42 | loss  5.93 | ppl   375.05 | bpc    8.551
+log_interval: 200
+1341/11617
+| epoch   4 |    20/  165 batches | lr 30.00000 | ms/batch 1532.42 | loss  5.97 | ppl   391.69 | bpc    8.614
+log_interval: 200
+1414/11617
+| epoch   4 |    21/  165 batches | lr 30.00000 | ms/batch 1473.68 | loss  5.89 | ppl   361.37 | bpc    8.497
+log_interval: 200
+1485/11617
+| epoch   4 |    22/  165 batches | lr 30.00000 | ms/batch 1326.11 | loss  6.00 | ppl   403.34 | bpc    8.656
+log_interval: 200
+1550/11617
+| epoch   4 |    23/  165 batches | lr 30.00000 | ms/batch 1714.54 | loss  5.83 | ppl   340.75 | bpc    8.413
+log_interval: 200
+1630/11617
+| epoch   4 |    24/  165 batches | lr 30.00000 | ms/batch 1480.12 | loss  5.81 | ppl   332.07 | bpc    8.375
+log_interval: 200
+1701/11617
+| epoch   4 |    25/  165 batches | lr 30.00000 | ms/batch 1511.91 | loss  5.95 | ppl   385.54 | bpc    8.591
+log_interval: 200
+1773/11617
+| epoch   4 |    26/  165 batches | lr 30.00000 | ms/batch 1288.34 | loss  5.91 | ppl   369.77 | bpc    8.530
+log_interval: 200
+1837/11617
+| epoch   4 |    27/  165 batches | lr 30.00000 | ms/batch 1257.73 | loss  5.95 | ppl   385.49 | bpc    8.591
+log_interval: 200
+1900/11617
+| epoch   4 |    28/  165 batches | lr 30.00000 | ms/batch 1368.07 | loss  5.97 | ppl   391.47 | bpc    8.613
+log_interval: 200
+1967/11617
+| epoch   4 |    29/  165 batches | lr 30.00000 | ms/batch 1418.88 | loss  5.88 | ppl   357.41 | bpc    8.481
+log_interval: 200
+2036/11617
+| epoch   4 |    30/  165 batches | lr 30.00000 | ms/batch 1625.64 | loss  5.83 | ppl   339.14 | bpc    8.406
+log_interval: 200
+2112/11617
+| epoch   4 |    31/  165 batches | lr 30.00000 | ms/batch 1611.74 | loss  5.91 | ppl   370.23 | bpc    8.532
+log_interval: 200
+2188/11617
+| epoch   4 |    32/  165 batches | lr 30.00000 | ms/batch 1501.21 | loss  5.96 | ppl   386.45 | bpc    8.594
+log_interval: 200
+2260/11617
+| epoch   4 |    33/  165 batches | lr 30.00000 | ms/batch 1393.47 | loss  5.76 | ppl   315.85 | bpc    8.303
+log_interval: 200
+2328/11617
+| epoch   4 |    34/  165 batches | lr 30.00000 | ms/batch 1360.58 | loss  5.74 | ppl   310.05 | bpc    8.276
+log_interval: 200
+2395/11617
+| epoch   4 |    35/  165 batches | lr 30.00000 | ms/batch 1424.15 | loss  5.79 | ppl   326.58 | bpc    8.351
+log_interval: 200
+2464/11617
+| epoch   4 |    36/  165 batches | lr 30.00000 | ms/batch 1533.03 | loss  5.77 | ppl   319.51 | bpc    8.320
+log_interval: 200
+2537/11617
+| epoch   4 |    37/  165 batches | lr 30.00000 | ms/batch 1468.08 | loss  5.75 | ppl   313.98 | bpc    8.295
+log_interval: 200
+2608/11617
+| epoch   4 |    38/  165 batches | lr 30.00000 | ms/batch 1607.24 | loss  5.94 | ppl   380.85 | bpc    8.573
+log_interval: 200
+2684/11617
+| epoch   4 |    39/  165 batches | lr 30.00000 | ms/batch 1382.86 | loss  5.86 | ppl   350.21 | bpc    8.452
+log_interval: 200
+2751/11617
+| epoch   4 |    40/  165 batches | lr 30.00000 | ms/batch 1267.94 | loss  5.92 | ppl   370.90 | bpc    8.535
+log_interval: 200
+2814/11617
+| epoch   4 |    41/  165 batches | lr 30.00000 | ms/batch 1382.20 | loss  5.76 | ppl   316.61 | bpc    8.307
+log_interval: 200
+2882/11617
+| epoch   4 |    42/  165 batches | lr 30.00000 | ms/batch 1338.36 | loss  5.69 | ppl   296.81 | bpc    8.213
+log_interval: 200
+2947/11617
+| epoch   4 |    43/  165 batches | lr 30.00000 | ms/batch 708.19 | loss  5.87 | ppl   354.52 | bpc    8.470
+log_interval: 200
+2985/11617
+| epoch   4 |    44/  165 batches | lr 30.00000 | ms/batch 1370.04 | loss  5.77 | ppl   320.99 | bpc    8.326
+log_interval: 200
+3052/11617
+| epoch   4 |    45/  165 batches | lr 30.00000 | ms/batch 1369.22 | loss  5.78 | ppl   322.29 | bpc    8.332
+log_interval: 200
+3119/11617
+| epoch   4 |    46/  165 batches | lr 30.00000 | ms/batch 1444.24 | loss  5.88 | ppl   358.35 | bpc    8.485
+log_interval: 200
+3189/11617
+| epoch   4 |    47/  165 batches | lr 30.00000 | ms/batch 1604.19 | loss  5.87 | ppl   353.06 | bpc    8.464
+log_interval: 200
+3265/11617
+| epoch   4 |    48/  165 batches | lr 30.00000 | ms/batch 1476.44 | loss  5.88 | ppl   357.35 | bpc    8.481
+log_interval: 200
+3336/11617
+| epoch   4 |    49/  165 batches | lr 30.00000 | ms/batch 1321.29 | loss  5.69 | ppl   296.52 | bpc    8.212
+log_interval: 200
+3401/11617
+| epoch   4 |    50/  165 batches | lr 30.00000 | ms/batch 1276.22 | loss  5.81 | ppl   334.95 | bpc    8.388
+log_interval: 200
+3465/11617
+| epoch   4 |    51/  165 batches | lr 30.00000 | ms/batch 1147.15 | loss  5.80 | ppl   331.01 | bpc    8.371
+log_interval: 200
+3523/11617
+| epoch   4 |    52/  165 batches | lr 30.00000 | ms/batch 1533.78 | loss  5.81 | ppl   335.24 | bpc    8.389
+log_interval: 200
+3596/11617
+| epoch   4 |    53/  165 batches | lr 30.00000 | ms/batch 1244.20 | loss  5.74 | ppl   311.47 | bpc    8.283
+log_interval: 200
+3658/11617
+| epoch   4 |    54/  165 batches | lr 30.00000 | ms/batch 1566.59 | loss  5.71 | ppl   302.99 | bpc    8.243
+log_interval: 200
+3732/11617
+| epoch   4 |    55/  165 batches | lr 30.00000 | ms/batch 1212.12 | loss  5.83 | ppl   341.47 | bpc    8.416
+log_interval: 200
+3792/11617
+| epoch   4 |    56/  165 batches | lr 30.00000 | ms/batch 1445.83 | loss  5.79 | ppl   326.76 | bpc    8.352
+log_interval: 200
+3862/11617
+| epoch   4 |    57/  165 batches | lr 30.00000 | ms/batch 1579.81 | loss  5.82 | ppl   337.58 | bpc    8.399
+log_interval: 200
+3937/11617
+| epoch   4 |    58/  165 batches | lr 30.00000 | ms/batch 1466.82 | loss  5.89 | ppl   362.09 | bpc    8.500
+log_interval: 200
+4008/11617
+| epoch   4 |    59/  165 batches | lr 30.00000 | ms/batch 1482.00 | loss  5.80 | ppl   331.85 | bpc    8.374
+log_interval: 200
+4079/11617
+| epoch   4 |    60/  165 batches | lr 30.00000 | ms/batch 1630.53 | loss  5.82 | ppl   337.76 | bpc    8.400
+log_interval: 200
+4156/11617
+| epoch   4 |    61/  165 batches | lr 30.00000 | ms/batch 1485.49 | loss  5.82 | ppl   338.50 | bpc    8.403
+log_interval: 200
+4227/11617
+| epoch   4 |    62/  165 batches | lr 30.00000 | ms/batch 1500.14 | loss  5.92 | ppl   372.98 | bpc    8.543
+log_interval: 200
+4299/11617
+| epoch   4 |    63/  165 batches | lr 30.00000 | ms/batch 1262.96 | loss  5.94 | ppl   381.04 | bpc    8.574
+log_interval: 200
+4362/11617
+| epoch   4 |    64/  165 batches | lr 30.00000 | ms/batch 1472.61 | loss  5.81 | ppl   334.96 | bpc    8.388
+log_interval: 200
+4433/11617
+| epoch   4 |    65/  165 batches | lr 30.00000 | ms/batch 1500.11 | loss  5.87 | ppl   354.57 | bpc    8.470
+log_interval: 200
+4505/11617
+| epoch   4 |    66/  165 batches | lr 30.00000 | ms/batch 1576.91 | loss  5.95 | ppl   382.35 | bpc    8.579
+log_interval: 200
+4580/11617
+| epoch   4 |    67/  165 batches | lr 30.00000 | ms/batch 718.88 | loss  5.86 | ppl   351.20 | bpc    8.456
+log_interval: 200
+4619/11617
+| epoch   4 |    68/  165 batches | lr 30.00000 | ms/batch 1362.54 | loss  5.88 | ppl   358.29 | bpc    8.485
+log_interval: 200
+4686/11617
+| epoch   4 |    69/  165 batches | lr 30.00000 | ms/batch 1293.30 | loss  5.87 | ppl   354.68 | bpc    8.470
+log_interval: 200
+4750/11617
+| epoch   4 |    70/  165 batches | lr 30.00000 | ms/batch 1517.49 | loss  5.76 | ppl   316.29 | bpc    8.305
+log_interval: 200
+4823/11617
+| epoch   4 |    71/  165 batches | lr 30.00000 | ms/batch 1397.15 | loss  5.96 | ppl   389.43 | bpc    8.605
+log_interval: 200
+4891/11617
+| epoch   4 |    72/  165 batches | lr 30.00000 | ms/batch 1348.46 | loss  6.12 | ppl   455.66 | bpc    8.832
+log_interval: 200
+4957/11617
+| epoch   4 |    73/  165 batches | lr 30.00000 | ms/batch 1416.96 | loss  5.88 | ppl   358.98 | bpc    8.488
+log_interval: 200
+5026/11617
+| epoch   4 |    74/  165 batches | lr 30.00000 | ms/batch 1315.88 | loss  5.86 | ppl   352.02 | bpc    8.460
+log_interval: 200
+5091/11617
+| epoch   4 |    75/  165 batches | lr 30.00000 | ms/batch 1425.61 | loss  5.90 | ppl   363.32 | bpc    8.505
+log_interval: 200
+5160/11617
+| epoch   4 |    76/  165 batches | lr 30.00000 | ms/batch 1329.20 | loss  5.83 | ppl   339.42 | bpc    8.407
+log_interval: 200
+5225/11617
+| epoch   4 |    77/  165 batches | lr 30.00000 | ms/batch 1363.46 | loss  5.85 | ppl   348.69 | bpc    8.446
+log_interval: 200
+5292/11617
+| epoch   4 |    78/  165 batches | lr 30.00000 | ms/batch 1473.92 | loss  5.83 | ppl   340.91 | bpc    8.413
+log_interval: 200
+5363/11617
+| epoch   4 |    79/  165 batches | lr 30.00000 | ms/batch 1341.30 | loss  5.75 | ppl   314.61 | bpc    8.297
+log_interval: 200
+5429/11617
+| epoch   4 |    80/  165 batches | lr 30.00000 | ms/batch 1323.86 | loss  5.66 | ppl   287.20 | bpc    8.166
+log_interval: 200
+5494/11617
+| epoch   4 |    81/  165 batches | lr 30.00000 | ms/batch 477.28 | loss  5.74 | ppl   311.03 | bpc    8.281
+log_interval: 200
+5521/11617
+| epoch   4 |    82/  165 batches | lr 30.00000 | ms/batch 1479.61 | loss  5.83 | ppl   341.73 | bpc    8.417
+log_interval: 200
+5592/11617
+| epoch   4 |    83/  165 batches | lr 30.00000 | ms/batch 1568.11 | loss  5.93 | ppl   377.70 | bpc    8.561
+log_interval: 200
+5666/11617
+| epoch   4 |    84/  165 batches | lr 30.00000 | ms/batch 526.02 | loss  5.74 | ppl   311.51 | bpc    8.283
+log_interval: 200
+5696/11617
+| epoch   4 |    85/  165 batches | lr 30.00000 | ms/batch 1290.13 | loss  5.86 | ppl   351.70 | bpc    8.458
+log_interval: 200
+5760/11617
+| epoch   4 |    86/  165 batches | lr 30.00000 | ms/batch 1692.68 | loss  5.69 | ppl   297.16 | bpc    8.215
+log_interval: 200
+5839/11617
+| epoch   4 |    87/  165 batches | lr 30.00000 | ms/batch 1283.16 | loss  5.74 | ppl   310.58 | bpc    8.279
+log_interval: 200
+5902/11617
+| epoch   4 |    88/  165 batches | lr 30.00000 | ms/batch 1573.04 | loss  5.85 | ppl   348.42 | bpc    8.445
+log_interval: 200
+5977/11617
+| epoch   4 |    89/  165 batches | lr 30.00000 | ms/batch 1614.85 | loss  5.81 | ppl   333.49 | bpc    8.382
+log_interval: 200
+6053/11617
+| epoch   4 |    90/  165 batches | lr 30.00000 | ms/batch 1512.84 | loss  5.91 | ppl   370.18 | bpc    8.532
+log_interval: 200
+6125/11617
+| epoch   4 |    91/  165 batches | lr 30.00000 | ms/batch 1377.52 | loss  6.02 | ppl   413.27 | bpc    8.691
+log_interval: 200
+6192/11617
+| epoch   4 |    92/  165 batches | lr 30.00000 | ms/batch 1754.07 | loss  5.98 | ppl   394.47 | bpc    8.624
+log_interval: 200
+6273/11617
+| epoch   4 |    93/  165 batches | lr 30.00000 | ms/batch 1476.61 | loss  5.86 | ppl   350.00 | bpc    8.451
+log_interval: 200
+6344/11617
+| epoch   4 |    94/  165 batches | lr 30.00000 | ms/batch 1343.77 | loss  5.85 | ppl   345.98 | bpc    8.435
+log_interval: 200
+6410/11617
+| epoch   4 |    95/  165 batches | lr 30.00000 | ms/batch 1421.30 | loss  5.73 | ppl   308.54 | bpc    8.269
+log_interval: 200
+6479/11617
+| epoch   4 |    96/  165 batches | lr 30.00000 | ms/batch 1440.05 | loss  5.81 | ppl   334.55 | bpc    8.386
+log_interval: 200
+6549/11617
+| epoch   4 |    97/  165 batches | lr 30.00000 | ms/batch 1465.51 | loss  5.71 | ppl   300.66 | bpc    8.232
+log_interval: 200
+6620/11617
+| epoch   4 |    98/  165 batches | lr 30.00000 | ms/batch 1342.08 | loss  5.73 | ppl   309.12 | bpc    8.272
+log_interval: 200
+6685/11617
+| epoch   4 |    99/  165 batches | lr 30.00000 | ms/batch 1562.74 | loss  5.74 | ppl   311.91 | bpc    8.285
+log_interval: 200
+6759/11617
+| epoch   4 |   100/  165 batches | lr 30.00000 | ms/batch 1238.65 | loss  5.95 | ppl   384.69 | bpc    8.588
+log_interval: 200
+6821/11617
+| epoch   4 |   101/  165 batches | lr 30.00000 | ms/batch 1414.12 | loss  5.89 | ppl   361.21 | bpc    8.497
+log_interval: 200
+6890/11617
+| epoch   4 |   102/  165 batches | lr 30.00000 | ms/batch 1471.26 | loss  5.78 | ppl   322.24 | bpc    8.332
+log_interval: 200
+6961/11617
+| epoch   4 |   103/  165 batches | lr 30.00000 | ms/batch 1119.27 | loss  5.71 | ppl   301.25 | bpc    8.235
+log_interval: 200
+7018/11617
+| epoch   4 |   104/  165 batches | lr 30.00000 | ms/batch 1349.71 | loss  5.72 | ppl   306.19 | bpc    8.258
+log_interval: 200
+7084/11617
+| epoch   4 |   105/  165 batches | lr 30.00000 | ms/batch 1512.38 | loss  5.66 | ppl   288.52 | bpc    8.173
+log_interval: 200
+7156/11617
+| epoch   4 |   106/  165 batches | lr 30.00000 | ms/batch 1638.35 | loss  5.74 | ppl   310.18 | bpc    8.277
+log_interval: 200
+7233/11617
+| epoch   4 |   107/  165 batches | lr 30.00000 | ms/batch 1643.87 | loss  5.83 | ppl   340.89 | bpc    8.413
+log_interval: 200
+7310/11617
+| epoch   4 |   108/  165 batches | lr 30.00000 | ms/batch 1395.04 | loss  5.87 | ppl   355.28 | bpc    8.473
+log_interval: 200
+7378/11617
+| epoch   4 |   109/  165 batches | lr 30.00000 | ms/batch 1584.56 | loss  5.77 | ppl   319.01 | bpc    8.317
+log_interval: 200
+7453/11617
+| epoch   4 |   110/  165 batches | lr 30.00000 | ms/batch 1206.56 | loss  5.76 | ppl   317.75 | bpc    8.312
+log_interval: 200
+7513/11617
+| epoch   4 |   111/  165 batches | lr 30.00000 | ms/batch 1496.49 | loss  5.65 | ppl   284.15 | bpc    8.150
+log_interval: 200
+7585/11617
+| epoch   4 |   112/  165 batches | lr 30.00000 | ms/batch 1475.95 | loss  5.75 | ppl   314.27 | bpc    8.296
+log_interval: 200
+7656/11617
+| epoch   4 |   113/  165 batches | lr 30.00000 | ms/batch 1427.19 | loss  5.71 | ppl   301.93 | bpc    8.238
+log_interval: 200
+7725/11617
+| epoch   4 |   114/  165 batches | lr 30.00000 | ms/batch 1444.15 | loss  5.92 | ppl   371.50 | bpc    8.537
+log_interval: 200
+7795/11617
+| epoch   4 |   115/  165 batches | lr 30.00000 | ms/batch 1521.94 | loss  5.74 | ppl   311.89 | bpc    8.285
+log_interval: 200
+7868/11617
+| epoch   4 |   116/  165 batches | lr 30.00000 | ms/batch 1339.81 | loss  5.92 | ppl   372.43 | bpc    8.541
+log_interval: 200
+7934/11617
+| epoch   4 |   117/  165 batches | lr 30.00000 | ms/batch 1567.42 | loss  5.87 | ppl   354.58 | bpc    8.470
+log_interval: 200
+8008/11617
+| epoch   4 |   118/  165 batches | lr 30.00000 | ms/batch 1421.15 | loss  5.78 | ppl   322.49 | bpc    8.333
+log_interval: 200
+8077/11617
+| epoch   4 |   119/  165 batches | lr 30.00000 | ms/batch 1361.22 | loss  5.66 | ppl   288.11 | bpc    8.170
+log_interval: 200
+8144/11617
+| epoch   4 |   120/  165 batches | lr 30.00000 | ms/batch 1363.41 | loss  5.71 | ppl   300.56 | bpc    8.231
+log_interval: 200
+8210/11617
+| epoch   4 |   121/  165 batches | lr 30.00000 | ms/batch 1328.67 | loss  5.80 | ppl   328.84 | bpc    8.361
+log_interval: 200
+8276/11617
+| epoch   4 |   122/  165 batches | lr 30.00000 | ms/batch 1406.09 | loss  5.77 | ppl   322.14 | bpc    8.332
+log_interval: 200
+8344/11617
+| epoch   4 |   123/  165 batches | lr 30.00000 | ms/batch 1466.53 | loss  5.66 | ppl   287.45 | bpc    8.167
+log_interval: 200
+8415/11617
+| epoch   4 |   124/  165 batches | lr 30.00000 | ms/batch 1488.47 | loss  5.73 | ppl   307.56 | bpc    8.265
+log_interval: 200
+8487/11617
+| epoch   4 |   125/  165 batches | lr 30.00000 | ms/batch 488.28 | loss  5.92 | ppl   372.37 | bpc    8.541
+log_interval: 200
+8515/11617
+| epoch   4 |   126/  165 batches | lr 30.00000 | ms/batch 1358.06 | loss  5.87 | ppl   353.94 | bpc    8.467
+log_interval: 200
+8581/11617
+| epoch   4 |   127/  165 batches | lr 30.00000 | ms/batch 1359.93 | loss  5.75 | ppl   315.44 | bpc    8.301
+log_interval: 200
+8648/11617
+| epoch   4 |   128/  165 batches | lr 30.00000 | ms/batch 1574.14 | loss  5.82 | ppl   335.46 | bpc    8.390
+log_interval: 200
+8723/11617
+| epoch   4 |   129/  165 batches | lr 30.00000 | ms/batch 1370.35 | loss  5.87 | ppl   353.08 | bpc    8.464
+log_interval: 200
+8790/11617
+| epoch   4 |   130/  165 batches | lr 30.00000 | ms/batch 1309.70 | loss  5.79 | ppl   326.96 | bpc    8.353
+log_interval: 200
+8855/11617
+| epoch   4 |   131/  165 batches | lr 30.00000 | ms/batch 1258.94 | loss  5.79 | ppl   325.40 | bpc    8.346
+log_interval: 200
+8918/11617
+| epoch   4 |   132/  165 batches | lr 30.00000 | ms/batch 1361.25 | loss  5.75 | ppl   315.22 | bpc    8.300
+log_interval: 200
+8984/11617
+| epoch   4 |   133/  165 batches | lr 30.00000 | ms/batch 1448.31 | loss  5.78 | ppl   324.79 | bpc    8.343
+log_interval: 200
+9054/11617
+| epoch   4 |   134/  165 batches | lr 30.00000 | ms/batch 1323.93 | loss  5.81 | ppl   332.48 | bpc    8.377
+log_interval: 200
+9119/11617
+| epoch   4 |   135/  165 batches | lr 30.00000 | ms/batch 1286.98 | loss  5.87 | ppl   355.06 | bpc    8.472
+log_interval: 200
+9183/11617
+| epoch   4 |   136/  165 batches | lr 30.00000 | ms/batch 1279.16 | loss  5.78 | ppl   324.51 | bpc    8.342
+log_interval: 200
+9247/11617
+| epoch   4 |   137/  165 batches | lr 30.00000 | ms/batch 1481.47 | loss  5.85 | ppl   348.80 | bpc    8.446
+log_interval: 200
+9318/11617
+| epoch   4 |   138/  165 batches | lr 30.00000 | ms/batch 1334.03 | loss  5.84 | ppl   343.61 | bpc    8.425
+log_interval: 200
+9384/11617
+| epoch   4 |   139/  165 batches | lr 30.00000 | ms/batch 1483.55 | loss  5.90 | ppl   363.35 | bpc    8.505
+log_interval: 200
+9455/11617
+| epoch   4 |   140/  165 batches | lr 30.00000 | ms/batch 1335.12 | loss  5.88 | ppl   357.20 | bpc    8.481
+log_interval: 200
+9521/11617
+| epoch   4 |   141/  165 batches | lr 30.00000 | ms/batch 1344.88 | loss  5.78 | ppl   323.56 | bpc    8.338
+log_interval: 200
+9587/11617
+| epoch   4 |   142/  165 batches | lr 30.00000 | ms/batch 1323.86 | loss  5.78 | ppl   322.62 | bpc    8.334
+log_interval: 200
+9652/11617
+| epoch   4 |   143/  165 batches | lr 30.00000 | ms/batch 1339.25 | loss  5.90 | ppl   364.82 | bpc    8.511
+log_interval: 200
+9718/11617
+| epoch   4 |   144/  165 batches | lr 30.00000 | ms/batch 691.33 | loss  5.67 | ppl   290.89 | bpc    8.184
+log_interval: 200
+9756/11617
+| epoch   4 |   145/  165 batches | lr 30.00000 | ms/batch 380.85 | loss  5.85 | ppl   346.91 | bpc    8.438
+log_interval: 200
+9778/11617
+| epoch   4 |   146/  165 batches | lr 30.00000 | ms/batch 1590.69 | loss  5.70 | ppl   299.82 | bpc    8.228
+log_interval: 200
+9853/11617
+| epoch   4 |   147/  165 batches | lr 30.00000 | ms/batch 1364.85 | loss  5.83 | ppl   341.33 | bpc    8.415
+log_interval: 200
+9920/11617
+| epoch   4 |   148/  165 batches | lr 30.00000 | ms/batch 1535.02 | loss  5.79 | ppl   328.38 | bpc    8.359
+log_interval: 200
+9993/11617
+| epoch   4 |   149/  165 batches | lr 30.00000 | ms/batch 1524.84 | loss  5.81 | ppl   332.92 | bpc    8.379
+log_interval: 200
+10066/11617
+| epoch   4 |   150/  165 batches | lr 30.00000 | ms/batch 1150.81 | loss  5.89 | ppl   362.53 | bpc    8.502
+log_interval: 200
+10124/11617
+| epoch   4 |   151/  165 batches | lr 30.00000 | ms/batch 1422.79 | loss  5.84 | ppl   343.55 | bpc    8.424
+log_interval: 200
+10193/11617
+| epoch   4 |   152/  165 batches | lr 30.00000 | ms/batch 1738.64 | loss  5.84 | ppl   342.63 | bpc    8.420
+log_interval: 200
+10274/11617
+| epoch   4 |   153/  165 batches | lr 30.00000 | ms/batch 707.86 | loss  5.86 | ppl   351.41 | bpc    8.457
+log_interval: 200
+10313/11617
+| epoch   4 |   154/  165 batches | lr 30.00000 | ms/batch 1293.65 | loss  5.79 | ppl   325.80 | bpc    8.348
+log_interval: 200
+10377/11617
+| epoch   4 |   155/  165 batches | lr 30.00000 | ms/batch 1329.13 | loss  5.71 | ppl   301.63 | bpc    8.237
+log_interval: 200
+10442/11617
+| epoch   4 |   156/  165 batches | lr 30.00000 | ms/batch 1440.04 | loss  5.83 | ppl   339.13 | bpc    8.406
+log_interval: 200
+10512/11617
+| epoch   4 |   157/  165 batches | lr 30.00000 | ms/batch 1424.80 | loss  5.69 | ppl   297.18 | bpc    8.215
+log_interval: 200
+10581/11617
+| epoch   4 |   158/  165 batches | lr 30.00000 | ms/batch 1256.53 | loss  5.84 | ppl   343.34 | bpc    8.423
+log_interval: 200
+10644/11617
+| epoch   4 |   159/  165 batches | lr 30.00000 | ms/batch 1282.80 | loss  5.81 | ppl   334.42 | bpc    8.386
+log_interval: 200
+10708/11617
+| epoch   4 |   160/  165 batches | lr 30.00000 | ms/batch 1327.01 | loss  5.67 | ppl   288.70 | bpc    8.173
+log_interval: 200
+10773/11617
+| epoch   4 |   161/  165 batches | lr 30.00000 | ms/batch 1443.59 | loss  5.65 | ppl   283.99 | bpc    8.150
+log_interval: 200
+10843/11617
+| epoch   4 |   162/  165 batches | lr 30.00000 | ms/batch 561.41 | loss  5.57 | ppl   263.49 | bpc    8.042
+log_interval: 200
+10874/11617
+| epoch   4 |   163/  165 batches | lr 30.00000 | ms/batch 1440.45 | loss  5.76 | ppl   316.33 | bpc    8.305
+log_interval: 200
+10944/11617
+| epoch   4 |   164/  165 batches | lr 30.00000 | ms/batch 1455.19 | loss  5.74 | ppl   309.94 | bpc    8.276
+log_interval: 200
+11014/11617
+| epoch   4 |   165/  165 batches | lr 30.00000 | ms/batch 1453.35 | loss  5.72 | ppl   305.08 | bpc    8.253
+log_interval: 200
+11084/11617
+| epoch   4 |   166/  165 batches | lr 30.00000 | ms/batch 1565.98 | loss  5.75 | ppl   314.83 | bpc    8.298
+log_interval: 200
+11158/11617
+| epoch   4 |   167/  165 batches | lr 30.00000 | ms/batch 1289.37 | loss  5.72 | ppl   303.46 | bpc    8.245
+log_interval: 200
+11222/11617
+| epoch   4 |   168/  165 batches | lr 30.00000 | ms/batch 1375.12 | loss  5.60 | ppl   271.13 | bpc    8.083
+log_interval: 200
+11289/11617
+| epoch   4 |   169/  165 batches | lr 30.00000 | ms/batch 1556.46 | loss  5.70 | ppl   297.94 | bpc    8.219
+log_interval: 200
+11363/11617
+| epoch   4 |   170/  165 batches | lr 30.00000 | ms/batch 698.56 | loss  5.68 | ppl   292.05 | bpc    8.190
+log_interval: 200
+11401/11617
+| epoch   4 |   171/  165 batches | lr 30.00000 | ms/batch 1575.62 | loss  5.77 | ppl   321.58 | bpc    8.329
+log_interval: 200
+11476/11617
+| epoch   4 |   172/  165 batches | lr 30.00000 | ms/batch 1380.24 | loss  5.68 | ppl   293.42 | bpc    8.197
+log_interval: 200
+11543/11617
+| epoch   4 |   173/  165 batches | lr 30.00000 | ms/batch 1358.14 | loss  5.72 | ppl   303.62 | bpc    8.246
+log_interval: 200
+11610/11617
+| epoch   4 |   174/  165 batches | lr 30.00000 | ms/batch 138.51 | loss  5.44 | ppl   230.10 | bpc    7.846
+log_interval: 200
+11675/11617
+-----------------------------------------------------------------------------------------| end of epoch   4 | time: 260.34s | valid loss  5.61 | valid ppl   274.14 | valid bpc    8.099-----------------------------------------------------------------------------------------PROGRESS: 0.05%| epoch   5 |     0/  165 batches | lr 30.00000 | ms/batch 1554.08 | loss  5.79 | ppl   325.57 | bpc    8.347
+log_interval: 200
+74/11617
+| epoch   5 |     1/  165 batches | lr 30.00000 | ms/batch 698.89 | loss  5.71 | ppl   301.55 | bpc    8.236
+log_interval: 200
+112/11617
+| epoch   5 |     2/  165 batches | lr 30.00000 | ms/batch 1345.84 | loss  5.74 | ppl   309.70 | bpc    8.275
+log_interval: 200
+178/11617
+| epoch   5 |     3/  165 batches | lr 30.00000 | ms/batch 1530.31 | loss  5.77 | ppl   319.47 | bpc    8.320
+log_interval: 200
+251/11617
+| epoch   5 |     4/  165 batches | lr 30.00000 | ms/batch 1441.81 | loss  5.89 | ppl   363.03 | bpc    8.504
+log_interval: 200
+321/11617
+| epoch   5 |     5/  165 batches | lr 30.00000 | ms/batch 1449.24 | loss  5.87 | ppl   353.46 | bpc    8.465
+log_interval: 200
+391/11617
+| epoch   5 |     6/  165 batches | lr 30.00000 | ms/batch 1425.28 | loss  5.74 | ppl   312.17 | bpc    8.286
+log_interval: 200
+460/11617
+| epoch   5 |     7/  165 batches | lr 30.00000 | ms/batch 1559.87 | loss  5.65 | ppl   283.15 | bpc    8.145
+log_interval: 200
+534/11617
+| epoch   5 |     8/  165 batches | lr 30.00000 | ms/batch 1426.63 | loss  5.90 | ppl   363.87 | bpc    8.507
+log_interval: 200
+603/11617
+| epoch   5 |     9/  165 batches | lr 30.00000 | ms/batch 1311.98 | loss  5.97 | ppl   392.89 | bpc    8.618
+log_interval: 200
+668/11617
+| epoch   5 |    10/  165 batches | lr 30.00000 | ms/batch 1666.03 | loss  5.91 | ppl   369.08 | bpc    8.528
+log_interval: 200
+746/11617
+| epoch   5 |    11/  165 batches | lr 30.00000 | ms/batch 1520.05 | loss  5.82 | ppl   337.35 | bpc    8.398
+log_interval: 200
+819/11617
+| epoch   5 |    12/  165 batches | lr 30.00000 | ms/batch 1321.68 | loss  5.76 | ppl   316.45 | bpc    8.306
+log_interval: 200
+884/11617
+| epoch   5 |    13/  165 batches | lr 30.00000 | ms/batch 1202.93 | loss  5.68 | ppl   293.13 | bpc    8.195
+log_interval: 200
+945/11617
+| epoch   5 |    14/  165 batches | lr 30.00000 | ms/batch 1453.56 | loss  5.71 | ppl   303.08 | bpc    8.244
+log_interval: 200
+1015/11617
+| epoch   5 |    15/  165 batches | lr 30.00000 | ms/batch 1074.06 | loss  5.68 | ppl   292.87 | bpc    8.194
+log_interval: 200
+1070/11617
+| epoch   5 |    16/  165 batches | lr 30.00000 | ms/batch 1183.95 | loss  5.88 | ppl   359.45 | bpc    8.490
+log_interval: 200
+1130/11617
+| epoch   5 |    17/  165 batches | lr 30.00000 | ms/batch 1317.22 | loss  5.81 | ppl   334.66 | bpc    8.387
+log_interval: 200
+1195/11617
+| epoch   5 |    18/  165 batches | lr 30.00000 | ms/batch 1418.48 | loss  5.72 | ppl   303.46 | bpc    8.245
+log_interval: 200
+1264/11617
+| epoch   5 |    19/  165 batches | lr 30.00000 | ms/batch 1354.46 | loss  5.74 | ppl   310.38 | bpc    8.278
+log_interval: 200
+1331/11617
+| epoch   5 |    20/  165 batches | lr 30.00000 | ms/batch 1325.48 | loss  5.75 | ppl   314.38 | bpc    8.296
+log_interval: 200
+1396/11617
+| epoch   5 |    21/  165 batches | lr 30.00000 | ms/batch 1636.64 | loss  5.78 | ppl   323.47 | bpc    8.337
+log_interval: 200
+1473/11617
+| epoch   5 |    22/  165 batches | lr 30.00000 | ms/batch 1482.91 | loss  5.74 | ppl   312.31 | bpc    8.287
+log_interval: 200
+1544/11617
+| epoch   5 |    23/  165 batches | lr 30.00000 | ms/batch 1422.52 | loss  5.73 | ppl   308.68 | bpc    8.270
+log_interval: 200
+1613/11617
+| epoch   5 |    24/  165 batches | lr 30.00000 | ms/batch 1719.12 | loss  5.61 | ppl   274.42 | bpc    8.100
+log_interval: 200
+1693/11617
+| epoch   5 |    25/  165 batches | lr 30.00000 | ms/batch 1779.07 | loss  5.64 | ppl   282.37 | bpc    8.141
+log_interval: 200
+1775/11617
+| epoch   5 |    26/  165 batches | lr 30.00000 | ms/batch 1586.49 | loss  5.81 | ppl   334.73 | bpc    8.387
+log_interval: 200
+1850/11617
+| epoch   5 |    27/  165 batches | lr 30.00000 | ms/batch 1669.35 | loss  5.81 | ppl   332.63 | bpc    8.378
+log_interval: 200
+1928/11617
+| epoch   5 |    28/  165 batches | lr 30.00000 | ms/batch 1492.92 | loss  5.83 | ppl   339.57 | bpc    8.408
+log_interval: 200
+1999/11617
+| epoch   5 |    29/  165 batches | lr 30.00000 | ms/batch 1287.74 | loss  5.63 | ppl   279.25 | bpc    8.125
+log_interval: 200
+2063/11617
+| epoch   5 |    30/  165 batches | lr 30.00000 | ms/batch 1531.03 | loss  5.66 | ppl   288.51 | bpc    8.172
+log_interval: 200
+2136/11617
+| epoch   5 |    31/  165 batches | lr 30.00000 | ms/batch 1078.59 | loss  5.76 | ppl   315.96 | bpc    8.304
+log_interval: 200
+2191/11617
+| epoch   5 |    32/  165 batches | lr 30.00000 | ms/batch 1501.56 | loss  5.69 | ppl   296.93 | bpc    8.214
+log_interval: 200
+2263/11617
+| epoch   5 |    33/  165 batches | lr 30.00000 | ms/batch 1537.98 | loss  5.59 | ppl   267.94 | bpc    8.066
+log_interval: 200
+2336/11617
+| epoch   5 |    34/  165 batches | lr 30.00000 | ms/batch 1347.75 | loss  5.73 | ppl   308.15 | bpc    8.268
+log_interval: 200
+2402/11617
+| epoch   5 |    35/  165 batches | lr 30.00000 | ms/batch 1639.59 | loss  5.65 | ppl   283.19 | bpc    8.146
+log_interval: 200
+2479/11617
+| epoch   5 |    36/  165 batches | lr 30.00000 | ms/batch 1457.50 | loss  5.63 | ppl   279.64 | bpc    8.127
+log_interval: 200
+2549/11617
+| epoch   5 |    37/  165 batches | lr 30.00000 | ms/batch 1373.01 | loss  5.57 | ppl   263.61 | bpc    8.042
+log_interval: 200
+2616/11617
+| epoch   5 |    38/  165 batches | lr 30.00000 | ms/batch 557.14 | loss  5.63 | ppl   277.97 | bpc    8.119
+log_interval: 200
+2647/11617
+| epoch   5 |    39/  165 batches | lr 30.00000 | ms/batch 1421.30 | loss  5.58 | ppl   264.50 | bpc    8.047
+log_interval: 200
+2716/11617
+| epoch   5 |    40/  165 batches | lr 30.00000 | ms/batch 526.75 | loss  5.48 | ppl   239.98 | bpc    7.907
+log_interval: 200
+2746/11617
+| epoch   5 |    41/  165 batches | lr 30.00000 | ms/batch 1455.66 | loss  5.64 | ppl   281.13 | bpc    8.135
+log_interval: 200
+2816/11617
+| epoch   5 |    42/  165 batches | lr 30.00000 | ms/batch 1672.69 | loss  5.76 | ppl   316.26 | bpc    8.305
+log_interval: 200
+2894/11617
+| epoch   5 |    43/  165 batches | lr 30.00000 | ms/batch 1382.69 | loss  5.67 | ppl   289.46 | bpc    8.177
+log_interval: 200
+2961/11617
+| epoch   5 |    44/  165 batches | lr 30.00000 | ms/batch 679.57 | loss  5.72 | ppl   305.11 | bpc    8.253
+log_interval: 200
+2998/11617
+| epoch   5 |    45/  165 batches | lr 30.00000 | ms/batch 1778.66 | loss  5.60 | ppl   269.87 | bpc    8.076
+log_interval: 200
+3080/11617
+| epoch   5 |    46/  165 batches | lr 30.00000 | ms/batch 1397.86 | loss  5.58 | ppl   264.63 | bpc    8.048
+log_interval: 200
+3148/11617
+| epoch   5 |    47/  165 batches | lr 30.00000 | ms/batch 1537.87 | loss  5.64 | ppl   281.59 | bpc    8.137
+log_interval: 200
+3221/11617
+| epoch   5 |    48/  165 batches | lr 30.00000 | ms/batch 1522.26 | loss  5.62 | ppl   274.72 | bpc    8.102
+log_interval: 200
+3294/11617
+| epoch   5 |    49/  165 batches | lr 30.00000 | ms/batch 1479.78 | loss  5.56 | ppl   260.97 | bpc    8.028
+log_interval: 200
+3365/11617
+| epoch   5 |    50/  165 batches | lr 30.00000 | ms/batch 1353.82 | loss  5.68 | ppl   293.15 | bpc    8.195
+log_interval: 200
+3431/11617
+| epoch   5 |    51/  165 batches | lr 30.00000 | ms/batch 1425.02 | loss  5.63 | ppl   279.25 | bpc    8.125
+log_interval: 200
+3500/11617
+| epoch   5 |    52/  165 batches | lr 30.00000 | ms/batch 1533.78 | loss  5.76 | ppl   318.30 | bpc    8.314
+log_interval: 200
+3573/11617
+| epoch   5 |    53/  165 batches | lr 30.00000 | ms/batch 1425.50 | loss  5.68 | ppl   291.77 | bpc    8.189
+log_interval: 200
+3642/11617
+| epoch   5 |    54/  165 batches | lr 30.00000 | ms/batch 1292.01 | loss  5.59 | ppl   268.90 | bpc    8.071
+log_interval: 200
+3706/11617
+| epoch   5 |    55/  165 batches | lr 30.00000 | ms/batch 1294.93 | loss  5.73 | ppl   309.48 | bpc    8.274
+log_interval: 200
+3770/11617
+| epoch   5 |    56/  165 batches | lr 30.00000 | ms/batch 1225.43 | loss  5.63 | ppl   279.55 | bpc    8.127
+log_interval: 200
+3831/11617
+| epoch   5 |    57/  165 batches | lr 30.00000 | ms/batch 1551.14 | loss  5.72 | ppl   304.38 | bpc    8.250
+log_interval: 200
+3905/11617
+| epoch   5 |    58/  165 batches | lr 30.00000 | ms/batch 1319.32 | loss  5.57 | ppl   263.75 | bpc    8.043
+log_interval: 200
+3970/11617
+| epoch   5 |    59/  165 batches | lr 30.00000 | ms/batch 1238.50 | loss  5.65 | ppl   285.05 | bpc    8.155
+log_interval: 200
+4032/11617
+| epoch   5 |    60/  165 batches | lr 30.00000 | ms/batch 1500.44 | loss  5.63 | ppl   279.40 | bpc    8.126
+log_interval: 200
+4104/11617
+| epoch   5 |    61/  165 batches | lr 30.00000 | ms/batch 1554.16 | loss  5.71 | ppl   302.42 | bpc    8.240
+log_interval: 200
+4178/11617
+| epoch   5 |    62/  165 batches | lr 30.00000 | ms/batch 1490.98 | loss  5.70 | ppl   298.54 | bpc    8.222
+log_interval: 200
+4250/11617
+| epoch   5 |    63/  165 batches | lr 30.00000 | ms/batch 1517.63 | loss  5.81 | ppl   333.66 | bpc    8.382
+log_interval: 200
+4323/11617
+| epoch   5 |    64/  165 batches | lr 30.00000 | ms/batch 1267.62 | loss  5.74 | ppl   310.72 | bpc    8.279
+log_interval: 200
+4386/11617
+| epoch   5 |    65/  165 batches | lr 30.00000 | ms/batch 1504.89 | loss  5.67 | ppl   289.20 | bpc    8.176
+log_interval: 200
+4458/11617
+| epoch   5 |    66/  165 batches | lr 30.00000 | ms/batch 1580.99 | loss  5.65 | ppl   282.97 | bpc    8.145
+log_interval: 200
+4533/11617
+| epoch   5 |    67/  165 batches | lr 30.00000 | ms/batch 1721.87 | loss  5.70 | ppl   297.88 | bpc    8.219
+log_interval: 200
+4613/11617
+| epoch   5 |    68/  165 batches | lr 30.00000 | ms/batch 1294.24 | loss  5.83 | ppl   339.28 | bpc    8.406
+log_interval: 200
+4677/11617
+| epoch   5 |    69/  165 batches | lr 30.00000 | ms/batch 1534.50 | loss  5.72 | ppl   305.28 | bpc    8.254
+log_interval: 200
+4750/11617
+| epoch   5 |    70/  165 batches | lr 30.00000 | ms/batch 1660.48 | loss  5.74 | ppl   310.55 | bpc    8.279
+log_interval: 200
+4828/11617
+| epoch   5 |    71/  165 batches | lr 30.00000 | ms/batch 1812.79 | loss  5.85 | ppl   347.19 | bpc    8.440
+log_interval: 200
+4911/11617
+| epoch   5 |    72/  165 batches | lr 30.00000 | ms/batch 1317.83 | loss  5.75 | ppl   314.85 | bpc    8.299
+log_interval: 200
+4976/11617
+| epoch   5 |    73/  165 batches | lr 30.00000 | ms/batch 608.22 | loss  5.66 | ppl   287.86 | bpc    8.169
+log_interval: 200
+5010/11617
+| epoch   5 |    74/  165 batches | lr 30.00000 | ms/batch 1587.19 | loss  5.66 | ppl   286.94 | bpc    8.165
+log_interval: 200
+5085/11617
+| epoch   5 |    75/  165 batches | lr 30.00000 | ms/batch 1567.23 | loss  5.64 | ppl   282.55 | bpc    8.142
+log_interval: 200
+5159/11617
+| epoch   5 |    76/  165 batches | lr 30.00000 | ms/batch 1447.39 | loss  5.54 | ppl   255.35 | bpc    7.996
+log_interval: 200
+5229/11617
+| epoch   5 |    77/  165 batches | lr 30.00000 | ms/batch 1719.36 | loss  5.47 | ppl   236.59 | bpc    7.886
+log_interval: 200
+5309/11617
+| epoch   5 |    78/  165 batches | lr 30.00000 | ms/batch 1542.24 | loss  5.65 | ppl   285.69 | bpc    8.158
+log_interval: 200
+5382/11617
+| epoch   5 |    79/  165 batches | lr 30.00000 | ms/batch 1554.38 | loss  5.68 | ppl   293.90 | bpc    8.199
+log_interval: 200
+5456/11617
+| epoch   5 |    80/  165 batches | lr 30.00000 | ms/batch 1398.87 | loss  5.61 | ppl   272.36 | bpc    8.089
+log_interval: 200
+5524/11617
+| epoch   5 |    81/  165 batches | lr 30.00000 | ms/batch 1658.64 | loss  5.77 | ppl   319.14 | bpc    8.318
+log_interval: 200
+5602/11617
+| epoch   5 |    82/  165 batches | lr 30.00000 | ms/batch 1111.68 | loss  5.83 | ppl   341.34 | bpc    8.415
+log_interval: 200
+5659/11617
+| epoch   5 |    83/  165 batches | lr 30.00000 | ms/batch 1506.77 | loss  5.74 | ppl   311.70 | bpc    8.284
+log_interval: 200
+5731/11617
+| epoch   5 |    84/  165 batches | lr 30.00000 | ms/batch 1351.30 | loss  5.62 | ppl   277.14 | bpc    8.114
+log_interval: 200
+5797/11617
+| epoch   5 |    85/  165 batches | lr 30.00000 | ms/batch 1588.21 | loss  5.55 | ppl   256.65 | bpc    8.004
+log_interval: 200
+5872/11617
+| epoch   5 |    86/  165 batches | lr 30.00000 | ms/batch 1478.06 | loss  5.73 | ppl   309.15 | bpc    8.272
+log_interval: 200
+5943/11617
+| epoch   5 |    87/  165 batches | lr 30.00000 | ms/batch 1444.71 | loss  5.70 | ppl   298.01 | bpc    8.219
+log_interval: 200
+6013/11617
+| epoch   5 |    88/  165 batches | lr 30.00000 | ms/batch 1504.01 | loss  5.75 | ppl   313.45 | bpc    8.292
+log_interval: 200
+6085/11617
+| epoch   5 |    89/  165 batches | lr 30.00000 | ms/batch 1567.68 | loss  5.78 | ppl   323.18 | bpc    8.336
+log_interval: 200
+6159/11617
+| epoch   5 |    90/  165 batches | lr 30.00000 | ms/batch 1476.96 | loss  5.69 | ppl   296.39 | bpc    8.211
+log_interval: 200
+6230/11617
+| epoch   5 |    91/  165 batches | lr 30.00000 | ms/batch 1559.77 | loss  5.65 | ppl   282.99 | bpc    8.145
+log_interval: 200
+6304/11617
+| epoch   5 |    92/  165 batches | lr 30.00000 | ms/batch 1423.44 | loss  5.73 | ppl   309.00 | bpc    8.271
+log_interval: 200
+6373/11617
+| epoch   5 |    93/  165 batches | lr 30.00000 | ms/batch 1337.84 | loss  5.60 | ppl   270.41 | bpc    8.079
+log_interval: 200
+6439/11617
+| epoch   5 |    94/  165 batches | lr 30.00000 | ms/batch 1724.22 | loss  5.60 | ppl   269.16 | bpc    8.072
+log_interval: 200
+6519/11617
+| epoch   5 |    95/  165 batches | lr 30.00000 | ms/batch 1358.89 | loss  5.64 | ppl   281.51 | bpc    8.137
+log_interval: 200
+6585/11617
+| epoch   5 |    96/  165 batches | lr 30.00000 | ms/batch 1422.81 | loss  5.57 | ppl   263.32 | bpc    8.041
+log_interval: 200
+6654/11617
+| epoch   5 |    97/  165 batches | lr 30.00000 | ms/batch 1475.73 | loss  5.59 | ppl   268.09 | bpc    8.067
+log_interval: 200
+6725/11617
+| epoch   5 |    98/  165 batches | lr 30.00000 | ms/batch 1364.70 | loss  5.56 | ppl   260.92 | bpc    8.027
+log_interval: 200
+6792/11617
+| epoch   5 |    99/  165 batches | lr 30.00000 | ms/batch 1507.23 | loss  5.60 | ppl   270.97 | bpc    8.082
+log_interval: 200
+6864/11617
+| epoch   5 |   100/  165 batches | lr 30.00000 | ms/batch 499.22 | loss  5.59 | ppl   267.37 | bpc    8.063
+log_interval: 200
+6892/11617
+| epoch   5 |   101/  165 batches | lr 30.00000 | ms/batch 1285.67 | loss  5.62 | ppl   274.75 | bpc    8.102
+log_interval: 200
+6956/11617
+| epoch   5 |   102/  165 batches | lr 30.00000 | ms/batch 1394.17 | loss  5.61 | ppl   272.70 | bpc    8.091
+log_interval: 200
+7023/11617
+| epoch   5 |   103/  165 batches | lr 30.00000 | ms/batch 1284.06 | loss  5.65 | ppl   283.24 | bpc    8.146
+log_interval: 200
+7087/11617
+| epoch   5 |   104/  165 batches | lr 30.00000 | ms/batch 1475.77 | loss  5.55 | ppl   257.99 | bpc    8.011
+log_interval: 200
+7158/11617
+| epoch   5 |   105/  165 batches | lr 30.00000 | ms/batch 1504.03 | loss  5.63 | ppl   277.83 | bpc    8.118
+log_interval: 200
+7230/11617
+| epoch   5 |   106/  165 batches | lr 30.00000 | ms/batch 1326.72 | loss  5.65 | ppl   284.30 | bpc    8.151
+log_interval: 200
+7295/11617
+| epoch   5 |   107/  165 batches | lr 30.00000 | ms/batch 1711.04 | loss  5.61 | ppl   272.27 | bpc    8.089
+log_interval: 200
+7375/11617
+| epoch   5 |   108/  165 batches | lr 30.00000 | ms/batch 1622.00 | loss  5.64 | ppl   280.22 | bpc    8.130
+log_interval: 200
+7451/11617
+| epoch   5 |   109/  165 batches | lr 30.00000 | ms/batch 1370.98 | loss  5.62 | ppl   275.11 | bpc    8.104
+log_interval: 200
+7518/11617
+| epoch   5 |   110/  165 batches | lr 30.00000 | ms/batch 1508.34 | loss  5.47 | ppl   237.49 | bpc    7.892
+log_interval: 200
+7590/11617
+| epoch   5 |   111/  165 batches | lr 30.00000 | ms/batch 1371.12 | loss  5.61 | ppl   272.43 | bpc    8.090
+log_interval: 200
+7657/11617
+| epoch   5 |   112/  165 batches | lr 30.00000 | ms/batch 1377.36 | loss  5.61 | ppl   274.21 | bpc    8.099
+log_interval: 200
+7724/11617
+| epoch   5 |   113/  165 batches | lr 30.00000 | ms/batch 1212.08 | loss  5.69 | ppl   295.25 | bpc    8.206
+log_interval: 200
+7785/11617
+| epoch   5 |   114/  165 batches | lr 30.00000 | ms/batch 1409.86 | loss  5.60 | ppl   270.54 | bpc    8.080
+log_interval: 200
+7853/11617
+| epoch   5 |   115/  165 batches | lr 30.00000 | ms/batch 1356.54 | loss  5.58 | ppl   265.06 | bpc    8.050
+log_interval: 200
+7920/11617
+| epoch   5 |   116/  165 batches | lr 30.00000 | ms/batch 1670.87 | loss  5.57 | ppl   262.90 | bpc    8.038
+log_interval: 200
+7998/11617
+| epoch   5 |   117/  165 batches | lr 30.00000 | ms/batch 1396.59 | loss  5.61 | ppl   272.85 | bpc    8.092
+log_interval: 200
+8066/11617
+| epoch   5 |   118/  165 batches | lr 30.00000 | ms/batch 1268.81 | loss  5.57 | ppl   261.61 | bpc    8.031
+log_interval: 200
+8129/11617
+| epoch   5 |   119/  165 batches | lr 30.00000 | ms/batch 1516.43 | loss  5.48 | ppl   238.73 | bpc    7.899
+log_interval: 200
+8202/11617
+| epoch   5 |   120/  165 batches | lr 30.00000 | ms/batch 1315.71 | loss  5.56 | ppl   258.59 | bpc    8.015
+log_interval: 200
+8267/11617
+| epoch   5 |   121/  165 batches | lr 30.00000 | ms/batch 1441.23 | loss  5.66 | ppl   288.18 | bpc    8.171
+log_interval: 200
+8337/11617
+| epoch   5 |   122/  165 batches | lr 30.00000 | ms/batch 1456.11 | loss  5.58 | ppl   266.06 | bpc    8.056
+log_interval: 200
+8407/11617
+| epoch   5 |   123/  165 batches | lr 30.00000 | ms/batch 1396.77 | loss  5.53 | ppl   252.81 | bpc    7.982
+log_interval: 200
+8475/11617
+| epoch   5 |   124/  165 batches | lr 30.00000 | ms/batch 1424.28 | loss  5.64 | ppl   281.17 | bpc    8.135
+log_interval: 200
+8544/11617
+| epoch   5 |   125/  165 batches | lr 30.00000 | ms/batch 1618.65 | loss  5.69 | ppl   296.62 | bpc    8.212
+log_interval: 200
+8620/11617
+| epoch   5 |   126/  165 batches | lr 30.00000 | ms/batch 1292.28 | loss  5.68 | ppl   293.17 | bpc    8.196
+log_interval: 200
+8684/11617
+| epoch   5 |   127/  165 batches | lr 30.00000 | ms/batch 496.17 | loss  5.66 | ppl   285.87 | bpc    8.159
+log_interval: 200
+8712/11617
+| epoch   5 |   128/  165 batches | lr 30.00000 | ms/batch 1625.95 | loss  5.72 | ppl   304.34 | bpc    8.250
+log_interval: 200
+8788/11617
+| epoch   5 |   129/  165 batches | lr 30.00000 | ms/batch 1366.39 | loss  5.57 | ppl   261.49 | bpc    8.031
+log_interval: 200
+8855/11617
+| epoch   5 |   130/  165 batches | lr 30.00000 | ms/batch 1397.97 | loss  5.62 | ppl   276.01 | bpc    8.109
+log_interval: 200
+8923/11617
+| epoch   5 |   131/  165 batches | lr 30.00000 | ms/batch 1218.41 | loss  5.59 | ppl   267.71 | bpc    8.065
+log_interval: 200
+8984/11617
+| epoch   5 |   132/  165 batches | lr 30.00000 | ms/batch 1373.76 | loss  5.58 | ppl   264.66 | bpc    8.048
+log_interval: 200
+9051/11617
+| epoch   5 |   133/  165 batches | lr 30.00000 | ms/batch 1518.56 | loss  5.63 | ppl   278.53 | bpc    8.122
+log_interval: 200
+9123/11617
+| epoch   5 |   134/  165 batches | lr 30.00000 | ms/batch 1475.04 | loss  5.61 | ppl   271.91 | bpc    8.087
+log_interval: 200
+9194/11617
+| epoch   5 |   135/  165 batches | lr 30.00000 | ms/batch 1505.80 | loss  5.73 | ppl   308.49 | bpc    8.269
+log_interval: 200
+9266/11617
+| epoch   5 |   136/  165 batches | lr 30.00000 | ms/batch 1484.22 | loss  5.70 | ppl   297.84 | bpc    8.218
+log_interval: 200
+9337/11617
+| epoch   5 |   137/  165 batches | lr 30.00000 | ms/batch 1621.33 | loss  5.84 | ppl   344.10 | bpc    8.427
+log_interval: 200
+9413/11617
+| epoch   5 |   138/  165 batches | lr 30.00000 | ms/batch 1319.63 | loss  5.80 | ppl   328.86 | bpc    8.361
+log_interval: 200
+9478/11617
+| epoch   5 |   139/  165 batches | lr 30.00000 | ms/batch 1243.50 | loss  5.74 | ppl   311.88 | bpc    8.285
+log_interval: 200
+9540/11617
+| epoch   5 |   140/  165 batches | lr 30.00000 | ms/batch 1582.02 | loss  5.63 | ppl   277.57 | bpc    8.117
+log_interval: 200
+9615/11617
+| epoch   5 |   141/  165 batches | lr 30.00000 | ms/batch 1577.96 | loss  5.57 | ppl   263.55 | bpc    8.042
+log_interval: 200
+9690/11617
+| epoch   5 |   142/  165 batches | lr 30.00000 | ms/batch 1192.55 | loss  5.60 | ppl   269.24 | bpc    8.073
+log_interval: 200
+9750/11617
+| epoch   5 |   143/  165 batches | lr 30.00000 | ms/batch 1427.92 | loss  5.57 | ppl   261.19 | bpc    8.029
+log_interval: 200
+9819/11617
+| epoch   5 |   144/  165 batches | lr 30.00000 | ms/batch 1284.73 | loss  5.71 | ppl   301.75 | bpc    8.237
+log_interval: 200
+9883/11617
+| epoch   5 |   145/  165 batches | lr 30.00000 | ms/batch 1600.32 | loss  5.72 | ppl   304.87 | bpc    8.252
+log_interval: 200
+9958/11617
+| epoch   5 |   146/  165 batches | lr 30.00000 | ms/batch 1414.43 | loss  5.69 | ppl   294.89 | bpc    8.204
+log_interval: 200
+10027/11617
+| epoch   5 |   147/  165 batches | lr 30.00000 | ms/batch 1536.57 | loss  5.69 | ppl   296.21 | bpc    8.210
+log_interval: 200
+10100/11617
+| epoch   5 |   148/  165 batches | lr 30.00000 | ms/batch 1451.43 | loss  5.79 | ppl   325.40 | bpc    8.346
+log_interval: 200
+10170/11617
+| epoch   5 |   149/  165 batches | lr 30.00000 | ms/batch 677.84 | loss  5.81 | ppl   335.16 | bpc    8.389
+log_interval: 200
+10207/11617
+| epoch   5 |   150/  165 batches | lr 30.00000 | ms/batch 1390.78 | loss  5.67 | ppl   291.11 | bpc    8.185
+log_interval: 200
+10274/11617
+| epoch   5 |   151/  165 batches | lr 30.00000 | ms/batch 1247.96 | loss  5.66 | ppl   286.27 | bpc    8.161
+log_interval: 200
+10336/11617
+| epoch   5 |   152/  165 batches | lr 30.00000 | ms/batch 1347.37 | loss  5.72 | ppl   305.77 | bpc    8.256
+log_interval: 200
+10402/11617
+| epoch   5 |   153/  165 batches | lr 30.00000 | ms/batch 1528.65 | loss  5.71 | ppl   300.44 | bpc    8.231
+log_interval: 200
+10475/11617
+| epoch   5 |   154/  165 batches | lr 30.00000 | ms/batch 1607.36 | loss  5.68 | ppl   291.63 | bpc    8.188
+log_interval: 200
+10551/11617
+| epoch   5 |   155/  165 batches | lr 30.00000 | ms/batch 1400.89 | loss  5.64 | ppl   281.93 | bpc    8.139
+log_interval: 200
+10619/11617
+| epoch   5 |   156/  165 batches | lr 30.00000 | ms/batch 1609.07 | loss  5.68 | ppl   294.07 | bpc    8.200
+log_interval: 200
+10695/11617
+| epoch   5 |   157/  165 batches | lr 30.00000 | ms/batch 1647.21 | loss  5.57 | ppl   261.86 | bpc    8.033
+log_interval: 200
+10772/11617
+| epoch   5 |   158/  165 batches | lr 30.00000 | ms/batch 1546.71 | loss  5.53 | ppl   252.68 | bpc    7.981
+log_interval: 200
+10846/11617
+| epoch   5 |   159/  165 batches | lr 30.00000 | ms/batch 1223.87 | loss  5.49 | ppl   242.51 | bpc    7.922
+log_interval: 200
+10907/11617
+| epoch   5 |   160/  165 batches | lr 30.00000 | ms/batch 1444.05 | loss  5.55 | ppl   258.04 | bpc    8.011
+log_interval: 200
+10977/11617
+| epoch   5 |   161/  165 batches | lr 30.00000 | ms/batch 1278.80 | loss  5.57 | ppl   261.40 | bpc    8.030
+log_interval: 200
+11040/11617
+| epoch   5 |   162/  165 batches | lr 30.00000 | ms/batch 1585.95 | loss  5.72 | ppl   306.32 | bpc    8.259
+log_interval: 200
+11115/11617
+| epoch   5 |   163/  165 batches | lr 30.00000 | ms/batch 1405.71 | loss  5.55 | ppl   258.18 | bpc    8.012
+log_interval: 200
+11183/11617
+| epoch   5 |   164/  165 batches | lr 30.00000 | ms/batch 1318.95 | loss  5.49 | ppl   241.99 | bpc    7.919
+log_interval: 200
+11248/11617
+| epoch   5 |   165/  165 batches | lr 30.00000 | ms/batch 1559.41 | loss  5.51 | ppl   246.41 | bpc    7.945
+log_interval: 200
+11322/11617
+| epoch   5 |   166/  165 batches | lr 30.00000 | ms/batch 1430.20 | loss  5.46 | ppl   235.21 | bpc    7.878
+log_interval: 200
+11391/11617
+| epoch   5 |   167/  165 batches | lr 30.00000 | ms/batch 1534.93 | loss  5.64 | ppl   282.62 | bpc    8.143
+log_interval: 200
+11464/11617
+| epoch   5 |   168/  165 batches | lr 30.00000 | ms/batch 1475.84 | loss  5.67 | ppl   289.75 | bpc    8.179
+log_interval: 200
+11535/11617
+| epoch   5 |   169/  165 batches | lr 30.00000 | ms/batch 1508.96 | loss  5.59 | ppl   267.91 | bpc    8.066
+log_interval: 200
+11607/11617
+| epoch   5 |   170/  165 batches | lr 30.00000 | ms/batch 189.42 | loss  5.27 | ppl   193.54 | bpc    7.596
+log_interval: 200
+11678/11617
+-----------------------------------------------------------------------------------------| end of epoch   5 | time: 261.99s | valid loss  5.49 | valid ppl   242.89 | valid bpc    7.924-----------------------------------------------------------------------------------------PROGRESS: 0.0625%| epoch   6 |     0/  165 batches | lr 30.00000 | ms/batch 1246.62 | loss  5.70 | ppl   298.13 | bpc    8.220
+log_interval: 200
+63/11617
+| epoch   6 |     1/  165 batches | lr 30.00000 | ms/batch 694.66 | loss  5.57 | ppl   262.99 | bpc    8.039
+log_interval: 200
+101/11617
+| epoch   6 |     2/  165 batches | lr 30.00000 | ms/batch 1372.14 | loss  5.59 | ppl   266.66 | bpc    8.059
+log_interval: 200
+167/11617
+| epoch   6 |     3/  165 batches | lr 30.00000 | ms/batch 1239.94 | loss  5.69 | ppl   295.08 | bpc    8.205
+log_interval: 200
+229/11617
+| epoch   6 |     4/  165 batches | lr 30.00000 | ms/batch 1541.83 | loss  5.63 | ppl   279.42 | bpc    8.126
+log_interval: 200
+302/11617
+| epoch   6 |     5/  165 batches | lr 30.00000 | ms/batch 1289.71 | loss  5.64 | ppl   281.05 | bpc    8.135
+log_interval: 200
+366/11617
+| epoch   6 |     6/  165 batches | lr 30.00000 | ms/batch 1531.16 | loss  5.62 | ppl   274.97 | bpc    8.103
+log_interval: 200
+439/11617
+| epoch   6 |     7/  165 batches | lr 30.00000 | ms/batch 1399.29 | loss  5.56 | ppl   259.71 | bpc    8.021
+log_interval: 200
+507/11617
+| epoch   6 |     8/  165 batches | lr 30.00000 | ms/batch 1446.15 | loss  5.75 | ppl   315.20 | bpc    8.300
+log_interval: 200
+577/11617
+| epoch   6 |     9/  165 batches | lr 30.00000 | ms/batch 1606.40 | loss  5.78 | ppl   325.03 | bpc    8.344
+log_interval: 200
+653/11617
+| epoch   6 |    10/  165 batches | lr 30.00000 | ms/batch 1404.53 | loss  5.78 | ppl   323.82 | bpc    8.339
+log_interval: 200
+721/11617
+| epoch   6 |    11/  165 batches | lr 30.00000 | ms/batch 1533.97 | loss  5.75 | ppl   314.65 | bpc    8.298
+log_interval: 200
+794/11617
+| epoch   6 |    12/  165 batches | lr 30.00000 | ms/batch 1352.83 | loss  5.62 | ppl   275.41 | bpc    8.105
+log_interval: 200
+860/11617
+| epoch   6 |    13/  165 batches | lr 30.00000 | ms/batch 1388.78 | loss  5.52 | ppl   249.90 | bpc    7.965
+log_interval: 200
+928/11617
+| epoch   6 |    14/  165 batches | lr 30.00000 | ms/batch 1625.84 | loss  5.64 | ppl   281.16 | bpc    8.135
+log_interval: 200
+1004/11617
+| epoch   6 |    15/  165 batches | lr 30.00000 | ms/batch 1266.23 | loss  5.52 | ppl   250.69 | bpc    7.970
+log_interval: 200
+1067/11617
+| epoch   6 |    16/  165 batches | lr 30.00000 | ms/batch 1420.96 | loss  5.52 | ppl   248.98 | bpc    7.960
+log_interval: 200
+1136/11617
+| epoch   6 |    17/  165 batches | lr 30.00000 | ms/batch 1420.58 | loss  5.60 | ppl   269.49 | bpc    8.074
+log_interval: 200
+1205/11617
+| epoch   6 |    18/  165 batches | lr 30.00000 | ms/batch 1389.96 | loss  5.53 | ppl   251.16 | bpc    7.972
+log_interval: 200
+1273/11617
+| epoch   6 |    19/  165 batches | lr 30.00000 | ms/batch 1418.74 | loss  5.60 | ppl   269.55 | bpc    8.074
+log_interval: 200
+1342/11617
+| epoch   6 |    20/  165 batches | lr 30.00000 | ms/batch 1444.78 | loss  5.63 | ppl   279.67 | bpc    8.128
+log_interval: 200
+1412/11617
+| epoch   6 |    21/  165 batches | lr 30.00000 | ms/batch 1453.17 | loss  5.49 | ppl   242.03 | bpc    7.919
+log_interval: 200
+1482/11617
+| epoch   6 |    22/  165 batches | lr 30.00000 | ms/batch 1549.32 | loss  5.64 | ppl   282.63 | bpc    8.143
+log_interval: 200
+1556/11617
+| epoch   6 |    23/  165 batches | lr 30.00000 | ms/batch 1473.91 | loss  5.57 | ppl   261.20 | bpc    8.029
+log_interval: 200
+1627/11617
+| epoch   6 |    24/  165 batches | lr 30.00000 | ms/batch 1505.11 | loss  5.43 | ppl   227.96 | bpc    7.833
+log_interval: 200
+1699/11617
+| epoch   6 |    25/  165 batches | lr 30.00000 | ms/batch 1273.80 | loss  5.45 | ppl   231.68 | bpc    7.856
+log_interval: 200
+1762/11617
+| epoch   6 |    26/  165 batches | lr 30.00000 | ms/batch 1620.84 | loss  5.45 | ppl   232.06 | bpc    7.858
+log_interval: 200
+1838/11617
+| epoch   6 |    27/  165 batches | lr 30.00000 | ms/batch 1507.88 | loss  5.64 | ppl   281.12 | bpc    8.135
+log_interval: 200
+1910/11617
+| epoch   6 |    28/  165 batches | lr 30.00000 | ms/batch 1638.73 | loss  5.64 | ppl   281.95 | bpc    8.139
+log_interval: 200
+1987/11617
+| epoch   6 |    29/  165 batches | lr 30.00000 | ms/batch 1298.82 | loss  5.63 | ppl   278.92 | bpc    8.124
+log_interval: 200
+2051/11617
+| epoch   6 |    30/  165 batches | lr 30.00000 | ms/batch 1142.71 | loss  5.63 | ppl   277.37 | bpc    8.116
+log_interval: 200
+2109/11617
+| epoch   6 |    31/  165 batches | lr 30.00000 | ms/batch 1593.54 | loss  5.65 | ppl   283.95 | bpc    8.149
+log_interval: 200
+2184/11617
+| epoch   6 |    32/  165 batches | lr 30.00000 | ms/batch 1445.66 | loss  5.63 | ppl   278.82 | bpc    8.123
+log_interval: 200
+2254/11617
+| epoch   6 |    33/  165 batches | lr 30.00000 | ms/batch 1429.08 | loss  5.49 | ppl   241.08 | bpc    7.913
+log_interval: 200
+2323/11617
+| epoch   6 |    34/  165 batches | lr 30.00000 | ms/batch 1482.26 | loss  5.44 | ppl   231.14 | bpc    7.853
+log_interval: 200
+2394/11617
+| epoch   6 |    35/  165 batches | lr 30.00000 | ms/batch 1510.33 | loss  5.45 | ppl   232.16 | bpc    7.859
+log_interval: 200
+2466/11617
+| epoch   6 |    36/  165 batches | lr 30.00000 | ms/batch 1155.42 | loss  5.54 | ppl   255.79 | bpc    7.999
+log_interval: 200
+2525/11617
+| epoch   6 |    37/  165 batches | lr 30.00000 | ms/batch 1416.15 | loss  5.43 | ppl   228.48 | bpc    7.836
+log_interval: 200
+2594/11617
+| epoch   6 |    38/  165 batches | lr 30.00000 | ms/batch 1400.12 | loss  5.41 | ppl   223.20 | bpc    7.802
+log_interval: 200
+2662/11617
+| epoch   6 |    39/  165 batches | lr 30.00000 | ms/batch 1497.60 | loss  5.30 | ppl   200.90 | bpc    7.650
+log_interval: 200
+2734/11617
+| epoch   6 |    40/  165 batches | lr 30.00000 | ms/batch 1476.18 | loss  5.57 | ppl   262.56 | bpc    8.037
+log_interval: 200
+2805/11617
+| epoch   6 |    41/  165 batches | lr 30.00000 | ms/batch 1485.89 | loss  5.57 | ppl   263.57 | bpc    8.042
+log_interval: 200
+2876/11617
+| epoch   6 |    42/  165 batches | lr 30.00000 | ms/batch 1396.80 | loss  5.51 | ppl   247.06 | bpc    7.949
+log_interval: 200
+2944/11617
+| epoch   6 |    43/  165 batches | lr 30.00000 | ms/batch 1347.57 | loss  5.66 | ppl   287.32 | bpc    8.167
+log_interval: 200
+3010/11617
+| epoch   6 |    44/  165 batches | lr 30.00000 | ms/batch 1175.61 | loss  5.48 | ppl   239.63 | bpc    7.905
+log_interval: 200
+3069/11617
+| epoch   6 |    45/  165 batches | lr 30.00000 | ms/batch 1670.72 | loss  5.45 | ppl   232.79 | bpc    7.863
+log_interval: 200
+3147/11617
+| epoch   6 |    46/  165 batches | lr 30.00000 | ms/batch 1372.07 | loss  5.59 | ppl   266.89 | bpc    8.060
+log_interval: 200
+3214/11617
+| epoch   6 |    47/  165 batches | lr 30.00000 | ms/batch 1525.82 | loss  5.53 | ppl   253.12 | bpc    7.984
+log_interval: 200
+3287/11617
+| epoch   6 |    48/  165 batches | lr 30.00000 | ms/batch 1788.20 | loss  5.42 | ppl   226.61 | bpc    7.824
+log_interval: 200
+3369/11617
+| epoch   6 |    49/  165 batches | lr 30.00000 | ms/batch 1587.61 | loss  5.56 | ppl   260.54 | bpc    8.025
+log_interval: 200
+3444/11617
+| epoch   6 |    50/  165 batches | lr 30.00000 | ms/batch 1291.73 | loss  5.69 | ppl   294.62 | bpc    8.203
+log_interval: 200
+3508/11617
+| epoch   6 |    51/  165 batches | lr 30.00000 | ms/batch 1392.39 | loss  5.83 | ppl   342.04 | bpc    8.418
+log_interval: 200
+3575/11617
+| epoch   6 |    52/  165 batches | lr 30.00000 | ms/batch 1313.98 | loss  5.46 | ppl   235.07 | bpc    7.877
+log_interval: 200
+3640/11617
+| epoch   6 |    53/  165 batches | lr 30.00000 | ms/batch 1284.38 | loss  5.47 | ppl   237.18 | bpc    7.890
+log_interval: 200
+3704/11617
+| epoch   6 |    54/  165 batches | lr 30.00000 | ms/batch 1322.08 | loss  5.55 | ppl   257.10 | bpc    8.006
+log_interval: 200
+3769/11617
+| epoch   6 |    55/  165 batches | lr 30.00000 | ms/batch 1563.13 | loss  5.48 | ppl   239.54 | bpc    7.904
+log_interval: 200
+3843/11617
+| epoch   6 |    56/  165 batches | lr 30.00000 | ms/batch 1346.68 | loss  5.55 | ppl   257.84 | bpc    8.010
+log_interval: 200
+3909/11617
+| epoch   6 |    57/  165 batches | lr 30.00000 | ms/batch 1538.73 | loss  5.50 | ppl   244.98 | bpc    7.937
+log_interval: 200
+3982/11617
+| epoch   6 |    58/  165 batches | lr 30.00000 | ms/batch 1451.38 | loss  5.40 | ppl   221.32 | bpc    7.790
+log_interval: 200
+4052/11617
+| epoch   6 |    59/  165 batches | lr 30.00000 | ms/batch 1596.45 | loss  5.55 | ppl   257.60 | bpc    8.009
+log_interval: 200
+4127/11617
+| epoch   6 |    60/  165 batches | lr 30.00000 | ms/batch 1633.91 | loss  5.49 | ppl   242.02 | bpc    7.919
+log_interval: 200
+4204/11617
+| epoch   6 |    61/  165 batches | lr 30.00000 | ms/batch 1218.06 | loss  5.53 | ppl   251.44 | bpc    7.974
+log_interval: 200
+4265/11617
+| epoch   6 |    62/  165 batches | lr 30.00000 | ms/batch 1266.58 | loss  5.49 | ppl   242.39 | bpc    7.921
+log_interval: 200
+4328/11617
+| epoch   6 |    63/  165 batches | lr 30.00000 | ms/batch 1594.78 | loss  5.58 | ppl   263.91 | bpc    8.044
+log_interval: 200
+4403/11617
+| epoch   6 |    64/  165 batches | lr 30.00000 | ms/batch 616.70 | loss  5.46 | ppl   235.97 | bpc    7.882
+log_interval: 200
+4437/11617
+| epoch   6 |    65/  165 batches | lr 30.00000 | ms/batch 1339.27 | loss  5.61 | ppl   272.62 | bpc    8.091
+log_interval: 200
+4503/11617
+| epoch   6 |    66/  165 batches | lr 30.00000 | ms/batch 1370.00 | loss  5.62 | ppl   274.99 | bpc    8.103
+log_interval: 200
+4570/11617
+| epoch   6 |    67/  165 batches | lr 30.00000 | ms/batch 1446.54 | loss  5.58 | ppl   265.58 | bpc    8.053
+log_interval: 200
+4640/11617
+| epoch   6 |    68/  165 batches | lr 30.00000 | ms/batch 1465.10 | loss  5.58 | ppl   265.11 | bpc    8.050
+log_interval: 200
+4710/11617
+| epoch   6 |    69/  165 batches | lr 30.00000 | ms/batch 1321.82 | loss  5.50 | ppl   244.19 | bpc    7.932
+log_interval: 200
+4775/11617
+| epoch   6 |    70/  165 batches | lr 30.00000 | ms/batch 1467.92 | loss  5.57 | ppl   261.74 | bpc    8.032
+log_interval: 200
+4846/11617
+| epoch   6 |    71/  165 batches | lr 30.00000 | ms/batch 1425.69 | loss  5.63 | ppl   277.49 | bpc    8.116
+log_interval: 200
+4915/11617
+| epoch   6 |    72/  165 batches | lr 30.00000 | ms/batch 614.66 | loss  5.73 | ppl   308.68 | bpc    8.270
+log_interval: 200
+4949/11617
+| epoch   6 |    73/  165 batches | lr 30.00000 | ms/batch 1388.09 | loss  5.50 | ppl   243.48 | bpc    7.928
+log_interval: 200
+5017/11617
+| epoch   6 |    74/  165 batches | lr 30.00000 | ms/batch 1458.00 | loss  5.47 | ppl   237.10 | bpc    7.889
+log_interval: 200
+5087/11617
+| epoch   6 |    75/  165 batches | lr 30.00000 | ms/batch 1422.83 | loss  5.51 | ppl   245.97 | bpc    7.942
+log_interval: 200
+5156/11617
+| epoch   6 |    76/  165 batches | lr 30.00000 | ms/batch 1493.02 | loss  5.59 | ppl   266.42 | bpc    8.058
+log_interval: 200
+5227/11617
+| epoch   6 |    77/  165 batches | lr 30.00000 | ms/batch 1637.78 | loss  5.43 | ppl   228.36 | bpc    7.835
+log_interval: 200
+5304/11617
+| epoch   6 |    78/  165 batches | lr 30.00000 | ms/batch 1351.25 | loss  5.46 | ppl   236.17 | bpc    7.884
+log_interval: 200
+5370/11617
+| epoch   6 |    79/  165 batches | lr 30.00000 | ms/batch 1331.47 | loss  5.48 | ppl   238.89 | bpc    7.900
+log_interval: 200
+5436/11617
+| epoch   6 |    80/  165 batches | lr 30.00000 | ms/batch 1475.37 | loss  5.40 | ppl   222.01 | bpc    7.795
+log_interval: 200
+5507/11617
+| epoch   6 |    81/  165 batches | lr 30.00000 | ms/batch 1342.58 | loss  5.55 | ppl   258.50 | bpc    8.014
+log_interval: 200
+5573/11617
+| epoch   6 |    82/  165 batches | lr 30.00000 | ms/batch 1401.70 | loss  5.68 | ppl   291.62 | bpc    8.188
+log_interval: 200
+5641/11617
+| epoch   6 |    83/  165 batches | lr 30.00000 | ms/batch 1560.30 | loss  5.61 | ppl   272.50 | bpc    8.090
+log_interval: 200
+5715/11617
+| epoch   6 |    84/  165 batches | lr 30.00000 | ms/batch 1601.61 | loss  5.54 | ppl   255.46 | bpc    7.997
+log_interval: 200
+5790/11617
+| epoch   6 |    85/  165 batches | lr 30.00000 | ms/batch 1391.13 | loss  5.45 | ppl   233.34 | bpc    7.866
+log_interval: 200
+5858/11617
+| epoch   6 |    86/  165 batches | lr 30.00000 | ms/batch 1419.91 | loss  5.60 | ppl   269.61 | bpc    8.075
+log_interval: 200
+5927/11617
+| epoch   6 |    87/  165 batches | lr 30.00000 | ms/batch 1518.64 | loss  5.58 | ppl   266.25 | bpc    8.057
+log_interval: 200
+6000/11617
+| epoch   6 |    88/  165 batches | lr 30.00000 | ms/batch 1498.73 | loss  5.52 | ppl   249.64 | bpc    7.964
+log_interval: 200
+6072/11617
+| epoch   6 |    89/  165 batches | lr 30.00000 | ms/batch 1422.18 | loss  5.60 | ppl   270.04 | bpc    8.077
+log_interval: 200
+6141/11617
+| epoch   6 |    90/  165 batches | lr 30.00000 | ms/batch 454.21 | loss  5.65 | ppl   283.27 | bpc    8.146
+log_interval: 200
+6167/11617
+| epoch   6 |    91/  165 batches | lr 30.00000 | ms/batch 1399.14 | loss  5.53 | ppl   251.60 | bpc    7.975
+log_interval: 200
+6235/11617
+| epoch   6 |    92/  165 batches | lr 30.00000 | ms/batch 1329.62 | loss  5.57 | ppl   262.16 | bpc    8.034
+log_interval: 200
+6300/11617
+| epoch   6 |    93/  165 batches | lr 30.00000 | ms/batch 1390.95 | loss  5.56 | ppl   260.88 | bpc    8.027
+log_interval: 200
+6368/11617
+| epoch   6 |    94/  165 batches | lr 30.00000 | ms/batch 1666.47 | loss  5.44 | ppl   231.13 | bpc    7.853
+log_interval: 200
+6446/11617
+| epoch   6 |    95/  165 batches | lr 30.00000 | ms/batch 1515.03 | loss  5.61 | ppl   274.26 | bpc    8.099
+log_interval: 200
+6518/11617
+| epoch   6 |    96/  165 batches | lr 30.00000 | ms/batch 1513.92 | loss  5.42 | ppl   225.37 | bpc    7.816
+log_interval: 200
+6590/11617
+| epoch   6 |    97/  165 batches | lr 30.00000 | ms/batch 1352.08 | loss  5.45 | ppl   233.71 | bpc    7.869
+log_interval: 200
+6656/11617
+| epoch   6 |    98/  165 batches | lr 30.00000 | ms/batch 1279.73 | loss  5.57 | ppl   262.86 | bpc    8.038
+log_interval: 200
+6719/11617
+| epoch   6 |    99/  165 batches | lr 30.00000 | ms/batch 755.69 | loss  5.51 | ppl   247.92 | bpc    7.954
+log_interval: 200
+6760/11617
+| epoch   6 |   100/  165 batches | lr 30.00000 | ms/batch 1392.68 | loss  5.47 | ppl   238.16 | bpc    7.896
+log_interval: 200
+6828/11617
+| epoch   6 |   101/  165 batches | lr 30.00000 | ms/batch 1246.31 | loss  5.49 | ppl   241.31 | bpc    7.915
+log_interval: 200
+6890/11617
+| epoch   6 |   102/  165 batches | lr 30.00000 | ms/batch 1639.22 | loss  5.50 | ppl   244.30 | bpc    7.932
+log_interval: 200
+6967/11617
+| epoch   6 |   103/  165 batches | lr 30.00000 | ms/batch 1475.10 | loss  5.48 | ppl   240.25 | bpc    7.908
+log_interval: 200
+7038/11617
+| epoch   6 |   104/  165 batches | lr 30.00000 | ms/batch 1361.29 | loss  5.61 | ppl   272.73 | bpc    8.091
+log_interval: 200
+7105/11617
+| epoch   6 |   105/  165 batches | lr 30.00000 | ms/batch 1475.49 | loss  5.61 | ppl   274.10 | bpc    8.099
+log_interval: 200
+7176/11617
+| epoch   6 |   106/  165 batches | lr 30.00000 | ms/batch 1394.24 | loss  5.51 | ppl   246.33 | bpc    7.944
+log_interval: 200
+7244/11617
+| epoch   6 |   107/  165 batches | lr 30.00000 | ms/batch 1243.73 | loss  5.47 | ppl   238.46 | bpc    7.898
+log_interval: 200
+7306/11617
+| epoch   6 |   108/  165 batches | lr 30.00000 | ms/batch 1583.96 | loss  5.44 | ppl   230.43 | bpc    7.848
+log_interval: 200
+7381/11617
+| epoch   6 |   109/  165 batches | lr 30.00000 | ms/batch 1290.78 | loss  5.48 | ppl   239.38 | bpc    7.903
+log_interval: 200
+7445/11617
+| epoch   6 |   110/  165 batches | lr 30.00000 | ms/batch 1503.70 | loss  5.40 | ppl   220.54 | bpc    7.785
+log_interval: 200
+7517/11617
+| epoch   6 |   111/  165 batches | lr 30.00000 | ms/batch 621.27 | loss  5.47 | ppl   236.90 | bpc    7.888
+log_interval: 200
+7552/11617
+| epoch   6 |   112/  165 batches | lr 30.00000 | ms/batch 1333.31 | loss  5.27 | ppl   193.75 | bpc    7.598
+log_interval: 200
+7617/11617
+| epoch   6 |   113/  165 batches | lr 30.00000 | ms/batch 1500.05 | loss  5.35 | ppl   211.17 | bpc    7.722
+log_interval: 200
+7689/11617
+| epoch   6 |   114/  165 batches | lr 30.00000 | ms/batch 1364.80 | loss  5.48 | ppl   239.09 | bpc    7.901
+log_interval: 200
+7756/11617
+| epoch   6 |   115/  165 batches | lr 30.00000 | ms/batch 1392.21 | loss  5.51 | ppl   246.51 | bpc    7.945
+log_interval: 200
+7823/11617
+| epoch   6 |   116/  165 batches | lr 30.00000 | ms/batch 1606.63 | loss  5.47 | ppl   237.91 | bpc    7.894
+log_interval: 200
+7899/11617
+| epoch   6 |   117/  165 batches | lr 30.00000 | ms/batch 1588.56 | loss  5.65 | ppl   283.54 | bpc    8.147
+log_interval: 200
+7974/11617
+| epoch   6 |   118/  165 batches | lr 30.00000 | ms/batch 1473.28 | loss  5.73 | ppl   308.29 | bpc    8.268
+log_interval: 200
+8045/11617
+| epoch   6 |   119/  165 batches | lr 30.00000 | ms/batch 1454.45 | loss  5.67 | ppl   290.96 | bpc    8.185
+log_interval: 200
+8115/11617
+| epoch   6 |   120/  165 batches | lr 30.00000 | ms/batch 1411.56 | loss  5.35 | ppl   209.64 | bpc    7.712
+log_interval: 200
+8183/11617
+| epoch   6 |   121/  165 batches | lr 30.00000 | ms/batch 1480.92 | loss  5.59 | ppl   268.13 | bpc    8.067
+log_interval: 200
+8254/11617
+| epoch   6 |   122/  165 batches | lr 30.00000 | ms/batch 1434.16 | loss  5.46 | ppl   235.54 | bpc    7.880
+log_interval: 200
+8323/11617
+| epoch   6 |   123/  165 batches | lr 30.00000 | ms/batch 1422.54 | loss  5.40 | ppl   221.58 | bpc    7.792
+log_interval: 200
+8392/11617
+| epoch   6 |   124/  165 batches | lr 30.00000 | ms/batch 1266.99 | loss  5.36 | ppl   212.00 | bpc    7.728
+log_interval: 200
+8455/11617
+| epoch   6 |   125/  165 batches | lr 30.00000 | ms/batch 1293.08 | loss  5.50 | ppl   244.63 | bpc    7.934
+log_interval: 200
+8519/11617
+| epoch   6 |   126/  165 batches | lr 30.00000 | ms/batch 460.59 | loss  5.47 | ppl   238.19 | bpc    7.896
+log_interval: 200
+8545/11617
+| epoch   6 |   127/  165 batches | lr 30.00000 | ms/batch 1668.85 | loss  5.51 | ppl   246.27 | bpc    7.944
+log_interval: 200
+8623/11617
+| epoch   6 |   128/  165 batches | lr 30.00000 | ms/batch 1588.10 | loss  5.41 | ppl   223.02 | bpc    7.801
+log_interval: 200
+8698/11617
+| epoch   6 |   129/  165 batches | lr 30.00000 | ms/batch 1714.59 | loss  5.62 | ppl   276.70 | bpc    8.112
+log_interval: 200
+8778/11617
+| epoch   6 |   130/  165 batches | lr 30.00000 | ms/batch 1567.06 | loss  5.46 | ppl   235.12 | bpc    7.877
+log_interval: 200
+8852/11617
+| epoch   6 |   131/  165 batches | lr 30.00000 | ms/batch 1395.40 | loss  5.49 | ppl   241.72 | bpc    7.917
+log_interval: 200
+8920/11617
+| epoch   6 |   132/  165 batches | lr 30.00000 | ms/batch 1424.19 | loss  5.50 | ppl   245.03 | bpc    7.937
+log_interval: 200
+8989/11617
+| epoch   6 |   133/  165 batches | lr 30.00000 | ms/batch 1061.38 | loss  5.51 | ppl   246.98 | bpc    7.948
+log_interval: 200
+9044/11617
+| epoch   6 |   134/  165 batches | lr 30.00000 | ms/batch 1423.78 | loss  5.50 | ppl   244.35 | bpc    7.933
+log_interval: 200
+9113/11617
+| epoch   6 |   135/  165 batches | lr 30.00000 | ms/batch 662.46 | loss  5.54 | ppl   254.91 | bpc    7.994
+log_interval: 200
+9150/11617
+| epoch   6 |   136/  165 batches | lr 30.00000 | ms/batch 474.97 | loss  5.38 | ppl   216.49 | bpc    7.758
+log_interval: 200
+9177/11617
+| epoch   6 |   137/  165 batches | lr 30.00000 | ms/batch 1391.29 | loss  5.63 | ppl   277.63 | bpc    8.117
+log_interval: 200
+9245/11617
+| epoch   6 |   138/  165 batches | lr 30.00000 | ms/batch 1698.65 | loss  5.55 | ppl   258.51 | bpc    8.014
+log_interval: 200
+9324/11617
+| epoch   6 |   139/  165 batches | lr 30.00000 | ms/batch 1415.39 | loss  5.61 | ppl   273.12 | bpc    8.093
+log_interval: 200
+9392/11617
+| epoch   6 |   140/  165 batches | lr 30.00000 | ms/batch 1398.65 | loss  5.58 | ppl   264.35 | bpc    8.046
+log_interval: 200
+9460/11617
+| epoch   6 |   141/  165 batches | lr 30.00000 | ms/batch 1503.10 | loss  5.63 | ppl   279.72 | bpc    8.128
+log_interval: 200
+9532/11617
+| epoch   6 |   142/  165 batches | lr 30.00000 | ms/batch 1590.37 | loss  5.64 | ppl   282.69 | bpc    8.143
+log_interval: 200
+9607/11617
+| epoch   6 |   143/  165 batches | lr 30.00000 | ms/batch 1459.19 | loss  5.52 | ppl   248.70 | bpc    7.958
+log_interval: 200
+9677/11617
+| epoch   6 |   144/  165 batches | lr 30.00000 | ms/batch 1385.95 | loss  5.63 | ppl   278.55 | bpc    8.122
+log_interval: 200
+9745/11617
+| epoch   6 |   145/  165 batches | lr 30.00000 | ms/batch 1665.00 | loss  5.50 | ppl   245.05 | bpc    7.937
+log_interval: 200
+9823/11617
+| epoch   6 |   146/  165 batches | lr 30.00000 | ms/batch 1312.52 | loss  5.54 | ppl   255.56 | bpc    7.997
+log_interval: 200
+9888/11617
+| epoch   6 |   147/  165 batches | lr 30.00000 | ms/batch 1435.14 | loss  5.57 | ppl   263.64 | bpc    8.042
+log_interval: 200
+9957/11617
+| epoch   6 |   148/  165 batches | lr 30.00000 | ms/batch 1584.29 | loss  5.63 | ppl   279.73 | bpc    8.128
+log_interval: 200
+10032/11617
+| epoch   6 |   149/  165 batches | lr 30.00000 | ms/batch 1516.21 | loss  5.56 | ppl   260.60 | bpc    8.026
+log_interval: 200
+10104/11617
+| epoch   6 |   150/  165 batches | lr 30.00000 | ms/batch 1411.31 | loss  5.52 | ppl   248.45 | bpc    7.957
+log_interval: 200
+10172/11617
+| epoch   6 |   151/  165 batches | lr 30.00000 | ms/batch 1581.21 | loss  5.63 | ppl   278.83 | bpc    8.123
+log_interval: 200
+10247/11617
+| epoch   6 |   152/  165 batches | lr 30.00000 | ms/batch 1471.64 | loss  5.57 | ppl   263.39 | bpc    8.041
+log_interval: 200
+10318/11617
+| epoch   6 |   153/  165 batches | lr 30.00000 | ms/batch 1425.70 | loss  5.60 | ppl   269.68 | bpc    8.075
+log_interval: 200
+10387/11617
+| epoch   6 |   154/  165 batches | lr 30.00000 | ms/batch 1313.13 | loss  5.53 | ppl   252.95 | bpc    7.983
+log_interval: 200
+10452/11617
+| epoch   6 |   155/  165 batches | lr 30.00000 | ms/batch 1244.73 | loss  5.57 | ppl   262.72 | bpc    8.037
+log_interval: 200
+10514/11617
+| epoch   6 |   156/  165 batches | lr 30.00000 | ms/batch 1431.34 | loss  5.46 | ppl   234.55 | bpc    7.874
+log_interval: 200
+10583/11617
+| epoch   6 |   157/  165 batches | lr 30.00000 | ms/batch 1317.30 | loss  5.55 | ppl   256.13 | bpc    8.001
+log_interval: 200
+10648/11617
+| epoch   6 |   158/  165 batches | lr 30.00000 | ms/batch 1388.26 | loss  5.50 | ppl   245.44 | bpc    7.939
+log_interval: 200
+10716/11617
+| epoch   6 |   159/  165 batches | lr 30.00000 | ms/batch 1368.17 | loss  5.46 | ppl   236.04 | bpc    7.883
+log_interval: 200
+10783/11617
+| epoch   6 |   160/  165 batches | lr 30.00000 | ms/batch 1514.08 | loss  5.50 | ppl   244.13 | bpc    7.932
+log_interval: 200
+10855/11617
+| epoch   6 |   161/  165 batches | lr 30.00000 | ms/batch 1244.76 | loss  5.50 | ppl   245.32 | bpc    7.939
+log_interval: 200
+10917/11617
+| epoch   6 |   162/  165 batches | lr 30.00000 | ms/batch 1458.37 | loss  5.48 | ppl   240.68 | bpc    7.911
+log_interval: 200
+10987/11617
+| epoch   6 |   163/  165 batches | lr 30.00000 | ms/batch 1281.88 | loss  5.53 | ppl   251.40 | bpc    7.974
+log_interval: 200
+11051/11617
+| epoch   6 |   164/  165 batches | lr 30.00000 | ms/batch 1512.74 | loss  5.42 | ppl   226.09 | bpc    7.821
+log_interval: 200
+11123/11617
+| epoch   6 |   165/  165 batches | lr 30.00000 | ms/batch 1586.82 | loss  5.32 | ppl   204.46 | bpc    7.676
+log_interval: 200
+11198/11617
+| epoch   6 |   166/  165 batches | lr 30.00000 | ms/batch 1528.75 | loss  5.42 | ppl   224.87 | bpc    7.813
+log_interval: 200
+11271/11617
+| epoch   6 |   167/  165 batches | lr 30.00000 | ms/batch 1285.52 | loss  5.51 | ppl   247.00 | bpc    7.948
+log_interval: 200
+11335/11617
+| epoch   6 |   168/  165 batches | lr 30.00000 | ms/batch 1337.09 | loss  5.34 | ppl   209.00 | bpc    7.707
+log_interval: 200
+11401/11617
+| epoch   6 |   169/  165 batches | lr 30.00000 | ms/batch 1632.83 | loss  5.47 | ppl   238.12 | bpc    7.896
+log_interval: 200
+11478/11617
+| epoch   6 |   170/  165 batches | lr 30.00000 | ms/batch 566.33 | loss  5.52 | ppl   248.41 | bpc    7.957
+log_interval: 200
+11510/11617
+| epoch   6 |   171/  165 batches | lr 30.00000 | ms/batch 1686.66 | loss  5.37 | ppl   215.72 | bpc    7.753
+log_interval: 200
+11589/11617
+| epoch   6 |   172/  165 batches | lr 30.00000 | ms/batch 515.08 | loss  5.32 | ppl   205.14 | bpc    7.680
+log_interval: 200
+11666/11617
+-----------------------------------------------------------------------------------------| end of epoch   6 | time: 261.24s | valid loss  5.32 | valid ppl   204.53 | valid bpc    7.676-----------------------------------------------------------------------------------------PROGRESS: 0.075%| epoch   7 |     0/  165 batches | lr 30.00000 | ms/batch 1486.83 | loss  5.48 | ppl   240.08 | bpc    7.907
+log_interval: 200
+72/11617
+| epoch   7 |     1/  165 batches | lr 30.00000 | ms/batch 1455.22 | loss  5.50 | ppl   244.29 | bpc    7.932
+log_interval: 200
+142/11617
+| epoch   7 |     2/  165 batches | lr 30.00000 | ms/batch 1556.90 | loss  5.49 | ppl   241.13 | bpc    7.914
+log_interval: 200
+216/11617
+| epoch   7 |     3/  165 batches | lr 30.00000 | ms/batch 1499.72 | loss  5.47 | ppl   238.25 | bpc    7.896
+log_interval: 200
+288/11617
+| epoch   7 |     4/  165 batches | lr 30.00000 | ms/batch 1365.41 | loss  5.60 | ppl   270.93 | bpc    8.082
+log_interval: 200
+355/11617
+| epoch   7 |     5/  165 batches | lr 30.00000 | ms/batch 1560.74 | loss  5.55 | ppl   256.99 | bpc    8.006
+log_interval: 200
+429/11617
+| epoch   7 |     6/  165 batches | lr 30.00000 | ms/batch 1392.12 | loss  5.33 | ppl   207.42 | bpc    7.696
+log_interval: 200
+497/11617
+| epoch   7 |     7/  165 batches | lr 30.00000 | ms/batch 1452.67 | loss  5.59 | ppl   267.76 | bpc    8.065
+log_interval: 200
+567/11617
+| epoch   7 |     8/  165 batches | lr 30.00000 | ms/batch 1509.89 | loss  5.62 | ppl   276.25 | bpc    8.110
+log_interval: 200
+639/11617
+| epoch   7 |     9/  165 batches | lr 30.00000 | ms/batch 1424.44 | loss  5.57 | ppl   262.04 | bpc    8.034
+log_interval: 200
+708/11617
+| epoch   7 |    10/  165 batches | lr 30.00000 | ms/batch 1477.91 | loss  5.60 | ppl   271.18 | bpc    8.083
+log_interval: 200
+779/11617
+| epoch   7 |    11/  165 batches | lr 30.00000 | ms/batch 1320.19 | loss  5.53 | ppl   251.86 | bpc    7.976
+log_interval: 200
+844/11617
+| epoch   7 |    12/  165 batches | lr 30.00000 | ms/batch 1557.02 | loss  5.59 | ppl   267.09 | bpc    8.061
+log_interval: 200
+918/11617
+| epoch   7 |    13/  165 batches | lr 30.00000 | ms/batch 1481.74 | loss  5.50 | ppl   243.91 | bpc    7.930
+log_interval: 200
+989/11617
+| epoch   7 |    14/  165 batches | lr 30.00000 | ms/batch 1244.53 | loss  5.43 | ppl   229.17 | bpc    7.840
+log_interval: 200
+1051/11617
+| epoch   7 |    15/  165 batches | lr 30.00000 | ms/batch 1455.49 | loss  5.53 | ppl   251.75 | bpc    7.976
+log_interval: 200
+1121/11617
+| epoch   7 |    16/  165 batches | lr 30.00000 | ms/batch 1377.59 | loss  5.54 | ppl   255.78 | bpc    7.999
+log_interval: 200
+1188/11617
+| epoch   7 |    17/  165 batches | lr 30.00000 | ms/batch 1218.29 | loss  5.36 | ppl   213.10 | bpc    7.735
+log_interval: 200
+1249/11617
+| epoch   7 |    18/  165 batches | lr 30.00000 | ms/batch 533.10 | loss  5.43 | ppl   228.48 | bpc    7.836
+log_interval: 200
+1279/11617
+| epoch   7 |    19/  165 batches | lr 30.00000 | ms/batch 1352.63 | loss  5.37 | ppl   215.50 | bpc    7.752
+log_interval: 200
+1345/11617
+| epoch   7 |    20/  165 batches | lr 30.00000 | ms/batch 1335.70 | loss  5.46 | ppl   235.97 | bpc    7.882
+log_interval: 200
+1411/11617
+| epoch   7 |    21/  165 batches | lr 30.00000 | ms/batch 1421.61 | loss  5.47 | ppl   236.76 | bpc    7.887
+log_interval: 200
+1480/11617
+| epoch   7 |    22/  165 batches | lr 30.00000 | ms/batch 1482.96 | loss  5.57 | ppl   262.23 | bpc    8.035
+log_interval: 200
+1551/11617
+| epoch   7 |    23/  165 batches | lr 30.00000 | ms/batch 1329.20 | loss  5.41 | ppl   222.85 | bpc    7.800
+log_interval: 200
+1616/11617
+| epoch   7 |    24/  165 batches | lr 30.00000 | ms/batch 1819.77 | loss  5.34 | ppl   207.94 | bpc    7.700
+log_interval: 200
+1699/11617
+| epoch   7 |    25/  165 batches | lr 30.00000 | ms/batch 1369.54 | loss  5.44 | ppl   229.45 | bpc    7.842
+log_interval: 200
+1766/11617
+| epoch   7 |    26/  165 batches | lr 30.00000 | ms/batch 1498.23 | loss  5.36 | ppl   212.77 | bpc    7.733
+log_interval: 200
+1838/11617
+| epoch   7 |    27/  165 batches | lr 30.00000 | ms/batch 1404.75 | loss  5.50 | ppl   245.50 | bpc    7.940
+log_interval: 200
+1906/11617
+| epoch   7 |    28/  165 batches | lr 30.00000 | ms/batch 1381.21 | loss  5.45 | ppl   231.63 | bpc    7.856
+log_interval: 200
+1973/11617
+| epoch   7 |    29/  165 batches | lr 30.00000 | ms/batch 1538.94 | loss  5.45 | ppl   233.36 | bpc    7.866
+log_interval: 200
+2046/11617
+| epoch   7 |    30/  165 batches | lr 30.00000 | ms/batch 1237.03 | loss  5.41 | ppl   224.57 | bpc    7.811
+log_interval: 200
+2108/11617
+| epoch   7 |    31/  165 batches | lr 30.00000 | ms/batch 1620.85 | loss  5.52 | ppl   250.28 | bpc    7.967
+log_interval: 200
+2184/11617
+| epoch   7 |    32/  165 batches | lr 30.00000 | ms/batch 603.36 | loss  5.42 | ppl   226.01 | bpc    7.820
+log_interval: 200
+2218/11617
+| epoch   7 |    33/  165 batches | lr 30.00000 | ms/batch 1452.37 | loss  5.57 | ppl   262.43 | bpc    8.036
+log_interval: 200
+2288/11617
+| epoch   7 |    34/  165 batches | lr 30.00000 | ms/batch 1408.67 | loss  5.23 | ppl   186.54 | bpc    7.543
+log_interval: 200
+2356/11617
+| epoch   7 |    35/  165 batches | lr 30.00000 | ms/batch 1579.81 | loss  5.31 | ppl   202.71 | bpc    7.663
+log_interval: 200
+2431/11617
+| epoch   7 |    36/  165 batches | lr 30.00000 | ms/batch 1511.48 | loss  5.46 | ppl   234.51 | bpc    7.874
+log_interval: 200
+2503/11617
+| epoch   7 |    37/  165 batches | lr 30.00000 | ms/batch 1318.24 | loss  5.35 | ppl   209.97 | bpc    7.714
+log_interval: 200
+2568/11617
+| epoch   7 |    38/  165 batches | lr 30.00000 | ms/batch 1537.36 | loss  5.44 | ppl   230.25 | bpc    7.847
+log_interval: 200
+2641/11617
+| epoch   7 |    39/  165 batches | lr 30.00000 | ms/batch 1282.45 | loss  5.37 | ppl   215.63 | bpc    7.752
+log_interval: 200
+2705/11617
+| epoch   7 |    40/  165 batches | lr 30.00000 | ms/batch 1020.23 | loss  5.22 | ppl   185.46 | bpc    7.535
+log_interval: 200
+2758/11617
+| epoch   7 |    41/  165 batches | lr 30.00000 | ms/batch 1359.75 | loss  5.34 | ppl   208.06 | bpc    7.701
+log_interval: 200
+2824/11617
+| epoch   7 |    42/  165 batches | lr 30.00000 | ms/batch 1420.08 | loss  5.31 | ppl   203.27 | bpc    7.667
+log_interval: 200
+2893/11617
+| epoch   7 |    43/  165 batches | lr 30.00000 | ms/batch 1366.43 | loss  5.36 | ppl   211.81 | bpc    7.727
+log_interval: 200
+2960/11617
+| epoch   7 |    44/  165 batches | lr 30.00000 | ms/batch 1351.89 | loss  5.47 | ppl   236.33 | bpc    7.885
+log_interval: 200
+3026/11617
+| epoch   7 |    45/  165 batches | lr 30.00000 | ms/batch 1436.28 | loss  5.39 | ppl   218.68 | bpc    7.773
+log_interval: 200
+3095/11617
+| epoch   7 |    46/  165 batches | lr 30.00000 | ms/batch 1383.87 | loss  5.41 | ppl   222.85 | bpc    7.800
+log_interval: 200
+3162/11617
+| epoch   7 |    47/  165 batches | lr 30.00000 | ms/batch 1454.75 | loss  5.46 | ppl   235.38 | bpc    7.879
+log_interval: 200
+3232/11617
+| epoch   7 |    48/  165 batches | lr 30.00000 | ms/batch 1452.26 | loss  5.52 | ppl   249.99 | bpc    7.966
+log_interval: 200
+3302/11617
+| epoch   7 |    49/  165 batches | lr 30.00000 | ms/batch 1642.67 | loss  5.35 | ppl   209.97 | bpc    7.714
+log_interval: 200
+3379/11617
+| epoch   7 |    50/  165 batches | lr 30.00000 | ms/batch 1199.82 | loss  5.37 | ppl   214.31 | bpc    7.744
+log_interval: 200
+3439/11617
+| epoch   7 |    51/  165 batches | lr 30.00000 | ms/batch 1021.43 | loss  5.28 | ppl   196.30 | bpc    7.617
+log_interval: 200
+3492/11617
+| epoch   7 |    52/  165 batches | lr 30.00000 | ms/batch 1355.87 | loss  5.36 | ppl   213.09 | bpc    7.735
+log_interval: 200
+3558/11617
+| epoch   7 |    53/  165 batches | lr 30.00000 | ms/batch 1501.79 | loss  5.40 | ppl   220.38 | bpc    7.784
+log_interval: 200
+3630/11617
+| epoch   7 |    54/  165 batches | lr 30.00000 | ms/batch 1364.54 | loss  5.43 | ppl   228.49 | bpc    7.836
+log_interval: 200
+3697/11617
+| epoch   7 |    55/  165 batches | lr 30.00000 | ms/batch 1486.66 | loss  5.43 | ppl   227.45 | bpc    7.829
+log_interval: 200
+3768/11617
+| epoch   7 |    56/  165 batches | lr 30.00000 | ms/batch 1332.87 | loss  5.45 | ppl   232.82 | bpc    7.863
+log_interval: 200
+3833/11617
+| epoch   7 |    57/  165 batches | lr 30.00000 | ms/batch 1447.82 | loss  5.49 | ppl   241.21 | bpc    7.914
+log_interval: 200
+3903/11617
+| epoch   7 |    58/  165 batches | lr 30.00000 | ms/batch 1401.77 | loss  5.33 | ppl   205.82 | bpc    7.685
+log_interval: 200
+3971/11617
+| epoch   7 |    59/  165 batches | lr 30.00000 | ms/batch 1482.33 | loss  5.32 | ppl   204.99 | bpc    7.679
+log_interval: 200
+4042/11617
+| epoch   7 |    60/  165 batches | lr 30.00000 | ms/batch 1426.47 | loss  5.47 | ppl   238.64 | bpc    7.899
+log_interval: 200
+4111/11617
+| epoch   7 |    61/  165 batches | lr 30.00000 | ms/batch 1406.21 | loss  5.54 | ppl   254.38 | bpc    7.991
+log_interval: 200
+4179/11617
+| epoch   7 |    62/  165 batches | lr 30.00000 | ms/batch 1541.13 | loss  5.42 | ppl   226.12 | bpc    7.821
+log_interval: 200
+4252/11617
+| epoch   7 |    63/  165 batches | lr 30.00000 | ms/batch 1490.76 | loss  5.38 | ppl   218.07 | bpc    7.769
+log_interval: 200
+4323/11617
+| epoch   7 |    64/  165 batches | lr 30.00000 | ms/batch 1540.33 | loss  5.49 | ppl   242.64 | bpc    7.923
+log_interval: 200
+4396/11617
+| epoch   7 |    65/  165 batches | lr 30.00000 | ms/batch 1375.30 | loss  5.42 | ppl   226.59 | bpc    7.824
+log_interval: 200
+4463/11617
+| epoch   7 |    66/  165 batches | lr 30.00000 | ms/batch 1219.37 | loss  5.38 | ppl   217.38 | bpc    7.764
+log_interval: 200
+4524/11617
+| epoch   7 |    67/  165 batches | lr 30.00000 | ms/batch 1505.42 | loss  5.47 | ppl   238.11 | bpc    7.896
+log_interval: 200
+4596/11617
+| epoch   7 |    68/  165 batches | lr 30.00000 | ms/batch 1362.05 | loss  5.55 | ppl   257.19 | bpc    8.007
+log_interval: 200
+4662/11617
+| epoch   7 |    69/  165 batches | lr 30.00000 | ms/batch 1422.47 | loss  5.46 | ppl   234.15 | bpc    7.871
+log_interval: 200
+4731/11617
+| epoch   7 |    70/  165 batches | lr 30.00000 | ms/batch 1106.36 | loss  5.51 | ppl   247.68 | bpc    7.952
+log_interval: 200
+4787/11617
+| epoch   7 |    71/  165 batches | lr 30.00000 | ms/batch 1547.02 | loss  5.40 | ppl   222.19 | bpc    7.796
+log_interval: 200
+4860/11617
+| epoch   7 |    72/  165 batches | lr 30.00000 | ms/batch 1202.88 | loss  5.54 | ppl   253.92 | bpc    7.988
+log_interval: 200
+4920/11617
+| epoch   7 |    73/  165 batches | lr 30.00000 | ms/batch 1793.04 | loss  5.47 | ppl   237.97 | bpc    7.895
+log_interval: 200
+5002/11617
+| epoch   7 |    74/  165 batches | lr 30.00000 | ms/batch 1467.82 | loss  5.46 | ppl   234.48 | bpc    7.873
+log_interval: 200
+5072/11617
+| epoch   7 |    75/  165 batches | lr 30.00000 | ms/batch 1493.90 | loss  5.41 | ppl   223.49 | bpc    7.804
+log_interval: 200
+5144/11617
+| epoch   7 |    76/  165 batches | lr 30.00000 | ms/batch 1526.46 | loss  5.43 | ppl   228.68 | bpc    7.837
+log_interval: 200
+5217/11617
+| epoch   7 |    77/  165 batches | lr 30.00000 | ms/batch 1405.57 | loss  5.38 | ppl   217.38 | bpc    7.764
+log_interval: 200
+5285/11617
+| epoch   7 |    78/  165 batches | lr 30.00000 | ms/batch 1393.35 | loss  5.44 | ppl   229.92 | bpc    7.845
+log_interval: 200
+5353/11617
+| epoch   7 |    79/  165 batches | lr 30.00000 | ms/batch 1391.95 | loss  5.40 | ppl   222.11 | bpc    7.795
+log_interval: 200
+5421/11617
+| epoch   7 |    80/  165 batches | lr 30.00000 | ms/batch 614.95 | loss  5.24 | ppl   188.77 | bpc    7.560
+log_interval: 200
+5455/11617
+| epoch   7 |    81/  165 batches | lr 30.00000 | ms/batch 1636.75 | loss  5.34 | ppl   208.15 | bpc    7.701
+log_interval: 200
+5532/11617
+| epoch   7 |    82/  165 batches | lr 30.00000 | ms/batch 1381.09 | loss  5.56 | ppl   258.73 | bpc    8.015
+log_interval: 200
+5599/11617
+| epoch   7 |    83/  165 batches | lr 30.00000 | ms/batch 1558.53 | loss  5.49 | ppl   241.24 | bpc    7.914
+log_interval: 200
+5673/11617
+| epoch   7 |    84/  165 batches | lr 30.00000 | ms/batch 1323.98 | loss  5.47 | ppl   238.40 | bpc    7.897
+log_interval: 200
+5738/11617
+| epoch   7 |    85/  165 batches | lr 30.00000 | ms/batch 1557.71 | loss  5.54 | ppl   255.05 | bpc    7.995
+log_interval: 200
+5812/11617
+| epoch   7 |    86/  165 batches | lr 30.00000 | ms/batch 1462.37 | loss  5.40 | ppl   221.65 | bpc    7.792
+log_interval: 200
+5882/11617
+| epoch   7 |    87/  165 batches | lr 30.00000 | ms/batch 1272.16 | loss  5.46 | ppl   235.08 | bpc    7.877
+log_interval: 200
+5945/11617
+| epoch   7 |    88/  165 batches | lr 30.00000 | ms/batch 1272.57 | loss  5.53 | ppl   252.02 | bpc    7.977
+log_interval: 200
+6008/11617
+| epoch   7 |    89/  165 batches | lr 30.00000 | ms/batch 1349.37 | loss  5.45 | ppl   232.01 | bpc    7.858
+log_interval: 200
+6074/11617
