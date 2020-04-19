@@ -47,10 +47,15 @@ def evalb(pred_tree_list, targ_tree_list):
     import re
     import nltk
 
-    temp_path = tempfile.TemporaryDirectory(prefix="evalb-")
-    temp_file_path = os.path.join(temp_path.name, "pred_trees.txt")
-    temp_targ_path = os.path.join(temp_path.name, "true_trees.txt")
-    temp_eval_path = os.path.join(temp_path.name, "evals.txt")
+    #temp_path = tempfile.TemporaryDirectory(prefix="evalb-")
+    #temp_file_path = os.path.join(temp_path.name, "pred_trees.txt")
+    #temp_targ_path = os.path.join(temp_path.name, "true_trees.txt")
+    #temp_eval_path = os.path.join(temp_path.name, "evals.txt")
+
+    temp_file_directory = os.path.join(os.getcwd(), "temp_files")
+    temp_file_path = os.path.join(temp_file_directory, "pred_trees.txt")
+    temp_targ_path = os.path.join(temp_file_directory, "true_trees.txt")
+    temp_eval_path = os.path.join(temp_file_directory, "evals.txt")
 
     print("Temp: {}, {}".format(temp_file_path, temp_targ_path))
     temp_tree_file = open(temp_file_path, "w")
@@ -108,7 +113,7 @@ def evalb(pred_tree_list, targ_tree_list):
                 evalb_fscore = float(match.group(1))
                 break
 
-    temp_path.cleanup()
+    #temp_path.cleanup()
 
     print('-' * 80)
     print('Evalb Prec:', evalb_precision,
