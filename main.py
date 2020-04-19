@@ -236,19 +236,23 @@ def train():
 
         total_loss += raw_loss.data
         optimizer.param_groups[0]['lr'] = lr2
-        if batch % args.log_interval == 0 and batch > 0:
-            cur_loss = total_loss.item() / args.log_interval
-            elapsed = time.time() - start_time
-            print('| epoch {:3d} | {:5d}/{:5d} batches | lr {:05.5f} | ms/batch {:5.2f} | '
-                  'loss {:5.2f} | ppl {:8.2f} | bpc {:8.3f}'.format(
+        
+        with open('output.txt','a') as output_file:
+                if True:
+                    cur_loss = total_loss.item() 
+                    elapsed = time.time() - start_time
+                    output_file.write('| epoch {:3d} | {:5d}/{:5d} batches | lr {:05.5f} | ms/batch {:5.2f} | '
+                  'loss {:5.2f} | ppl {:8.2f} | bpc {:8.3f}\n'.format(
                 epoch, batch, len(train_data) // args.bptt, optimizer.param_groups[0]['lr'],
-                              elapsed * 1000 / args.log_interval, cur_loss, math.exp(cur_loss), cur_loss / math.log(2)))
-            total_loss = 0
-            start_time = time.time()
-        ###
-        batch += 1
-        i += seq_len
-
+                              elapsed * 1000 , cur_loss, math.exp(cur_loss), cur_loss / math.log(2)))
+                    total_loss = 0
+                    start_time = time.time()
+                ###
+                batch += 1
+                i += seq_len
+                output_file.write('log_interval: {}\n'.format(args.log_interval))
+                output_file.write('{}/{}\n'.format(i,train_data.size(0) - 1 - 1))
+                print('one batch')
 
 # Loop over epochs.
 lr = args.lr
@@ -265,6 +269,7 @@ try:
         optimizer = torch.optim.Adam(params, lr=args.lr, betas=(0, 0.999), eps=1e-9, weight_decay=args.wdecay)
         scheduler = lr_scheduler.ReduceLROnPlateau(optimizer, 'min', 0.5, patience=2, threshold=0)
     for epoch in range(1, args.epochs + 1):
+        print('epoch {} started'.format(epoch))
         epoch_start_time = time.time()
         train()
         if 't0' in optimizer.param_groups[0]:
@@ -274,11 +279,12 @@ try:
                 prm.data = optimizer.state[prm]['ax'].clone()
 
             val_loss2 = evaluate(val_data, eval_batch_size)
-            print('-' * 89)
-            print('| end of epoch {:3d} | time: {:5.2f}s | valid loss {:5.2f} | '
+            with open('output.txt','a') as output_file: 
+                    output_file.write('-' * 89)
+                    output_file.write('| end of epoch {:3d} | time: {:5.2f}s | valid loss {:5.2f} | '
                   'valid ppl {:8.2f} | valid bpc {:8.3f}'.format(
                 epoch, (time.time() - epoch_start_time), val_loss2, math.exp(val_loss2), val_loss2 / math.log(2)))
-            print('-' * 89)
+                    output_file.write('-' * 89)
 
             if val_loss2 < stored_loss:
                 model_save(args.save)
@@ -328,8 +334,8 @@ try:
                 optimizer.param_groups[0]['lr'] /= 10.
 
             best_val_loss.append(val_loss)
-
-        print("PROGRESS: {}%".format((epoch / args.epochs) * 100))
+        with open('output.txt','a') as output_file:
+                output_file.write("PROGRESS: {}%".format((epoch / args.epochs) * 100))
 
 except KeyboardInterrupt:
     print('-' * 89)
@@ -338,9 +344,11 @@ except KeyboardInterrupt:
 # Load the best saved model.
 model_load(args.save)
 
-# Run on test data.
+#something misdeleted
 test_loss = evaluate(test_data, test_batch_size)
-print('=' * 89)
-print('| End of training | test loss {:5.2f} | test ppl {:8.2f} | test bpc {:8.3f}'.format(
+with open('output.txt','a') as output_file:
+        output_file.write('=' * 89+'\n')
+        output_file.write('| End of training | test loss {:5.2f} | test ppl {:8.2f} | test bpc {:8.3f}\n'.format(
     test_loss, math.exp(test_loss), test_loss / math.log(2)))
-print('=' * 89)
+        output_file.write('=' * 89)
+        output_file.close()
