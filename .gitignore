@@ -1,4 +1,10 @@
 <<<<<<< HEAD
+#consistency project
+.DS_store
+treebank_3
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
