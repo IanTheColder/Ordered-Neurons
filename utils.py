@@ -76,13 +76,13 @@ def evalb(pred_tree_list, targ_tree_list):
 
         temp_tree_file.write(process_str_tree(str(list2tree(pred_tree)).lower()) + '\n')
         temp_targ_file.write(process_str_tree(str(list2tree(targ_tree)).lower()) + '\n')
-        print('pred', process_str_tree(str(list2tree(pred_tree)).lower()))
-        print('targ', process_str_tree(str(list2tree(targ_tree)).lower()))
+        #print('pred', process_str_tree(str(list2tree(pred_tree)).lower()))
+        #print('targ', process_str_tree(str(list2tree(targ_tree)).lower()))
 
     temp_tree_file.close()
     temp_targ_file.close()
 
-    evalb_dir = os.path.join(os.getcwd(), "EVALB")
+    evalb_dir = os.path.join('/home/yt1324', "EVALB")
     evalb_param_path = os.path.join(evalb_dir, "COLLINS.prm")
     evalb_program_path = os.path.join(evalb_dir, "evalb")
     command = "{} -p {} {} {} > {}".format(
@@ -101,7 +101,6 @@ def evalb(pred_tree_list, targ_tree_list):
     with open(temp_eval_path) as infile:
         print('after open')
         for line in infile:
-            print(line)
             match = re.match(r"Bracketing Recall\s+=\s+(\d+\.\d+)", line)
             if match:
                 evalb_recall = float(match.group(1))

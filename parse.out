@@ -1,4 +1,3 @@
-/bin/sh: /scratch/yt1324/Ordered-Neurons/EVALB/evalb: Permission denied
 /home/yt1324/.conda/envs/nlu_env/lib/python3.7/site-packages/torch/serialization.py:593: SourceChangeWarning: source code of class 'ON_LSTM.LinearDropConnect' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
   warnings.warn(msg, SourceChangeWarning)
 /home/yt1324/.conda/envs/nlu_env/lib/python3.7/site-packages/torch/nn/functional.py:1351: UserWarning: nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.
@@ -613,7 +612,7 @@ NP: 4855 14432
 PP: 2278 5484
 INTJ: 0 1
 5.717241644993011
-Temp: /state/partition1/job-9026724/evalb-oiiyhhef/pred_trees.txt, /state/partition1/job-9026724/evalb-oiiyhhef/true_trees.txt
+Temp: /scratch/yt1324/Ordered-Neurons/temp_files/pred_trees.txt, /scratch/yt1324/Ordered-Neurons/temp_files/true_trees.txt
 pred (<unk> (<unk> (<word> no) (<word> it)) (<unk> (<word> was) (<unk> (<word> n't) (<unk> (<word> black) (<word> monday)))))
 targ (<unk> (<word> no) (<word> it) (<unk> (<word> was) (<word> n't) (<unk> (<word> black) (<word> monday))))
 pred (<unk> (<word> but) (<unk> (<unk> (<unk> (<word> while) (<unk> (<unk> (<unk> (<unk> (<word> the) (<word> new)) (<word> york)) (<word> stock)) (<word> exchange))) (<unk> (<word> did) (<unk> (<word> n't) (<unk> (<word> fall) (<unk> (<unk> (<word> apart) (<word> friday)) (<unk> (<word> as) (<unk> (<unk> (<unk> (<unk> (<word> the) (<word> dow)) (<word> jones)) (<word> industrial)) (<word> average)))))))) (<unk> (<word> plunged) (<unk> (<unk> (<unk> (<word> n.n) (<unk> (<word> points) (<unk> (<unk> (<unk> (<word> most) (<unk> (<word> of) (<word> it))) (<unk> (<word> in) (<unk> (<word> the) (<word> final)))) (<word> hour)))) (<unk> (<word> it) (<unk> (<word> barely) (<unk> (<word> managed) (<word> to))))) (<unk> (<word> stay) (<unk> (<word> this) (<unk> (<word> side) (<unk> (<word> of) (<word> chaos)))))))))
@@ -5446,15 +5445,8 @@ pred (<unk> (<unk> (<unk> (<word> the) (<word> interest-only)) (<word> securitie
 targ (<unk> (<unk> (<word> the) (<word> interest-only) (<word> securities)) (<unk> (<word> were) (<unk> (<word> priced) (<unk> (<word> at) (<unk> (<word> n) (<word> n\/n))) (<unk> (<word> to) (<unk> (<word> yield) (<unk> (<word> n.n) (<word> %)))))))
 pred (<unk> (<word> there) (<unk> (<word> were) (<unk> (<unk> (<unk> (<unk> (<unk> (<unk> (<word> no) (<word> major)) (<unk> (<word> eurobond) (<word> or))) (<word> foreign)) (<word> bond)) (<word> offerings)) (<unk> (<word> in) (<unk> (<word> europe) (<word> friday))))))
 targ (<unk> (<word> there) (<unk> (<word> were) (<unk> (<word> no) (<word> major) (<word> eurobond) (<word> or) (<word> foreign) (<word> bond) (<word> offerings)) (<unk> (<word> in) (<word> europe)) (<word> friday)))
-/scratch/yt1324/Ordered-Neurons/EVALB/evalb /scratch/yt1324/Ordered-Neurons/EVALB/COLLINS.prm /state/partition1/job-9026724/evalb-oiiyhhef/true_trees.txt /state/partition1/job-9026724/evalb-oiiyhhef/pred_trees.txt /state/partition1/job-9026724/evalb-oiiyhhef/evals.txt
+/home/yt1324/EVALB/evalb /home/yt1324/EVALB/COLLINS.prm /scratch/yt1324/Ordered-Neurons/temp_files/true_trees.txt /scratch/yt1324/Ordered-Neurons/temp_files/pred_trees.txt /scratch/yt1324/Ordered-Neurons/temp_files/evals.txt
 before open
 after open
 --------------------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_phrase_grammar.py", line 296, in <module>
-    test(model, corpus, args.cuda, prt=True)
-  File "test_phrase_grammar.py", line 239, in test
-    evalb(pred_tree_list, targ_tree_list)
-  File "/scratch/yt1324/Ordered-Neurons/utils.py", line 114, in evalb
-    print('Evalb Prec:', evalb_precision,
-UnboundLocalError: local variable 'evalb_precision' referenced before assignment
+Evalb Prec: 32.18 , Evalb Reca: 43.04 , Evalb F1: 36.83
