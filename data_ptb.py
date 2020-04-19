@@ -30,7 +30,8 @@ for id in file_ids:
         test_file_ids.append(id)
     # elif 'WSJ/00/WSJ_0000.MRG' <= id <= 'WSJ/01/WSJ_0199.MRG' or 'WSJ/24/WSJ_2400.MRG' <= id <= 'WSJ/24/WSJ_2499.MRG':
     #     rest_file_ids.append(id)
-
+print(len(train_file_ids))
+print(train_file_ids[0:5])
 
 class Dictionary(object):
     def __init__(self):
