@@ -283,7 +283,7 @@ try:
 
             val_loss2 = evaluate(val_data, eval_batch_size)
             with open(args.save[:-3]+'.log','a') as log_file:
-                log_file.write(.write('-' * 89)
+                log_file.write('-' * 89)
                 log_file.write('| end of epoch {:3d} | time: {:5.2f}s | valid loss {:5.2f} | '
                   'valid ppl {:8.2f} | valid bpc {:8.3f}'.format(
                 epoch, (time.time() - epoch_start_time), val_loss2, math.exp(val_loss2), val_loss2 / math.log(2)))
@@ -314,7 +314,7 @@ try:
 
         else:
             val_loss = evaluate(val_data, eval_batch_size)
-                with open(args.save[:-3]+'.log','a') as log_file:
+            with open(args.save[:-3]+'.log','a') as log_file:
                     log_file.write(.write('-' * 89)
                     log_file.write('| end of epoch {:3d} | time: {:5.2f}s | valid loss {:5.2f} | '
                   'valid ppl {:8.2f} | valid bpc {:8.3f}'.format(
