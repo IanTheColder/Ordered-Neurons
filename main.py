@@ -315,11 +315,11 @@ try:
         else:
             val_loss = evaluate(val_data, eval_batch_size)
             with open(args.save[:-3]+'.log','a') as log_file:
-                    log_file.write(.write('-' * 89)
-                    log_file.write('| end of epoch {:3d} | time: {:5.2f}s | valid loss {:5.2f} | '
+                log_file.write('-' * 89)
+                log_file.write('| end of epoch {:3d} | time: {:5.2f}s | valid loss {:5.2f} | '
                   'valid ppl {:8.2f} | valid bpc {:8.3f}'.format(
-                epoch, (time.time() - epoch_start_time), val_loss, math.exp(val_loss), val_loss / math.log(2)))
-                    log_file.write('-' * 89)
+                    epoch, (time.time() - epoch_start_time), val_loss, math.exp(val_loss), val_loss / math.log(2)))
+                log_file.write('-' * 89)
 
             if val_loss < stored_loss:
                 model_save(args.save)
@@ -364,4 +364,3 @@ with open(args.save[:-3]+'.log','a') as log_file:
     log_file.write('| End of training | test loss {:5.2f} | test ppl {:8.2f} | test bpc {:8.3f}\n'.format(
         test_loss, math.exp(test_loss), test_loss / math.log(2)))
     log_file.write('=' * 89)
-    log_file.close()
