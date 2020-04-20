@@ -160,7 +160,7 @@ if not criterion:
         # WikiText-103
         splits = [2800, 20000, 76000]
     with open(args.save[:-3]+'.log','a') as log_file:
-        log_file.write('Using', splits)
+        log_file.write('Using' + str(splits))
     criterion = SplitCrossEntropyLoss(args.emsize, splits=splits, verbose=False)
 ###
 if args.cuda:
@@ -170,8 +170,8 @@ if args.cuda:
 params = list(model.parameters()) + list(criterion.parameters())
 total_params = sum(x.size()[0] * x.size()[1] if len(x.size()) > 1 else x.size()[0] for x in params if x.size())
 with open(args.save[:-3]+'.log','a') as log_file:
-    log_file.write('Args:', args)
-    log_file.write('Model total parameters:', total_params)
+    log_file.write('Args:'+ str(args))
+    log_file.write('Model total parameters:' + str(total_params))
 
 
 ###############################################################################
