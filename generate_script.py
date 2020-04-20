@@ -11,13 +11,13 @@ args = parser.parse_args()
 
 template = '''#!/bin/bash
 #SBATCH --nodes=1
-#SBATCH --cpus-per-task=2
+#SBATCH --cpus-per-task=1
 #SBATCH --time=96:00:00
 #SBATCH --mem=10GB
 #SBATCH --mail-type=END,FAIL
 #SBATCH --mail-user=yz4135@nyu.edu
 #SBATCH --output={}.out
-#SBATCH --gres=gpu:2
+#SBATCH --gres=gpu:v100:1
 
 module purge
 module load anaconda3/5.3.1
