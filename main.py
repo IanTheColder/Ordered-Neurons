@@ -80,7 +80,7 @@ torch.manual_seed(args.seed)
 if torch.cuda.is_available():
     if not args.cuda:
         with open(args.save[:-3]+'.log','a') as log_file:
-            log_file.write("WARNING: You have a CUDA device, so you should probably run with --cuda")
+            log_file.write("WARNING: You have a CUDA device, so you should probably run with --cuda\n")
     else:
         torch.cuda.manual_seed(args.seed)
 
@@ -113,11 +113,11 @@ if args.philly:
     fn = os.path.join(os.environ['PT_OUTPUT_DIR'], fn)
 if os.path.exists(fn):
     with open(args.save[:-3]+'.log','a') as log_file:
-        log_file.write('Loading cached dataset...')
+        log_file.write('Loading cached dataset...\n')
     corpus = torch.load(fn)
 else:
     with open(args.save[:-3]+'.log','a') as log_file:
-        log_file.write('Producing dataset...')
+        log_file.write('Producing dataset...\n')
     corpus = data.Corpus(args.data)
     torch.save(corpus, fn)
 
@@ -141,7 +141,7 @@ model = model.RNNModel(args.model, ntokens, args.emsize, args.nhid, args.chunk_s
 ###
 if args.resume:
     with open(args.save[:-3]+'.log','a') as log_file:
-        log_file.write('Resuming model ...')
+        log_file.write('Resuming model ...\n')
     model_load(args.resume)
     optimizer.param_groups[0]['lr'] = args.lr
     model.dropouti, model.dropouth, model.dropout, args.dropoute = args.dropouti, args.dropouth, args.dropout, args.dropoute
@@ -160,7 +160,7 @@ if not criterion:
         # WikiText-103
         splits = [2800, 20000, 76000]
     with open(args.save[:-3]+'.log','a') as log_file:
-        log_file.write('Using' + str(splits))
+        log_file.write('Using' + str(splits)+'\n')
     criterion = SplitCrossEntropyLoss(args.emsize, splits=splits, verbose=False)
 ###
 if args.cuda:
@@ -170,8 +170,8 @@ if args.cuda:
 params = list(model.parameters()) + list(criterion.parameters())
 total_params = sum(x.size()[0] * x.size()[1] if len(x.size()) > 1 else x.size()[0] for x in params if x.size())
 with open(args.save[:-3]+'.log','a') as log_file:
-    log_file.write('Args:'+ str(args))
-    log_file.write('Model total parameters:' + str(total_params))
+    log_file.write('Args:'+ str(args)+'\n')
+    log_file.write('Model total parameters:' + str(total_params)+'\n')
 
 
 ###############################################################################
@@ -246,12 +246,12 @@ def train():
         
         with open(args.save[:-3]+'.log','a') as log_file:
             if batch == 100:
-                cur_loss = total_loss.item() 
+                cur_loss = total_loss.item() / 100
                 elapsed = time.time() - start_time
                 log_file.write('| epoch {:3d} | {:5d}/{:5d} batches | lr {:05.5f} | ms/batch {:5.2f} | '
                 'loss {:5.2f} | ppl {:8.2f} | bpc {:8.3f}\n'.format(
             epoch, batch, len(train_data) // args.bptt, optimizer.param_groups[0]['lr'],
-                            elapsed * 1000 , cur_loss, math.exp(cur_loss), cur_loss / math.log(2)))
+                            elapsed * 1000 / 100 , cur_loss, math.exp(cur_loss), cur_loss / math.log(2)))
                 total_loss = 0
                 start_time = time.time()
             ###
@@ -283,16 +283,16 @@ try:
 
             val_loss2 = evaluate(val_data, eval_batch_size)
             with open(args.save[:-3]+'.log','a') as log_file:
-                log_file.write('-' * 89)
+                log_file.write('-' * 89+'\n')
                 log_file.write('| end of epoch {:3d} | time: {:5.2f}s | valid loss {:5.2f} | '
-                  'valid ppl {:8.2f} | valid bpc {:8.3f}'.format(
+                  'valid ppl {:8.2f} | valid bpc {:8.3f}\n'.format(
                 epoch, (time.time() - epoch_start_time), val_loss2, math.exp(val_loss2), val_loss2 / math.log(2)))
-                log_file.write('-' * 89)
+                log_file.write('-' * 89+'\n')
 
             if val_loss2 < stored_loss:
                 model_save(args.save)
                 with open(args.save[:-3]+'.log','a') as log_file:
-                    log_file.write('Saving Averaged!')
+                    log_file.write('Saving Averaged!\n')
                 stored_loss = val_loss2
 
             for prm in model.parameters():
@@ -300,14 +300,14 @@ try:
 
             if epoch == args.finetuning:
                 with open(args.save[:-3]+'.log','a') as log_file:
-                    log_file.write('Switching to finetuning')
+                    log_file.write('Switching to finetuning\n')
                 optimizer = torch.optim.ASGD(model.parameters(), lr=args.lr, t0=0, lambd=0., weight_decay=args.wdecay)
                 best_val_loss = []
 
             if epoch > args.finetuning and len(best_val_loss) > args.nonmono and val_loss2 > min(
                     best_val_loss[:-args.nonmono]):
                 with open(args.save[:-3]+'.log','a') as log_file:
-                    log_file.write('Done!')
+                    log_file.write('Done!\n')
                 import sys
 
                 sys.exit(1)
@@ -315,16 +315,16 @@ try:
         else:
             val_loss = evaluate(val_data, eval_batch_size)
             with open(args.save[:-3]+'.log','a') as log_file:
-                log_file.write('-' * 89)
+                log_file.write('-' * 89+'\n')
                 log_file.write('| end of epoch {:3d} | time: {:5.2f}s | valid loss {:5.2f} | '
-                  'valid ppl {:8.2f} | valid bpc {:8.3f}'.format(
+                  'valid ppl {:8.2f} | valid bpc {:8.3f}\n'.format(
                     epoch, (time.time() - epoch_start_time), val_loss, math.exp(val_loss), val_loss / math.log(2)))
-                log_file.write('-' * 89)
+                log_file.write('-' * 89+'\n')
 
             if val_loss < stored_loss:
                 model_save(args.save)
                 with open(args.save[:-3]+'.log','a') as log_file:
-                    log_file.write('Saving model (new best validation)')
+                    log_file.write('Saving model (new best validation)\n')
                 stored_loss = val_loss
 
             if args.optimizer == 'adam':
@@ -333,26 +333,26 @@ try:
             if args.optimizer == 'sgd' and 't0' not in optimizer.param_groups[0] and (
                     len(best_val_loss) > args.nonmono and val_loss > min(best_val_loss[:-args.nonmono])):
                 with open(args.save[:-3]+'.log','a') as log_file:
-                    log_file.write('Switching to ASGD')
+                    log_file.write('Switching to ASGD\n')
                 optimizer = torch.optim.ASGD(model.parameters(), lr=args.lr, t0=0, lambd=0., weight_decay=args.wdecay)
 
             if epoch in args.when:
                 with open(args.save[:-3]+'.log','a') as log_file:
-                    log_file.write('Saving model before learning rate decreased')
+                    log_file.write('Saving model before learning rate decreased\n')
                 model_save('{}.e{}'.format(args.save, epoch))
                 with open(args.save[:-3]+'.log','a') as log_file:
-                    log_file.write('Dividing learning rate by 10')
+                    log_file.write('Dividing learning rate by 10\n')
                 optimizer.param_groups[0]['lr'] /= 10.
 
             best_val_loss.append(val_loss)
             with open(args.save[:-3]+'.log','a') as log_file:
-                log_file.write("PROGRESS: {}%".format((epoch / args.epochs) * 100))
+                log_file.write("PROGRESS: {}%\n".format((epoch / args.epochs) * 100))
 
 except KeyboardInterrupt:
     with open(args.save[:-3]+'.log','a') as log_file:
-        log_file.write('-' * 89)
+        log_file.write('-' * 89+'\n')
     with open(args.save[:-3]+'.log','a') as log_file:
-        log_file.write('Exiting from training early')
+        log_file.write('Exiting from training early\n')
 
 # Load the best saved model.
 model_load(args.save)
@@ -363,4 +363,4 @@ with open(args.save[:-3]+'.log','a') as log_file:
     log_file.write('=' * 89+'\n')
     log_file.write('| End of training | test loss {:5.2f} | test ppl {:8.2f} | test bpc {:8.3f}\n'.format(
         test_loss, math.exp(test_loss), test_loss / math.log(2)))
-    log_file.write('=' * 89)
+    log_file.write('=' * 89+'\n')
