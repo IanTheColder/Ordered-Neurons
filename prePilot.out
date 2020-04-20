@@ -1,0 +1,4 @@
+  File "./main.py", line 318
+    log_file.write(.write('-' * 89)
+                   ^
+SyntaxError: invalid syntax
