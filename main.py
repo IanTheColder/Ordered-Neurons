@@ -277,8 +277,14 @@ try:
         scheduler = lr_scheduler.ReduceLROnPlateau(optimizer, 'min', 0.5, patience=2, threshold=0)
     with open(args.save[:-3]+'.log','a') as log_file:
         log_file.write('escape3')
+        log_file.write(args.epochs)
+
     for epoch in range(1, args.epochs + 1):
+        with open(args.save[:-3]+'.log','a') as log_file:
+            log_file.write('escape in loop'+str(epoch))
         epoch_start_time = time.time()
+        with open(args.save[:-3]+'.log','a') as log_file:
+            log_file.write('escape time'+str(epoch_start_time))
         train()
         with open(args.save[:-3]+'.log','a') as log_file:
             log_file.write('escape4')
