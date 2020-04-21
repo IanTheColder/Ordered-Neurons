@@ -262,7 +262,8 @@ def train():
 lr = args.lr
 best_val_loss = []
 stored_loss = 100000000
-
+with open(args.save[:-3]+'.log','a') as log_file:
+    log_file.write('escape1')
 # At any point you can hit Ctrl + C to break out of training early.
 try:
     optimizer = None
@@ -314,6 +315,8 @@ try:
 
         else:
             val_loss = evaluate(val_data, eval_batch_size)
+            with open(args.save[:-3]+'.log','a') as log_file:
+                log_file.write('escape2')
             with open(args.save[:-3]+'.log','a') as log_file:
                 log_file.write('-' * 89+'\n')
                 log_file.write('| end of epoch {:3d} | time: {:5.2f}s | valid loss {:5.2f} | '
