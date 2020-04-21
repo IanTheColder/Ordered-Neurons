@@ -266,6 +266,8 @@ with open(args.save[:-3]+'.log','a') as log_file:
     log_file.write('escape1')
 # At any point you can hit Ctrl + C to break out of training early.
 try:
+    with open(args.save[:-3]+'.log','a') as log_file:
+        log_file.write('escape2')
     optimizer = None
     # Ensure the optimizer is optimizing params, which includes both the model's weights as well as the criterion's weight (i.e. Adaptive Softmax)
     if args.optimizer == 'sgd':
@@ -273,10 +275,16 @@ try:
     if args.optimizer == 'adam':
         optimizer = torch.optim.Adam(params, lr=args.lr, betas=(0, 0.999), eps=1e-9, weight_decay=args.wdecay)
         scheduler = lr_scheduler.ReduceLROnPlateau(optimizer, 'min', 0.5, patience=2, threshold=0)
+    with open(args.save[:-3]+'.log','a') as log_file:
+        log_file.write('escape3')
     for epoch in range(1, args.epochs + 1):
         epoch_start_time = time.time()
         train()
+        with open(args.save[:-3]+'.log','a') as log_file:
+            log_file.write('escape4')
         if 't0' in optimizer.param_groups[0]:
+            with open(args.save[:-3]+'.log','a') as log_file:
+                log_file.write('escape unexpected')
             tmp = {}
             for prm in model.parameters():
                 tmp[prm] = prm.data.clone()
@@ -314,9 +322,11 @@ try:
                 sys.exit(1)
 
         else:
+            with open(args.save[:-3]+'.log','a') as log_file:
+                log_file.write('escape5')
             val_loss = evaluate(val_data, eval_batch_size)
             with open(args.save[:-3]+'.log','a') as log_file:
-                log_file.write('escape2')
+                log_file.write('escape6')
             with open(args.save[:-3]+'.log','a') as log_file:
                 log_file.write('-' * 89+'\n')
                 log_file.write('| end of epoch {:3d} | time: {:5.2f}s | valid loss {:5.2f} | '
