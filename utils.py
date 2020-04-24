@@ -40,11 +40,7 @@ def load_embeddings_txt(path):
   }
   return matrix, word_to_index, index_to_word
 
-<<<<<<< HEAD
 def evalb(pred_tree_list, targ_tree_list, job_name):
-=======
-def evalb(pred_tree_list, targ_tree_list):
->>>>>>> 554e7573c070123a2132c482be16e0cf22f3efdb
     import os
     import subprocess
     import tempfile
