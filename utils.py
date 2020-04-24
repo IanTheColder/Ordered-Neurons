@@ -40,7 +40,7 @@ def load_embeddings_txt(path):
   }
   return matrix, word_to_index, index_to_word
 
-def evalb(pred_tree_list, targ_tree_list):
+def evalb(pred_tree_list, targ_tree_list, job_name):
     import os
     import subprocess
     import tempfile
@@ -52,7 +52,8 @@ def evalb(pred_tree_list, targ_tree_list):
     #temp_targ_path = os.path.join(temp_path.name, "true_trees.txt")
     #temp_eval_path = os.path.join(temp_path.name, "evals.txt")
 
-    temp_file_directory = os.path.join(os.getcwd(), "temp_files")
+    temp_file_directory = 'parse_'+job_name
+    os.mkdir(temp_file_directory)
     temp_file_path = os.path.join(temp_file_directory, "pred_trees.txt")
     temp_targ_path = os.path.join(temp_file_directory, "true_trees.txt")
     temp_eval_path = os.path.join(temp_file_directory, "evals.txt")

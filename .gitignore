@@ -3,6 +3,9 @@
 .DS_store
 treebank_3
 figure/
+*.data
+*.out
+*.log
 
 
 # Byte-compiled / optimized / DLL files

@@ -236,7 +236,7 @@ def test(model, corpus, cuda, prt=False):
         print('INTJ:', correct['INTJ'], total['INTJ'])
         print(corpus_average_depth(corpus_sys))
 
-        evalb(pred_tree_list, targ_tree_list)
+        evalb(pred_tree_list, targ_tree_list,args.checkpoint[:-3])
 
     return f1_list.mean(axis=0)
 
@@ -275,8 +275,10 @@ if __name__ == '__main__':
 
     # Load data
     import hashlib
-    fn = 'corpus.148650ff682fa3f76e78c18d7d6d5bd6.data' 
+    #fn = 'corpus.148650ff682fa3f76e78c18d7d6d5bd6.data' 
     #fn = 'corpus.{}.data'.format(hashlib.md5('data/penn'.encode()).hexdigest())
+    fn = 'corpus.{}.data'.format(args.checkpoint[:-3])
+
     print('Loading cached dataset...')
     corpus = torch.load(fn)
     dictionary = corpus.dictionary
