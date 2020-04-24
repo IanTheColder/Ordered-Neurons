@@ -275,10 +275,15 @@ if __name__ == '__main__':
 
     # Load data
     import hashlib
+<<<<<<< HEAD
     #fn = 'corpus.148650ff682fa3f76e78c18d7d6d5bd6.data' 
     #fn = 'corpus.{}.data'.format(hashlib.md5('data/penn'.encode()).hexdigest())
     fn = 'corpus.{}.data'.format(args.checkpoint[:-3])
 
+=======
+    fn = 'corpus.148650ff682fa3f76e78c18d7d6d5bd6.data' 
+    #fn = 'corpus.{}.data'.format(hashlib.md5('data/penn'.encode()).hexdigest())
+>>>>>>> 554e7573c070123a2132c482be16e0cf22f3efdb
     print('Loading cached dataset...')
     corpus = torch.load(fn)
     dictionary = corpus.dictionary
