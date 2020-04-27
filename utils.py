@@ -53,7 +53,10 @@ def evalb(pred_tree_list, targ_tree_list, job_name):
     #temp_eval_path = os.path.join(temp_path.name, "evals.txt")
 
     temp_file_directory = 'parse_'+job_name
-    os.mkdir(temp_file_directory)
+    try:
+        os.mkdir(temp_file_directory)
+    except:
+        pass
     temp_file_path = os.path.join(temp_file_directory, "pred_trees.txt")
     temp_targ_path = os.path.join(temp_file_directory, "true_trees.txt")
     temp_eval_path = os.path.join(temp_file_directory, "evals.txt")

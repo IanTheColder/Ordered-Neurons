@@ -139,6 +139,9 @@ def test(model, corpus, cuda, prt=False):
     corpus_sys = {}
     corpus_ref = {}
     for sen, sen_tree, sen_nltktree in dataset:
+        print('set:',sen)
+        print('sen_tree:',sen_tree)
+        print('sen_nltktree:',sen_nltktree)
         if args.wsj10 and len(sen) > 12:
             continue
         x = numpy.array([word2idx[w] if w in word2idx else word2idx['<unk>'] for w in sen])
@@ -171,14 +174,17 @@ def test(model, corpus, cuda, prt=False):
 
             corpus_sys[nsens] = MRG(parse_tree)
             corpus_ref[nsens] = MRG_labeled(sen_nltktree)
-
+            
+            print('MRG(parse_tree):',MRG(parse_tree))
+            print('MRG_labeled(sen_nltktree):',MRG_labeled(sen_nltktree))
             pred_tree_list.append(parse_tree)
             targ_tree_list.append(sen_tree)
 
             model_out, _ = get_brackets(parse_tree)
             std_out, _ = get_brackets(sen_tree)
             overlap = model_out.intersection(std_out)
-
+            print('model_out:',model_out)
+            print('std_out:',std_out)
             prec = float(len(overlap)) / (len(model_out) + 1e-8)
             reca = float(len(overlap)) / (len(std_out) + 1e-8)
             if len(std_out) == 0:
@@ -275,15 +281,10 @@ if __name__ == '__main__':
 
     # Load data
     import hashlib
-<<<<<<< HEAD
     #fn = 'corpus.148650ff682fa3f76e78c18d7d6d5bd6.data' 
     #fn = 'corpus.{}.data'.format(hashlib.md5('data/penn'.encode()).hexdigest())
     fn = 'corpus.{}.data'.format(args.checkpoint[:-3])
 
-=======
-    fn = 'corpus.148650ff682fa3f76e78c18d7d6d5bd6.data' 
-    #fn = 'corpus.{}.data'.format(hashlib.md5('data/penn'.encode()).hexdigest())
->>>>>>> 554e7573c070123a2132c482be16e0cf22f3efdb
     print('Loading cached dataset...')
     corpus = torch.load(fn)
     dictionary = corpus.dictionary
