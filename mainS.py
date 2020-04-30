@@ -160,7 +160,8 @@ if not criterion:
         splits = [4200, 35000, 180000]
     elif ntokens > 75000:
         # WikiText-103
-        splits = [2800, 20000, 76000]
+        #splits = [2800, 20000, 76000]
+        splits = [5600, 260000, 520000]
     with open(args.save[:-3]+'.log','a') as log_file:
         log_file.write('Using' + str(splits)+'\n')
     criterion = SplitCrossEntropyLoss(args.emsize, splits=splits, verbose=False)
