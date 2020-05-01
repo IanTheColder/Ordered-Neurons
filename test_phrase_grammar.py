@@ -229,6 +229,7 @@ def test(model, corpus, cuda, prt=False):
         prec_list, reca_list, f1_list \
             = numpy.array(prec_list).reshape((-1,1)), numpy.array(reca_list).reshape((-1,1)), numpy.array(f1_list).reshape((-1,1))
         if prt:
+            print(layer)
             print('-' * 80)
             numpy.set_printoptions(precision=4)
             print('Mean Prec:', prec_list.mean(axis=0),
