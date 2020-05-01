@@ -125,10 +125,10 @@ def test(model, corpus, cuda, prt=False):
     word2idx = corpus.dictionary.word2idx
     if args.wsj10:
         dtst_name = 'WSJ10'
-        dataset = zip(corpus.train_sens, corpus.train_trees, corpus.train_nltktrees)
+        dataset = list(zip(corpus.train_sens, corpus.train_trees, corpus.train_nltktrees))
     else:
         dtst_name = 'WSJTest'
-        dataset = zip(corpus.test_sens, corpus.test_trees, corpus.test_nltktrees)
+        dataset = list(zip(corpus.test_sens, corpus.test_trees, corpus.test_nltktrees))
 
     for layer in [0,1,2]:
 
@@ -142,7 +142,6 @@ def test(model, corpus, cuda, prt=False):
         nsens = 0
         corpus_sys = {}
         corpus_ref = {}
-        print(dataset)
         for sen, sen_tree, sen_nltktree in dataset:
             print('set:',sen)
             print('sen_tree:',sen_tree)
