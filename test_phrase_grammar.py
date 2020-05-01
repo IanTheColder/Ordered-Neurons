@@ -130,12 +130,7 @@ def test(model, corpus, cuda, prt=False):
         dtst_name = 'WSJTest'
         dataset = zip(corpus.test_sens, corpus.test_trees, corpus.test_nltktrees)
 
-    for layer in [0,1,2,'m']:
-
-        if layer == 'm':
-            gates = distance.mean(axis=0)
-        else:
-            gates = distance[layer]
+    for layer in [0,1,2]:
 
         prec_list = []
         reca_list = []
@@ -172,6 +167,11 @@ def test(model, corpus, cuda, prt=False):
 
             sen_cut = sen[1:-1]
             # gates = distance.mean(axis=0)
+            if layer == 'm':
+                gates = distance.mean(axis=0)
+            else:
+                gates = distance[layer]
+
             depth = gates[1:-1]
             parse_tree = build_tree(depth, sen_cut)
 
