@@ -5,11 +5,11 @@
 #SBATCH --mem=10GB
 #SBATCH --mail-type=END,FAIL
 #SBATCH --mail-user=yz4135@nyu.edu
-#SBATCH --output=parse_pilot_reproduction.out
+#SBATCH --output=parse_random1WSJ.out
 #SBATCH --gres=gpu:1
 
 module purge
 module load anaconda3/5.3.1
 source activate nlu_env
 
-python test_phrase_grammar.py --cuda --checkpoint pilot_reproduction.pt --data treebank_3/parsed/mrg/WSJ
+python test_phrase_grammar.py --cuda --checkpoint random1WSJ.pt --data treebank_3/parsed/mrg/WSJ
