@@ -101,8 +101,8 @@ def model_load(fn):
     if args.philly:
         fn = os.path.join(os.environ['PT_OUTPUT_DIR'], fn)
     with open(fn, 'rb') as f:
-        model, criterion, optimizer = torch.load(f,map_location=torch.device('cpu'))
-        #model, criterion, optimizer = torch.load(f)
+        model, criterion, optimizer = torch.load(f)
+
 
 import os
 import hashlib
@@ -127,8 +127,7 @@ train_data = batchify(corpus.train, args.batch_size, args)
 val_data = batchify(corpus.valid, eval_batch_size, args)
 test_data = batchify(corpus.test, test_batch_size, args)
 
-with open(args.save[:-3]+'.log','a') as log_file:
-    log_file.write('data part finished\n')
+print('data part finished')
 
 ###############################################################################
 # Build the model
@@ -185,23 +184,15 @@ with open(args.save[:-3]+'.log','a') as log_file:
 def evaluate(data_source, batch_size=10):
     # Turn on evaluation mode which disables dropout.
     model.eval()
-    print(1)
     if args.model == 'QRNN': model.reset()
     total_loss = 0
-    print(2)
     ntokens = len(corpus.dictionary)
-    print(ntokens)
     hidden = model.init_hidden(batch_size)
-    print(3)
     for i in range(0, data_source.size(0) - 1, args.bptt):
         data, targets = get_batch(data_source, i, args, evaluation=True)
-        print(4)
         output, hidden = model(data, hidden)
-        print(5)
         total_loss += len(data) * criterion(model.decoder.weight, model.decoder.bias, output, targets).data
-        print(6)
         hidden = repackage_hidden(hidden)
-        print(7)
     return total_loss.item() / len(data_source)
 
 
@@ -286,9 +277,9 @@ try:
         optimizer = torch.optim.Adam(params, lr=args.lr, betas=(0, 0.999), eps=1e-9, weight_decay=args.wdecay)
         scheduler = lr_scheduler.ReduceLROnPlateau(optimizer, 'min', 0.5, patience=2, threshold=0)
 
-    for epoch in range(1, 2):
+    for epoch in range(1, args.epochs + 1):
         epoch_start_time = time.time()
-        #train()
+        train()
         if 't0' in optimizer.param_groups[0]:
             tmp = {}
             for prm in model.parameters():
@@ -364,16 +355,17 @@ try:
 '''
 
 with open(args.save[:-3]+'.log','a') as log_file:
-    log_file.write('out of except\n')
+    log_file.write('-' * 89+'\n')
+with open(args.save[:-3]+'.log','a') as log_file:
+    log_file.write('Exiting from training early\n')
 
 # Load the best saved model.
 model_load(args.save)
 
-with open(args.save[:-3]+'.log','a') as log_file:
-    log_file.write('after load')
-
+#something misdeleted
 test_loss = evaluate(test_data, test_batch_size)
-
 with open(args.save[:-3]+'.log','a') as log_file:
-    log_file.write('after eval')
-    log_file.write('| End of training | test loss {:5.2f} | test ppl {:8.2f} | test bpc {:8.3f}\n'.format(test_loss, math.exp(test_loss), test_loss / math.log(2)))
+    log_file.write('=' * 89+'\n')
+    log_file.write('| End of training | test loss {:5.2f} | test ppl {:8.2f} | test bpc {:8.3f}\n'.format(
+        test_loss, math.exp(test_loss), test_loss / math.log(2)))
+    log_file.write('=' * 89+'\n')
