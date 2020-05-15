@@ -127,7 +127,8 @@ train_data = batchify(corpus.train, args.batch_size, args)
 val_data = batchify(corpus.valid, eval_batch_size, args)
 test_data = batchify(corpus.test, test_batch_size, args)
 
-print('data part finished')
+with open(args.save[:-3]+'.log','a') as log_file:
+    log_file.write('data part finished\n')
 
 ###############################################################################
 # Build the model
@@ -275,6 +276,7 @@ best_val_loss = []
 stored_loss = 100000000
 
 # At any point you can hit Ctrl + C to break out of training early.
+'''
 try:
     optimizer = None
     # Ensure the optimizer is optimizing params, which includes both the model's weights as well as the criterion's weight (i.e. Adaptive Softmax)
@@ -359,21 +361,19 @@ try:
             best_val_loss.append(val_loss)
             with open(args.save[:-3]+'.log','a') as log_file:
                 log_file.write("PROGRESS: {}%\n".format((epoch / args.epochs) * 100))
+'''
 
-except KeyboardInterrupt:
-    with open(args.save[:-3]+'.log','a') as log_file:
-        log_file.write('-' * 89+'\n')
-    with open(args.save[:-3]+'.log','a') as log_file:
-        log_file.write('Exiting from training early\n')
-    print('in except')
-
-print('out of except')
+with open(args.save[:-3]+'.log','a') as log_file:
+    log_file.write('out of except\n')
 
 # Load the best saved model.
 model_load(args.save)
 
-print('after load')
-#something misdeleted
+with open(args.save[:-3]+'.log','a') as log_file:
+    log_file.write('after load')
+
 test_loss = evaluate(test_data, test_batch_size)
-print('after eval')
-print('| End of training | test loss {:5.2f} | test ppl {:8.2f} | test bpc {:8.3f}\n'.format(test_loss, math.exp(test_loss), test_loss / math.log(2)))
+
+with open(args.save[:-3]+'.log','a') as log_file:
+    log_file.write('after eval')
+    log_file.write('| End of training | test loss {:5.2f} | test ppl {:8.2f} | test bpc {:8.3f}\n'.format(test_loss, math.exp(test_loss), test_loss / math.log(2)))
