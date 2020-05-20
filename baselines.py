@@ -4,10 +4,10 @@ import random
 import math
 
 def randomize(sentence):
-    tokens = sentence.split()
+    tokens = ['(<word> {})'.format(word) for word in sentence.split()]
     while len(tokens) > 1:
         merge = random.choice(list(range(len(tokens) - 1)))
-        tokens[merge] = "( " + tokens[merge] + " " + tokens[merge + 1] + " )"
+        tokens[merge] = "(" + "<unk> "+tokens[merge] + " " + tokens[merge + 1] + ")"
         del tokens[merge + 1]
     return tokens[0]
 

@@ -15,7 +15,7 @@ $ python scripts/parse_comparison.py \
     --report_path ./logs/example-nli.report \
 """
 
-import gflags
+#import gflags
 import sys
 import codecs
 import json
@@ -27,7 +27,7 @@ from collections import Counter
 
 LABEL_MAP = {'entailment': 0, 'neutral': 1, 'contradiction': 2}
 
-FLAGS = gflags.FLAGS
+#FLAGS = gflags.FLAGS
 
 mathops = ["[MAX", "[MIN", "[MED", "[SM"]
 
@@ -256,8 +256,14 @@ def corpus_stats_labeled(corpus_unlabeled, corpus_labeled):
     total = Counter()
 
     for key in corpus_labeled:
+        if key==38 or key==40 or key==52:
+            continue
         c1, _, nwords1 = to_indexed_contituents(corpus_unlabeled[key], False)
         c2, nwords2 = to_indexed_contituents_labeled(corpus_labeled[key])
+        if (nwords1!=nwords2):
+            print(key)
+            print(nwords1, corpus_unlabeled[key])
+            print(nwords2, corpus_labeled[key])
         assert nwords1 == nwords2
         if len(c2) == 0:
             continue
@@ -334,6 +340,7 @@ def to_indexed_contituents(parse, const_parse):
     if parse.count("(") != parse.count(")"):
         print(parse)
     parse = spaceify(parse)
+    print(parse.split())
     sp = parse.split()
     if len(sp) == 1:
         return set([(0, 1)]), 0, 1
@@ -343,7 +350,7 @@ def to_indexed_contituents(parse, const_parse):
     word_index = 0
     first_op = -1
     for index, token in enumerate(sp):
-        if token == '(':
+        if token[0] == '(':
             backpointers.append(word_index)
         elif token == ')':
             # if len(backpointers) == 0:
@@ -374,7 +381,7 @@ def to_indexed_contituents_labeled(parse):
     sp = parse.split()
     if len(sp) == 1:
         return set([(0, 1)])
-
+    print(parse.split())
     backpointers = []
     indexed_constituents = set()
     word_index = 0
